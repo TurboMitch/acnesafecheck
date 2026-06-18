@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AcneSafeCheck Premium — Save Routines, Scan History &amp; API | AcneSafeCheck</title>
+<meta name="description" content="Join the waitlist for AcneSafeCheck Premium: save your acne-safe routine, keep a history of scanned products, and get higher-volume API access.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#e0654f">
+<meta name="ahrefs-site-verification" content="29b2213b058b3dbbe63b2ad069034fd4e718ab8b42f4f8d54431f17296323eb9">
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="dTgyD+bV2xvop4os/0GghQ" async></script>
+<link rel="canonical" href="https://acnesafecheck.com/premium.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:title" content="AcneSafeCheck Premium — Join the Waitlist">
+<meta property="og:description" content="Save routines, scan history and higher-volume API access.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://acnesafecheck.com/premium.html">
+<meta property="og:image" content="https://acnesafecheck.com/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://acnesafecheck.com/og.png">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header><div class="wrap bar">
+  <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
+  <nav>
+    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
+    <a href="/fungal-acne-safe-checker.html">Fungal acne</a>
+    <a href="/comedogenic-ingredients-list.html">Ingredient list</a>
+    <a href="/about.html">About</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>AcneSafeCheck Premium</h1>
+    <p>The checkers stay free forever. Premium adds the power-user features people keep asking for.</p>
+  </section>
+
+  <div class="cards">
+    <div class="tile"><b>Save your routine</b><span>Store the products that passed and re-check them when formulas change.</span></div>
+    <div class="tile"><b>Scan history</b><span>Keep a private log of every product you've checked, on any device.</span></div>
+    <div class="tile"><b>Routine builder</b><span>Build a full acne-safe + fungal-acne-safe routine with conflict warnings.</span></div>
+    <div class="tile"><b>Higher-volume API</b><span>Bulk lookups and a dataset export for developers and brands.</span></div>
+  </div>
+
+  <section class="card" style="background:#fff7f4;border-color:#f3d8cf">
+    <h2 style="margin-top:0">Join the waitlist</h2>
+    <p class="muted">Be first in when Premium launches, and help shape it. No spam.</p>
+    <form class="row" onsubmit="return acsWait(event)">
+      <input class="search" style="flex:1;min-width:220px" type="email" name="email" placeholder="you@email.com" required>
+      <button class="btn-primary" type="submit">Join waitlist</button>
+    </form>
+    <p id="acsMsg" class="muted" style="font-size:13px;margin:8px 0 0"></p>
+  </section>
+
+  <div class="disclaimer"><strong>Note:</strong> Informational tool, not medical advice. Premium features are in development; the free checkers remain free.</div>
+</main>
+
+<footer><div class="wrap">
+  AcneSafeCheck · <a href="/api.html">API</a> · <a href="/verified.html">For brands</a> · <a href="/about.html">About</a><br>
+  Informational only, not medical advice.
+</div></footer>
+<script>
+window.NEWSLETTER_ENDPOINT = window.NEWSLETTER_ENDPOINT || "";
+function acsWait(e){e.preventDefault();var f=e.target,email=f.email.value,m=document.getElementById('acsMsg');
+  if(!window.NEWSLETTER_ENDPOINT){m.textContent="You're on the list! (Waitlist goes live once the email provider is connected.)";f.reset();return false;}
+  fetch(window.NEWSLETTER_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,list:'premium-waitlist'})})
+    .then(()=>{m.textContent="You're on the waitlist — thanks!";f.reset();}).catch(()=>{m.textContent="Something went wrong, please try again.";});
+  return false;}
+</script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Comedogenic Ingredient API | AcneSafeCheck</title>
+<meta name="description" content="A free JSON API for comedogenicity (0–5) and fungal-acne data on 560+ cosmetic ingredients. Look up any ingredient or screen a whole list programmatically.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#e0654f">
+<meta name="ahrefs-site-verification" content="29b2213b058b3dbbe63b2ad069034fd4e718ab8b42f4f8d54431f17296323eb9">
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="dTgyD+bV2xvop4os/0GghQ" async></script>
+<link rel="canonical" href="https://acnesafecheck.com/api.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:title" content="Free Comedogenic Ingredient API">
+<meta property="og:description" content="JSON API for comedogenicity and fungal-acne data on 560+ ingredients.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://acnesafecheck.com/api.html">
+<meta property="og:image" content="https://acnesafecheck.com/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://acnesafecheck.com/og.png">
+<link rel="stylesheet" href="/styles.css">
+<style>pre{background:#2b2320;color:#f7eee9;padding:14px;border-radius:10px;overflow:auto;font-size:13px}code{font-family:ui-monospace,Menlo,Consolas,monospace}</style>
+</head>
+<body>
+<header><div class="wrap bar">
+  <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
+  <nav>
+    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
+    <a href="/fungal-acne-safe-checker.html">Fungal acne</a>
+    <a href="/comedogenic-ingredients-list.html">Ingredient list</a>
+    <a href="/about.html">About</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>Comedogenic ingredient API</h1>
+    <p>A free, read-only JSON API over our database of 560+ ingredients — comedogenicity rating (0–5), pore-clogging flag and fungal-acne (Malassezia) trigger. Build it into your own app, store or skincare tool.</p>
+  </section>
+
+  <section class="prose">
+    <h2>Look up one ingredient</h2>
+    <pre><code>GET https://acnesafecheck.com/api/check?ingredient=coconut oil</code></pre>
+    <pre><code>{
+  "query": "coconut oil",
+  "result": {
+    "name": "Coconut Oil", "rating": 4, "category": "Oil",
+    "poreClogging": true, "fungalAcneTrigger": true,
+    "slug": "coconut-oil",
+    "url": "https://acnesafecheck.com/ingredient/coconut-oil.html"
+  }
+}</code></pre>
+
+    <h2>Screen a whole ingredient list</h2>
+    <pre><code>GET https://acnesafecheck.com/api/check?ingredients=water,glycerin,coconut oil,niacinamide</code></pre>
+    <pre><code>{
+  "summary": { "total": 4, "matched": 4, "poreClogging": 1, "fungalAcneTriggers": 1 },
+  "results": [ { "input": "water", "name": "Water", "rating": 0, ... }, ... ]
+}</code></pre>
+
+    <h2>Notes</h2>
+    <ul>
+      <li>CORS is enabled — call it directly from the browser.</li>
+      <li>Responses are cached at the edge; no API key required for normal use.</li>
+      <li>Ratings are general guidance compiled from published references, not medical advice. Please attribute <a href="/">acnesafecheck.com</a>.</li>
+    </ul>
+    <p>Need higher volume, a bulk dataset, or commercial terms? That's part of our upcoming <a href="/premium.html">premium plan</a> — <a href="mailto:hello@acnesafecheck.com?subject=API%20access">get in touch</a>.</p>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  AcneSafeCheck · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/about.html">About</a><br>
+  Informational only, not medical advice.
+</div></footer>
+</body>
+</html>
