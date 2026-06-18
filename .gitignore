@@ -4,3 +4,5 @@ node_modules
 *.zip
 gen_db.py
 gen_img.py
+gen_ingredients.py
+gen_sitemap.py
