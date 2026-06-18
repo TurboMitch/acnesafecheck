@@ -7,3 +7,4 @@ gen_img.py
 gen_ingredients.py
 gen_sitemap.py
 gen_roundups.py
+gen_articles.py
