@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Checker — Search Any Skincare Product for Pore-Clogging Ingredients | AcneSafeCheck</title>
+<meta name="description" content="Search any skincare or makeup product by name and instantly see if it contains pore-clogging (comedogenic) ingredients. Powered by the open Open Beauty Facts database.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#e0654f">
+<meta name="ahrefs-site-verification" content="29b2213b058b3dbbe63b2ad069034fd4e718ab8b42f4f8d54431f17296323eb9">
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="dTgyD+bV2xvop4os/0GghQ" async></script>
+<link rel="canonical" href="https://acnesafecheck.com/product-checker.html">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:title" content="Product Checker — Is This Skincare Product Acne Safe?">
+<meta property="og:description" content="Search a product by name and instantly flag pore-clogging ingredients. Free.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://acnesafecheck.com/product-checker.html">
+<meta property="og:image" content="https://acnesafecheck.com/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://acnesafecheck.com/og.png">
+<link rel="stylesheet" href="/styles.css">
+<style>
+.prod{display:flex;gap:12px;align-items:center;padding:10px 12px;border:1px solid var(--line);border-radius:10px;margin:8px 0;cursor:pointer;background:#fff}
+.prod:hover{border-color:var(--brand)}
+.prod img{width:46px;height:46px;object-fit:contain;border-radius:8px;background:#faf4f0;flex:none}
+.prod b{font-size:15px}.prod span{font-size:12px;color:var(--muted)}
+.spin{font-size:13px;color:var(--muted)}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Product Checker","url":"https://acnesafecheck.com/product-checker.html","applicationCategory":"HealthApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+</script>
+</head>
+<body>
+<header><div class="wrap bar">
+  <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
+  <nav>
+    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
+    <a href="/fungal-acne-safe-checker.html">Fungal acne</a>
+    <a href="/comedogenic-ingredients-list.html">Ingredient list</a>
+    <a href="/about.html">About</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>Product checker</h1>
+    <p>Search a skincare or makeup product by name and we'll pull its ingredients and flag any that clog pores — no typing required. You can also paste an ingredient list manually below.</p>
+  </section>
+
+  <section class="card">
+    <label for="q" style="font-weight:700;display:block;margin-bottom:8px">Search a product</label>
+    <div class="row">
+      <input id="q" class="search" style="flex:1;min-width:220px" type="search" placeholder="e.g. CeraVe moisturizing lotion" onkeydown="if(event.key==='Enter')searchProducts()">
+      <button class="btn-primary" onclick="searchProducts()">Search</button>
+    </div>
+    <p class="muted" style="font-size:12px;margin:8px 0 0">Product data from the open <a href="https://world.openbeautyfacts.org" rel="nofollow" target="_blank">Open Beauty Facts</a> database. Coverage varies — if your product isn't found, paste its ingredients manually below.</p>
+    <div id="prodResults" style="margin-top:10px"></div>
+  </section>
+
+  <section class="card">
+    <label for="ingredients" style="font-weight:700;display:block;margin-bottom:8px">…or paste ingredients</label>
+    <textarea id="ingredients" placeholder="Water, Glycerin, Coconut Oil, Niacinamide..."></textarea>
+    <div class="row">
+      <button class="btn-primary" onclick="checkIngredients()">Check ingredients</button>
+      <button class="btn-ghost" onclick="clearAll()">Clear</button>
+    </div>
+    <div class="legend"><span>🔴 Pore-clogging (3–5)</span><span>🟡 Low (1–2)</span><span>🟢 Acne safe (0)</span></div>
+  </section>
+
+  <section id="results" class="card hidden"></section>
+
+  <section id="altcta" class="card hidden" style="background:#fff7f4;border-color:#f3d8cf">
+    <h2 style="margin-top:0">Looking for an acne-safe alternative?</h2>
+    <p class="muted">Browse vetted non-comedogenic picks by category:</p>
+    <div class="row">
+      <a class="btn-ghost" href="/non-comedogenic/non-comedogenic-moisturizer.html">Moisturizers</a>
+      <a class="btn-ghost" href="/non-comedogenic/non-comedogenic-sunscreen.html">Sunscreens</a>
+      <a class="btn-ghost" href="/non-comedogenic/non-comedogenic-cleanser.html">Cleansers</a>
+      <a class="btn-ghost" href="/non-comedogenic/non-comedogenic-foundation.html">Foundations</a>
+      <a class="btn-ghost" href="/non-comedogenic/non-comedogenic-oils.html">Face oils</a>
+    </div>
+  </section>
+
+  <div class="disclaimer"><strong>Note:</strong> We show the ingredient list as recorded in Open Beauty Facts, which is community-maintained and may be outdated or incomplete — always confirm against the physical product. Informational only, not medical advice.</div>
+</main>
+
+<footer><div class="wrap">
+  AcneSafeCheck · <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a> · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/about.html">About</a><br>
+  Product data: Open Beauty Facts (ODbL). Informational only, not medical advice.
+</div></footer>
+
+<script src="/checker.js"></script>
+<script>
+const OBF = "https://world.openbeautyfacts.org";
+function esc(s){return (s||"").replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function searchProducts(){
+  const q = document.getElementById('q').value.trim();
+  const box = document.getElementById('prodResults');
+  if(!q){box.innerHTML='';return;}
+  box.innerHTML='<p class="spin">Searching…</p>';
+  const url = OBF+"/cgi/search.pl?search_terms="+encodeURIComponent(q)+"&search_simple=1&action=process&json=1&page_size=12&fields=code,product_name,brands,image_small_url,ingredients_text";
+  fetch(url).then(r=>r.json()).then(d=>{
+    const items=(d.products||[]).filter(p=>p.product_name);
+    if(!items.length){box.innerHTML='<p class="spin">No products found. Try a different name or paste the ingredients below.</p>';return;}
+    box.innerHTML = items.map(p=>
+      '<div class="prod" onclick="loadProduct(\''+p.code+'\')">'+
+      (p.image_small_url?'<img src="'+esc(p.image_small_url)+'" alt="">':'<div style="width:46px;height:46px;border-radius:8px;background:#faf4f0;flex:none"></div>')+
+      '<div><b>'+esc(p.product_name)+'</b><br><span>'+esc(p.brands||'')+(p.ingredients_text?'':' · no ingredient data')+'</span></div></div>'
+    ).join('');
+  }).catch(()=>{box.innerHTML='<p class="spin">Search is unavailable right now — please paste the ingredients manually below.</p>';});
+}
+function loadProduct(code){
+  const box = document.getElementById('prodResults');
+  box.innerHTML='<p class="spin">Loading product…</p>';
+  fetch(OBF+"/api/v2/product/"+encodeURIComponent(code)+".json?fields=product_name,brands,ingredients_text").then(r=>r.json()).then(d=>{
+    const p=d.product||{}; const txt=(p.ingredients_text||'').trim();
+    box.innerHTML='<p class="spin">Loaded: <strong>'+esc(p.product_name||'')+'</strong> '+esc(p.brands||'')+'</p>';
+    if(!txt){document.getElementById('ingredients').value='';document.getElementById('results').innerHTML='<p class="muted">Open Beauty Facts has no ingredient list for this product yet. Please paste the ingredients from the packaging below.</p>';document.getElementById('results').classList.remove('hidden');return;}
+    document.getElementById('ingredients').value=txt;
+    checkIngredients();
+    document.getElementById('altcta').classList.remove('hidden');
+  }).catch(()=>{box.innerHTML='<p class="spin">Could not load that product — please paste its ingredients manually below.</p>';});
+}
+// Show alternatives CTA whenever a check finds pore-clogging ingredients
+const _origCheck = window.checkIngredients;
+window.checkIngredients = function(){ _origCheck();
+  const res=document.getElementById('results'); const alt=document.getElementById('altcta');
+  if(res && /Pore-clogging risk/.test(res.innerHTML)) alt.classList.remove('hidden');
+};
+</script>
+</body>
+</html>
