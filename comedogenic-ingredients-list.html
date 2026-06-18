@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comedogenic Ingredients List — Pore-Clogging &amp; Acne-Safe Ratings | AcneSafeCheck</title>
+<meta name="description" content="Searchable comedogenic ingredients list with 0–5 pore-clogging ratings. Find which skincare and makeup ingredients clog pores and which are acne safe.">
+<link rel="canonical" href="https://acnesafecheck.com/comedogenic-ingredients-list.html">
+<meta property="og:title" content="Comedogenic Ingredients List">
+<meta property="og:description" content="Searchable database of pore-clogging and acne-safe ingredients with 0–5 ratings.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="wrap bar">
+  <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
+  <nav>
+    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
+    <a href="/pore-clogging-ingredient-checker.html">Pore-clogging</a>
+    <a href="/comedogenic-ingredients-list.html">Ingredient list</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>Comedogenic Ingredients List</h1>
+    <p>A searchable database of <span id="count">100+</span> skincare and makeup ingredients with their comedogenicity rating — from acne safe (0) to highly pore-clogging (5).</p>
+  </section>
+
+  <section class="card">
+    <input id="dbsearch" class="search" type="search" placeholder="Search an ingredient, e.g. coconut, lanolin, niacinamide..." oninput="filterTable()">
+    <div class="legend" style="margin-top:10px"><span>🔴 3–5 pore-clogging</span><span>🟡 1–2 low risk</span><span>🟢 0 acne safe</span></div>
+    <table>
+      <thead><tr><th>Ingredient</th><th>Category</th><th>Rating</th></tr></thead>
+      <tbody id="dbtable"></tbody>
+    </table>
+    <p class="muted" style="font-size:13px">Want to check a whole product at once? Use the <a href="/comedogenic-ingredient-checker.html">comedogenic ingredient checker</a> or the <a href="/pore-clogging-ingredient-checker.html">pore-clogging checker</a>.</p>
+  </section>
+
+  <div class="disclaimer">
+    <strong>Note:</strong> Comedogenicity ratings are general guidance compiled from widely-used reference lists, not lab results for every formula. Concentration, the full formulation and your individual skin all affect the real outcome. Informational only — not medical advice.
+  </div>
+
+  <section class="prose">
+    <h2>How to use the comedogenic scale</h2>
+    <p>The 0–5 comedogenic scale estimates how likely an ingredient is to clog pores. A 0 is considered non-comedogenic; a 5 is highly likely to cause clogged pores in acne-prone skin. Remember that an ingredient low on a product's INCI list is present in small amounts, so its rating matters less than one near the top.</p>
+    <h3>Acne-safe alternatives</h3>
+    <p>If your favourite product flags red, look for formulas built around low-rated ingredients such as squalane, hemp seed oil, argan oil, sunflower oil, glycerin, niacinamide and hyaluronic acid. These deliver moisture and actives with a low chance of clogging pores.</p>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  AcneSafeCheck · Comedogenic ingredients list · Informational only, not medical advice.<br>
+  <a href="/">Home</a> · <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a> · <a href="/pore-clogging-ingredient-checker.html">Pore-clogging checker</a>
+</div></footer>
+<script src="checker.js"></script>
+<script>renderTable();</script>
+</body>
+</html>

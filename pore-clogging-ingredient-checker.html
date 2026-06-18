@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pore-Clogging Ingredient Checker — Find Breakout Triggers | AcneSafeCheck</title>
+<meta name="description" content="Free pore-clogging ingredient checker. Paste a skincare or makeup ingredient list and instantly find the ingredients most likely to clog pores and cause breakouts.">
+<link rel="canonical" href="https://acnesafecheck.com/pore-clogging-ingredient-checker.html">
+<meta property="og:title" content="Pore-Clogging Ingredient Checker">
+<meta property="og:description" content="Find the exact ingredients likely to clog pores and cause breakouts — free and instant.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Pore-Clogging Ingredient Checker","url":"https://acnesafecheck.com/pore-clogging-ingredient-checker.html","applicationCategory":"HealthApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+</script>
+</head>
+<body>
+<header><div class="wrap bar">
+  <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
+  <nav>
+    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
+    <a href="/pore-clogging-ingredient-checker.html">Pore-clogging</a>
+    <a href="/comedogenic-ingredients-list.html">Ingredient list</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>Pore-Clogging Ingredient Checker</h1>
+    <p>Paste your product's ingredients and we'll highlight the ones most likely to <strong>clog pores and trigger breakouts</strong>, with a plain-English explanation for each.</p>
+  </section>
+
+  <section class="card">
+    <label for="ingredients" style="font-weight:700;display:block;margin-bottom:8px">Paste ingredients (INCI list)</label>
+    <textarea id="ingredients" placeholder="e.g. Water, Coconut Oil, Myristyl Myristate, Lanolin, Glycerin, Squalane..."></textarea>
+    <div class="row">
+      <button class="btn-primary" onclick="checkIngredients()">Find pore-clogging ingredients</button>
+      <button class="btn-ghost" onclick="clearAll()">Clear</button>
+      <span class="sample" onclick="loadSample()">Try a sample list</span>
+    </div>
+    <div class="legend">
+      <span>🔴 High risk (3–5)</span><span>🟡 Low risk (1–2)</span><span>🟢 Acne safe (0)</span>
+    </div>
+  </section>
+
+  <section id="results" class="card hidden"></section>
+
+  <div class="disclaimer">
+    <strong>Note:</strong> Ratings are general guidance, not a medical diagnosis. An ingredient's real effect depends on concentration, the full formula and your skin type. Not medical advice.
+  </div>
+
+  <section class="prose">
+    <h2>Why do some ingredients clog pores?</h2>
+    <p>Certain oils, esters and waxes sit heavily on the skin and mix with sebum and dead skin cells inside the pore. In acne-prone skin this can form a plug — the start of a blackhead, whitehead or pimple. The thicker and more occlusive the ingredient, the higher its pore-clogging potential tends to be.</p>
+    <h3>The usual suspects</h3>
+    <p>Isopropyl myristate, coconut oil, cocoa butter, algae extract, lauric acid, acetylated lanolin, and several D&amp;C red dyes appear again and again on pore-clogging lists. Heavy esters like myristyl myristate and isocetyl stearate are common in makeup and can be a hidden cause of breakouts.</p>
+    <h3>What to do if a product flags red</h3>
+    <p>Check where the ingredient sits in the list — lower down means a smaller amount. If it's high up and your skin is breakout-prone, look for an alternative. Browse the full <a href="/comedogenic-ingredients-list.html">comedogenic ingredients list</a> or rate a whole formula with the <a href="/comedogenic-ingredient-checker.html">comedogenic ingredient checker</a>.</p>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  AcneSafeCheck · Free pore-clogging ingredient checker · Informational only, not medical advice.<br>
+  <a href="/">Home</a> · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
+</div></footer>
+<script src="checker.js"></script>
+</body>
+</html>

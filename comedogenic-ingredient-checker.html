@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comedogenic Ingredient Checker — Rate Any Product 0–5 | AcneSafeCheck</title>
+<meta name="description" content="Free comedogenic ingredient checker. Paste a skincare or makeup INCI list and see each ingredient's comedogenicity rating (0–5) so you can avoid pore-clogging formulas.">
+<link rel="canonical" href="https://acnesafecheck.com/comedogenic-ingredient-checker.html">
+<meta property="og:title" content="Comedogenic Ingredient Checker">
+<meta property="og:description" content="Rate every ingredient 0–5 on the comedogenicity scale, instantly and for free.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Comedogenic Ingredient Checker","url":"https://acnesafecheck.com/comedogenic-ingredient-checker.html","applicationCategory":"HealthApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+</script>
+</head>
+<body>
+<header><div class="wrap bar">
+  <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
+  <nav>
+    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
+    <a href="/pore-clogging-ingredient-checker.html">Pore-clogging</a>
+    <a href="/comedogenic-ingredients-list.html">Ingredient list</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>Comedogenic Ingredient Checker</h1>
+    <p>Paste any product's ingredient list and get a comedogenicity rating (0–5) for every ingredient we recognise — so you can spot pore-clogging formulas before you buy.</p>
+  </section>
+
+  <section class="card">
+    <label for="ingredients" style="font-weight:700;display:block;margin-bottom:8px">Paste ingredients (INCI list)</label>
+    <textarea id="ingredients" placeholder="e.g. Aqua, Glyceryl Stearate SE, Isopropyl Palmitate, Niacinamide, Dimethicone..."></textarea>
+    <div class="row">
+      <button class="btn-primary" onclick="checkIngredients()">Check comedogenic rating</button>
+      <button class="btn-ghost" onclick="clearAll()">Clear</button>
+      <span class="sample" onclick="loadSample()">Try a sample list</span>
+    </div>
+    <div class="legend">
+      <span>🔴 3–5 comedogenic</span><span>🟡 1–2 low</span><span>🟢 0 non-comedogenic</span>
+    </div>
+  </section>
+
+  <section id="results" class="card hidden"></section>
+
+  <div class="disclaimer">
+    <strong>Note:</strong> Comedogenicity ratings are general guidance, not a medical assessment. Real-world effects depend on concentration, the full formula and your skin. Not medical advice.
+  </div>
+
+  <section class="prose">
+    <h2>What is the comedogenic scale?</h2>
+    <p>The comedogenic scale rates how likely an ingredient is to clog pores, from <strong>0 (non-comedogenic)</strong> to <strong>5 (highly comedogenic)</strong>. It originated from studies applying ingredients to skin and observing comedone (clogged-pore) formation. A higher number means a greater chance of blackheads, whiteheads and breakouts for people with acne-prone skin.</p>
+    <h3>How to read your results</h3>
+    <p>Ingredients near the top of an INCI list are present in the highest concentration, so a comedogenic ingredient listed first matters more than one near the end. Use the ratings as a guide, not an absolute verdict — patch testing remains the most reliable way to know how your own skin reacts.</p>
+    <h3>Common high-comedogenic ingredients</h3>
+    <p>Frequent offenders include isopropyl myristate, coconut oil, cocoa butter, algae extract, lauric acid, wheat germ oil and certain D&amp;C red dyes. You can browse the full <a href="/comedogenic-ingredients-list.html">comedogenic ingredients list</a> or run the dedicated <a href="/pore-clogging-ingredient-checker.html">pore-clogging ingredient checker</a>.</p>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  AcneSafeCheck · Free comedogenic ingredient checker · Informational only, not medical advice.<br>
+  <a href="/">Home</a> · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/pore-clogging-ingredient-checker.html">Pore-clogging checker</a>
+</div></footer>
+<script src="checker.js"></script>
+</body>
+</html>
