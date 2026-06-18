@@ -4,6 +4,12 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/",
+      "has": [{ "type": "host", "value": "www.acnesafecheck.com" }],
+      "destination": "https://acnesafecheck.com/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "www.acnesafecheck.com" }],
       "destination": "https://acnesafecheck.com/:path*",
