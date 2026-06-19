@@ -68,12 +68,13 @@
     <p id="acsMsg" class="muted" style="font-size:13px;margin:8px 0 0"></p>
   </section>
   <script>
-  // Set window.NEWSLETTER_ENDPOINT to your provider's form endpoint (MailerLite/ConvertKit/Buttondown).
-  window.NEWSLETTER_ENDPOINT = window.NEWSLETTER_ENDPOINT || "";
-  function acsSubscribe(e){e.preventDefault();var f=e.target,email=f.email.value,m=document.getElementById('acsMsg');
-    if(!window.NEWSLETTER_ENDPOINT){m.textContent="Thanks! (Newsletter goes live once the email provider is connected.)";f.reset();return false;}
-    fetch(window.NEWSLETTER_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email})})
-      .then(()=>{m.textContent="You're in — check your inbox to confirm.";f.reset();}).catch(()=>{m.textContent="Something went wrong, please try again.";});
+  function acsSubscribe(e){e.preventDefault();var f=e.target,email=f.email.value,m=document.getElementById('acsMsg');m.textContent="Subscribing…";
+    fetch("/api/subscribe",{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,list:'newsletter'})})
+      .then(r=>r.json()).then(d=>{
+        if(d.ok){m.textContent="You're in — thanks for subscribing!";f.reset();}
+        else if(d.configured===false){m.textContent="Thanks! You'll be added as soon as the newsletter goes live.";f.reset();}
+        else{m.textContent="Hmm, that didn't work — please try again.";}})
+      .catch(()=>{m.textContent="Something went wrong, please try again.";});
     return false;}
   </script>
 

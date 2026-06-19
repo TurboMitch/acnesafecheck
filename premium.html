@@ -65,11 +65,13 @@
   Informational only, not medical advice.
 </div></footer>
 <script>
-window.NEWSLETTER_ENDPOINT = window.NEWSLETTER_ENDPOINT || "";
-function acsWait(e){e.preventDefault();var f=e.target,email=f.email.value,m=document.getElementById('acsMsg');
-  if(!window.NEWSLETTER_ENDPOINT){m.textContent="You're on the list! (Waitlist goes live once the email provider is connected.)";f.reset();return false;}
-  fetch(window.NEWSLETTER_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,list:'premium-waitlist'})})
-    .then(()=>{m.textContent="You're on the waitlist — thanks!";f.reset();}).catch(()=>{m.textContent="Something went wrong, please try again.";});
+function acsWait(e){e.preventDefault();var f=e.target,email=f.email.value,m=document.getElementById('acsMsg');m.textContent="Joining…";
+  fetch("/api/subscribe",{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,list:'premium-waitlist'})})
+    .then(r=>r.json()).then(d=>{
+      if(d.ok){m.textContent="You're on the waitlist — thanks!";f.reset();}
+      else if(d.configured===false){m.textContent="You're on the list! You'll be added as soon as the waitlist goes live.";f.reset();}
+      else{m.textContent="Hmm, that didn't work — please try again.";}})
+    .catch(()=>{m.textContent="Something went wrong, please try again.";});
   return false;}
 </script>
 </body>
