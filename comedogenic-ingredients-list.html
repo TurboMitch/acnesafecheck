@@ -45,7 +45,7 @@
 <main class="wrap">
   <section class="hero">
     <h1>Comedogenic Ingredients List</h1>
-    <p>A searchable database of <span id="count">560</span> skincare and makeup ingredients with their comedogenicity rating — from acne safe (0) to highly pore-clogging (5).</p>
+    <p>A searchable database of <span id="count">560</span> skincare and makeup ingredients with their comedogenicity rating — from acne safe (0) to highly pore-clogging (5). Prefer to browse? See the <a href="/ingredients.html">full A–Z ingredient index</a>.</p>
   </section>
 
   <section class="card">
@@ -76,7 +76,11 @@
   AcneSafeCheck · Comedogenic ingredients list · Informational only, not medical advice.<br>
   <a href="/">Home</a> · <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a> · <a href="/pore-clogging-ingredient-checker.html">Pore-clogging checker</a>
 </div></footer>
-<script src="checker.js"></script>
-<script>renderTable();</script>
+<script src="checker.js" defer></script>
+<script>document.addEventListener('DOMContentLoaded',function(){
+  if(window.renderTable)renderTable();
+  var q=new URLSearchParams(location.search).get('q');
+  if(q){var i=document.getElementById('dbsearch');if(i){i.value=q;if(window.filterTable)filterTable();}}
+});</script>
 </body>
 </html>

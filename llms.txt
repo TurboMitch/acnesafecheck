@@ -1,24 +1,58 @@
 # AcneSafeCheck
 
-> AcneSafeCheck is a free web tool that checks any skincare or makeup ingredient list (INCI) for comedogenic (pore-clogging) ingredients. Paste a product's ingredients and it flags each one on the 0–5 comedogenicity scale, separating pore-clogging risks from acne-safe ingredients. It runs against a database of 560+ ingredients, requires no signup, and works entirely in the browser.
+> AcneSafeCheck is a free web tool that checks any skincare or makeup ingredient list (INCI) for comedogenic (pore-clogging) ingredients. Paste a product's ingredients and it flags each one on the 0–5 comedogenicity scale, separating pore-clogging risks from acne-safe ingredients. It runs against a database of 560+ ingredients, requires no signup, and works entirely in the browser. Ratings are based on published comedogenicity references (e.g. Fulton et al. 1984) and are informational, not medical advice.
 
 ## What it answers
 - "Is this product acne safe?" — paste the ingredient list to find out.
 - "Which ingredients clog pores / are comedogenic?" — each recognised ingredient is rated 0 (non-comedogenic) to 5 (highly pore-clogging).
-- "Is [ingredient] comedogenic?" — look it up in the searchable ingredients list.
+- "Is [ingredient] comedogenic?" — look it up; each ingredient has its own page with rating, fungal-acne status and acne-safe alternatives.
+- "Does [diet/lifestyle factor] cause acne?" — evidence-based articles on dairy, milk, sugar, whey, creatine, chocolate, stress, sweat, coffee, biotin and more.
 
 ## The comedogenic scale (0–5)
 - 0 = non-comedogenic (acne safe), e.g. squalane, glycerin, niacinamide, hyaluronic acid, hemp seed oil, argan oil.
 - 1–2 = low risk, e.g. jojoba oil, olive oil, cetyl alcohol, dimethicone.
-- 3–5 = pore-clogging risk, e.g. isopropyl myristate (5), coconut oil (4), cocoa butter (4), algae extract (5), lauric acid (4), acetylated lanolin (4), myristyl myristate (5), wheat germ oil (5), certain D&C red dyes (3).
+- 3–5 = pore-clogging risk, e.g. isopropyl myristate (5), coconut oil (4), cocoa butter (4), algae extract (5), lauric acid (4), acetylated lanolin (4), myristyl myristate (5), wheat germ oil (5).
 
-Note: a comedogenic rating is general guidance compiled from widely-used reference lists, not a lab result for every formula. Actual effects depend on the ingredient's concentration, the full formulation, and the individual's skin. The tool is informational and not medical advice.
+Note: a comedogenic rating is general guidance compiled from widely-used reference lists, not a lab result for every formula. Actual effects depend on concentration, the full formulation and the individual's skin. The tool is informational and not medical advice.
 
-## Key pages
+## Tools
 - Home / acne safe ingredient checker: https://acnesafecheck.com/
 - Comedogenic ingredient checker (rate a full INCI list 0–5): https://acnesafecheck.com/comedogenic-ingredient-checker.html
 - Pore-clogging ingredient checker (flag breakout triggers): https://acnesafecheck.com/pore-clogging-ingredient-checker.html
-- Comedogenic ingredients list (searchable 560+ ingredient database): https://acnesafecheck.com/comedogenic-ingredients-list.html
+- Fungal-acne (Malassezia) safe checker: https://acnesafecheck.com/fungal-acne-safe-checker.html
+- Product checker (search a product by name): https://acnesafecheck.com/product-checker.html
+
+## Ingredient database
+- Searchable comedogenic ingredients list (560+): https://acnesafecheck.com/comedogenic-ingredients-list.html
+- Full A–Z ingredient index: https://acnesafecheck.com/ingredients.html
+- Individual ingredient pages live at https://acnesafecheck.com/ingredient/<slug>.html (e.g. /ingredient/coconut-oil.html), each with the 0–5 rating, what the ingredient is, fungal-acne status, and acne-safe alternatives.
+
+## Concepts
+- What "comedogenic" means and how to read the 0–5 scale: https://acnesafecheck.com/comedogenic.html
+- Fungal acne (Malassezia) explained: https://acnesafecheck.com/fungal-acne.html
+
+## "Does X cause acne?" articles (evidence-based)
+- Hub: https://acnesafecheck.com/acne-causes.html
+- Dairy: https://acnesafecheck.com/article/does-dairy-cause-acne.html
+- Milk: https://acnesafecheck.com/article/does-milk-cause-acne.html
+- Sugar: https://acnesafecheck.com/article/does-sugar-cause-acne.html
+- Whey protein: https://acnesafecheck.com/article/does-whey-protein-cause-acne.html
+- Creatine: https://acnesafecheck.com/article/does-creatine-cause-acne.html
+- Chocolate: https://acnesafecheck.com/article/does-chocolate-cause-acne.html
+- Stress: https://acnesafecheck.com/article/does-stress-cause-acne.html
+- Sweat: https://acnesafecheck.com/article/does-sweat-cause-acne.html
+- Coffee: https://acnesafecheck.com/article/does-coffee-cause-acne.html
+- Biotin: https://acnesafecheck.com/article/does-biotin-cause-acne.html
+
+## Product guides (non-comedogenic)
+- Moisturizers: https://acnesafecheck.com/non-comedogenic/non-comedogenic-moisturizer.html
+- Sunscreens: https://acnesafecheck.com/non-comedogenic/non-comedogenic-sunscreen.html
+- Cleansers: https://acnesafecheck.com/non-comedogenic/non-comedogenic-cleanser.html
+- Foundations: https://acnesafecheck.com/non-comedogenic/non-comedogenic-foundation.html
+- Concealers: https://acnesafecheck.com/non-comedogenic/non-comedogenic-concealer.html
+- Primers: https://acnesafecheck.com/non-comedogenic/non-comedogenic-primer.html
+- Face oils: https://acnesafecheck.com/non-comedogenic/non-comedogenic-oils.html
+- Hair products: https://acnesafecheck.com/non-comedogenic/non-comedogenic-hair-products.html
 
 ## About
-AcneSafeCheck is an independent, free informational tool for people with acne-prone or breakout-prone skin who want to vet skincare and makeup products before buying. Contact: via the website.
+AcneSafeCheck is an independent, free informational tool built by Mitchell Zandwijken for people with acne-prone or breakout-prone skin who want to vet skincare and makeup products before buying. Methodology and references: https://acnesafecheck.com/about.html · Contact: hello@acnesafecheck.com

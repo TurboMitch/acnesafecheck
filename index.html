@@ -29,9 +29,10 @@
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
-{"@type":"Organization","@id":"https://acnesafecheck.com/#org","name":"AcneSafeCheck","url":"https://acnesafecheck.com/","logo":"https://acnesafecheck.com/icon-512.png"},
-{"@type":"WebSite","@id":"https://acnesafecheck.com/#site","url":"https://acnesafecheck.com/","name":"AcneSafeCheck","publisher":{"@id":"https://acnesafecheck.com/#org"}},
-{"@type":"WebApplication","name":"Acne Safe Ingredient Checker","url":"https://acnesafecheck.com/","applicationCategory":"HealthApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Check any skincare ingredient list for comedogenic, pore-clogging ingredients against a 560+ ingredient database."},
+{"@type":"Organization","@id":"https://acnesafecheck.com/#org","name":"AcneSafeCheck","url":"https://acnesafecheck.com/","logo":{"@type":"ImageObject","url":"https://acnesafecheck.com/icon-512.png"},"founder":{"@id":"https://acnesafecheck.com/#mitchell"}},
+{"@type":"Person","@id":"https://acnesafecheck.com/#mitchell","name":"Mitchell Zandwijken","url":"https://acnesafecheck.com/about.html","jobTitle":"Founder"},
+{"@type":"WebSite","@id":"https://acnesafecheck.com/#site","url":"https://acnesafecheck.com/","name":"AcneSafeCheck","publisher":{"@id":"https://acnesafecheck.com/#org"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://acnesafecheck.com/comedogenic-ingredients-list.html?q={search_term_string}"},"query-input":"required name=search_term_string"}},
+{"@type":"WebApplication","@id":"https://acnesafecheck.com/#app","name":"Acne Safe Ingredient Checker","url":"https://acnesafecheck.com/","applicationCategory":"HealthApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript. Runs entirely in the browser.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"https://acnesafecheck.com/#org"},"description":"Check any skincare ingredient list for comedogenic, pore-clogging ingredients against a 560+ ingredient database."},
 {"@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"What does comedogenic mean?","acceptedAnswer":{"@type":"Answer","text":"Comedogenic ingredients tend to block pores, which can lead to comedones (blackheads and whiteheads) and breakouts. Ratings run from 0 (won't clog pores) to 5 (very likely to clog pores)."}},
 {"@type":"Question","name":"Is a high-rated ingredient always bad for me?","acceptedAnswer":{"@type":"Answer","text":"No. Many people use coconut oil or cocoa butter with no problems. Ratings are a starting point — concentration and your own skin matter a lot."}},
@@ -85,6 +86,7 @@
     <a class="tile" href="/comedogenic-ingredient-checker.html"><b>Comedogenic ingredient checker</b><span>Scan a full INCI list and rank every ingredient 0–5 on the comedogenicity scale.</span></a>
     <a class="tile" href="/pore-clogging-ingredient-checker.html"><b>Pore-clogging ingredient checker</b><span>Find the exact ingredients most likely to clog pores and trigger breakouts.</span></a>
     <a class="tile" href="/comedogenic-ingredients-list.html"><b>Comedogenic ingredients list</b><span>Searchable database of 560+ pore-clogging and acne-safe ingredients with ratings.</span></a>
+    <a class="tile" href="/ingredients.html"><b>All ingredients A–Z</b><span>Browse the full 560-ingredient index alphabetically, each with its 0–5 rating.</span></a>
     <a class="tile" href="/comedogenic.html"><b>What is the comedogenic scale?</b><span>Understand what "comedogenic" means and how to use the 0–5 ratings.</span></a>
     <a class="tile" href="/fungal-acne-safe-checker.html"><b>Fungal acne safe checker</b><span>Flag Malassezia triggers — the ingredients that feed fungal acne.</span></a>
     <a class="tile" href="/product-checker.html"><b>Search a product</b><span>Look up a product by name and check it instantly — no typing.</span></a>
@@ -113,9 +115,9 @@
 
 <footer><div class="wrap">
   AcneSafeCheck · Free acne safe ingredient checker · Informational only, not medical advice.<br>
-  <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/product-checker.html">Product checker</a> · <a href="/fungal-acne.html">Fungal acne</a> · <a href="/acne-causes.html">Does X cause acne?</a> · <a href="/about.html">About</a><br>
+  <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/ingredients.html">All ingredients A–Z</a> · <a href="/product-checker.html">Product checker</a> · <a href="/fungal-acne.html">Fungal acne</a> · <a href="/acne-causes.html">Does X cause acne?</a> · <a href="/about.html">About</a><br>
   <a href="/verified.html">For brands: Acne-Safe Verified</a> · <a href="/api.html">Developer API</a> · <a href="/premium.html">Premium</a>
 </div></footer>
-<script src="checker.js"></script>
+<script src="checker.js" defer></script>
 </body>
 </html>

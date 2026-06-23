@@ -4,3 +4,5 @@ gen_ingredients.py
 gen_sitemap.py
 gen_roundups.py
 gen_articles.py
+indexnow_submit.py
+gen_index_page.py

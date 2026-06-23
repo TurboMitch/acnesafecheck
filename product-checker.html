@@ -29,9 +29,7 @@
 .prod b{font-size:15px}.prod span{font-size:12px;color:var(--muted)}
 .spin{font-size:13px;color:var(--muted)}
 </style>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebApplication","name":"Product Checker","url":"https://acnesafecheck.com/product-checker.html","applicationCategory":"HealthApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
-</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "name": "Product Checker", "url": "https://acnesafecheck.com/product-checker.html", "applicationCategory": "HealthApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "@id": "https://acnesafecheck.com/product-checker.html#app", "browserRequirements": "Requires JavaScript. Runs entirely in the browser.", "description": "Search any skincare or makeup product by name and instantly check its ingredients for pore-clogging and fungal-acne triggers.", "publisher": {"@id": "https://acnesafecheck.com/#org"}, "isPartOf": {"@id": "https://acnesafecheck.com/#site"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://acnesafecheck.com/"}, {"@type": "ListItem", "position": 2, "name": "Product checker", "item": "https://acnesafecheck.com/product-checker.html"}]}]}</script>
 </head>
 <body>
 <header><div class="wrap bar">
@@ -92,7 +90,7 @@
   Product data: Open Beauty Facts (ODbL). Informational only, not medical advice.
 </div></footer>
 
-<script src="/checker.js"></script>
+<script src="/checker.js" defer></script>
 <script>
 const OBF = "https://world.openbeautyfacts.org";
 function esc(s){return (s||"").replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}

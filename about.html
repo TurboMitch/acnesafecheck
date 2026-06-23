@@ -25,7 +25,9 @@
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
-{"@type":"AboutPage","name":"About AcneSafeCheck","url":"https://acnesafecheck.com/about.html","publisher":{"@type":"Organization","name":"AcneSafeCheck","url":"https://acnesafecheck.com/","logo":"https://acnesafecheck.com/icon-512.png","email":"hello@acnesafecheck.com","founder":{"@type":"Person","name":"Mitchell Zandwijken"}}},
+{"@type":"Organization","@id":"https://acnesafecheck.com/#org","name":"AcneSafeCheck","url":"https://acnesafecheck.com/","logo":{"@type":"ImageObject","url":"https://acnesafecheck.com/icon-512.png"},"email":"hello@acnesafecheck.com","founder":{"@id":"https://acnesafecheck.com/#mitchell"}},
+{"@type":"Person","@id":"https://acnesafecheck.com/#mitchell","name":"Mitchell Zandwijken","url":"https://acnesafecheck.com/about.html","jobTitle":"Founder"},
+{"@type":"AboutPage","name":"About AcneSafeCheck","url":"https://acnesafecheck.com/about.html","inLanguage":"en","isPartOf":{"@id":"https://acnesafecheck.com/#site"},"publisher":{"@id":"https://acnesafecheck.com/#org"},"mainEntity":{"@id":"https://acnesafecheck.com/#mitchell"},"citation":["Fulton JE Jr, Pay SR, Fulton JE 3rd. Comedogenicity of current therapeutic products, cosmetics, and ingredients in the rabbit ear. J Am Acad Dermatol. 1984;10(1):96-105.","DiNardo JC. Is mineral oil comedogenic? J Cosmet Dermatol. 2005.","American Academy of Dermatology. Acne resource center."]},
 {"@type":"BreadcrumbList","itemListElement":[
 {"@type":"ListItem","position":1,"name":"Home","item":"https://acnesafecheck.com/"},
 {"@type":"ListItem","position":2,"name":"About & methodology","item":"https://acnesafecheck.com/about.html"}]}]}
@@ -72,6 +74,15 @@
 
     <h2>Corrections policy</h2>
     <p>We update ratings when new evidence or a credible correction is brought to our attention. Material changes are reflected in the page's last-updated date.</p>
+
+    <h2>References</h2>
+    <ul style="font-size:14px">
+      <li>Fulton JE Jr, Pay SR, Fulton JE 3rd. Comedogenicity of current therapeutic products, cosmetics, and ingredients in the rabbit ear. <em>J Am Acad Dermatol.</em> 1984;10(1):96–105. — the original basis of the 0–5 comedogenicity scale.</li>
+      <li>DiNardo JC. Is mineral oil comedogenic? <em>J Cosmet Dermatol.</em> 2005 — on the limits of the rabbit-ear assay for human skin.</li>
+      <li>Draelos ZD, DiNardo JC. A re-evaluation of the comedogenicity concept. <em>J Am Acad Dermatol.</em> 2006 — on concentration- and formula-dependence.</li>
+      <li><a href="https://www.aad.org/public/diseases/acne" rel="nofollow" target="_blank">American Academy of Dermatology — acne resources</a> (general acne guidance).</li>
+    </ul>
+    <p class="muted" style="font-size:13px">Maintained by <a href="/about.html">Mitchell Zandwijken</a>. Last updated June 2026.</p>
   </section>
 </main>
 
@@ -79,6 +90,6 @@
   AcneSafeCheck · Independent &amp; free · Informational only, not medical advice.<br>
   <a href="/">Home</a> · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/about.html">About &amp; methodology</a> · <a href="mailto:hello@acnesafecheck.com">Contact</a>
 </div></footer>
-<script src="checker.js"></script>
+<script src="checker.js" defer></script>
 </body>
 </html>
