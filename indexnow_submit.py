@@ -6,7 +6,7 @@ import json, re, urllib.request
 
 KEY = "1d1ec46e415be608062d580613dd40b797748854c4f6aa379c211e321fd621eb"
 HOST = "acnesafecheck.com"
-ENDPOINT = "https://api.indexnow.org/IndexNow"
+ENDPOINT = "https://www.bing.com/indexnow"  # Bing accepts the shared IndexNow key; the generic aggregator can 403
 
 urls = re.findall(r"<loc>([^<]+)</loc>", open("sitemap.xml", encoding="utf-8").read())
 # IndexNow accepts up to 10,000 URLs per request
