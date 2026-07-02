@@ -14,6 +14,11 @@
       "has": [{ "type": "host", "value": "www.acnesafecheck.com" }],
       "destination": "https://acnesafecheck.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/ingredient/hexadecyl-alcohol.html",
+      "destination": "/ingredient/cetyl-alcohol.html",
+      "permanent": true
     }
   ],
   "headers": [

@@ -62,7 +62,7 @@
     <label for="ingredients" style="font-weight:700;display:block;margin-bottom:8px">…or paste ingredients</label>
     <textarea id="ingredients" placeholder="Water, Glycerin, Coconut Oil, Niacinamide..."></textarea>
     <div class="row">
-      <button class="btn-primary" onclick="checkIngredients()">Check ingredients</button>
+      <button class="btn-primary" onclick="runCheck()">Check ingredients</button>
       <button class="btn-ghost" onclick="clearAll()">Clear</button>
     </div>
     <div class="legend"><span>🔴 Pore-clogging (3–5)</span><span>🟡 Low (1–2)</span><span>🟢 Acne safe (0)</span></div>
@@ -103,13 +103,20 @@ function searchProducts(){
   fetch(url).then(r=>r.json()).then(d=>{
     const items=(d.products||[]).filter(p=>p.product_name);
     if(!items.length){box.innerHTML='<p class="spin">No products found. Try a different name or paste the ingredients below.</p>';return;}
+    // Open Beauty Facts is publicly user-editable: treat every field (including code)
+    // as untrusted. Codes go into an escaped data attribute, never an inline handler.
     box.innerHTML = items.map(p=>
-      '<div class="prod" onclick="loadProduct(\''+p.code+'\')">'+
+      '<div class="prod" data-code="'+esc(String(p.code||''))+'">'+
       (p.image_small_url?'<img src="'+esc(p.image_small_url)+'" alt="">':'<div style="width:46px;height:46px;border-radius:8px;background:#faf4f0;flex:none"></div>')+
       '<div><b>'+esc(p.product_name)+'</b><br><span>'+esc(p.brands||'')+(p.ingredients_text?'':' · no ingredient data')+'</span></div></div>'
     ).join('');
   }).catch(()=>{box.innerHTML='<p class="spin">Search is unavailable right now — please paste the ingredients manually below.</p>';});
 }
+document.getElementById('prodResults').addEventListener('click', e=>{
+  const el = e.target.closest('.prod'); if(!el) return;
+  const code = el.getAttribute('data-code')||'';
+  if(/^[\w-]{1,64}$/.test(code)) loadProduct(code);
+});
 function loadProduct(code){
   const box = document.getElementById('prodResults');
   box.innerHTML='<p class="spin">Loading product…</p>';
@@ -118,16 +125,20 @@ function loadProduct(code){
     box.innerHTML='<p class="spin">Loaded: <strong>'+esc(p.product_name||'')+'</strong> '+esc(p.brands||'')+'</p>';
     if(!txt){document.getElementById('ingredients').value='';document.getElementById('results').innerHTML='<p class="muted">Open Beauty Facts has no ingredient list for this product yet. Please paste the ingredients from the packaging below.</p>';document.getElementById('results').classList.remove('hidden');return;}
     document.getElementById('ingredients').value=txt;
-    checkIngredients();
-    document.getElementById('altcta').classList.remove('hidden');
+    runCheck();
   }).catch(()=>{box.innerHTML='<p class="spin">Could not load that product — please paste its ingredients manually below.</p>';});
 }
-// Show alternatives CTA whenever a check finds pore-clogging ingredients
-const _origCheck = window.checkIngredients;
-window.checkIngredients = function(){ _origCheck();
+// Run the (deferred) checker, then show the alternatives CTA only when the
+// check actually found pore-clogging ingredients. (checker.js loads with defer,
+// so it must be invoked at click time, not wrapped at parse time.)
+function runCheck(){
+  if(typeof window.checkIngredients!=='function') return;
+  window.checkIngredients();
   const res=document.getElementById('results'); const alt=document.getElementById('altcta');
+  if(!alt) return;
   if(res && /Pore-clogging risk/.test(res.innerHTML)) alt.classList.remove('hidden');
-};
+  else alt.classList.add('hidden');
+}
 </script>
 </body>
 </html>

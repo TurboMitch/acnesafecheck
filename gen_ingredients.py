@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate /ingredient/<slug>.html for every ingredient in db.json."""
-import json, os, html, datetime
+import json, os, html
+from content_date import CONTENT_UPDATED, CONTENT_UPDATED_HUMAN
 
 DB = json.load(open("db.json", encoding="utf-8"))
 os.makedirs("ingredient", exist_ok=True)
@@ -8,7 +9,7 @@ os.makedirs("ingredient", exist_ok=True)
 VER = '29b2213b058b3dbbe63b2ad069034fd4e718ab8b42f4f8d54431f17296323eb9'
 ANALYTICS = 'dTgyD+bV2xvop4os/0GghQ'
 PUBLISHED = "2026-06-18"
-MODIFIED = datetime.date.today().isoformat()
+MODIFIED = CONTENT_UPDATED
 SAFE_FALLBACK = ["Squalane","Glycerin","Niacinamide","Hyaluronic Acid","Hemp Seed Oil"]
 by_name = {e["n"]: e for e in DB}
 # category -> low-risk members
@@ -235,7 +236,10 @@ TPL = """<!DOCTYPE html>
 """
 
 def esc(s): return html.escape(s, quote=True)
-def jp(s): return s.replace('"', "'")  # JSON-safe (used inside double-quoted JSON strings)
+def jp(s):
+    """Properly JSON-escape a string for embedding inside a double-quoted JSON-LD
+    string (handles quotes, backslashes, control chars, </script> breakouts)."""
+    return json.dumps(str(s))[1:-1].replace("</", "<\\/")
 
 def clog_sentence(name, r):
     if r >= 4: return f"Yes — {name} is one of the higher pore-clogging ingredients (rated {r}/5) and is best avoided in leave-on products if you are acne-prone."
@@ -290,7 +294,7 @@ for e in DB:
         scale=scale_svg(r),
         alt_heading=alt_heading, alt_intro=alt_intro, alt_list=alt_list,
         fa_text=fa_text, fa_short=fa_short, fa_j=jp(fa_answer),
-        pub=PUBLISHED, mod=MODIFIED, mod_human=datetime.date.today().strftime("%B %Y"),
+        pub=PUBLISHED, mod=MODIFIED, mod_human=CONTENT_UPDATED_HUMAN,
         ver=VER, an=ANALYTICS)
     open(f"ingredient/{slug}.html", "w", encoding="utf-8").write(page)
     count += 1

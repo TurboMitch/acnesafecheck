@@ -20,7 +20,7 @@ req = urllib.request.Request(
     ENDPOINT, data=json.dumps(payload).encode(),
     headers={"Content-Type": "application/json; charset=utf-8"})
 try:
-    with urllib.request.urlopen(req) as r:
+    with urllib.request.urlopen(req, timeout=30) as r:
         print(f"IndexNow: submitted {len(urls)} URLs — HTTP {r.status}")
 except Exception as e:
     print(f"IndexNow submit failed: {e}")

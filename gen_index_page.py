@@ -6,7 +6,8 @@ import json, html, datetime
 DB = json.load(open("db.json", encoding="utf-8"))
 VER = '29b2213b058b3dbbe63b2ad069034fd4e718ab8b42f4f8d54431f17296323eb9'
 AN = 'dTgyD+bV2xvop4os/0GghQ'
-MOD_HUMAN = datetime.date.today().strftime("%B %Y")
+from content_date import CONTENT_UPDATED_HUMAN
+MOD_HUMAN = CONTENT_UPDATED_HUMAN
 
 def esc(s): return html.escape(s, quote=True)
 def pill(r):

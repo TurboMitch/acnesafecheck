@@ -5,8 +5,9 @@ os.makedirs("article", exist_ok=True)
 VER = '29b2213b058b3dbbe63b2ad069034fd4e718ab8b42f4f8d54431f17296323eb9'
 AN = 'dTgyD+bV2xvop4os/0GghQ'
 PUBLISHED = "2026-06-18"
-MODIFIED = datetime.date.today().isoformat()
-MOD_HUMAN = datetime.date.today().strftime("%B %Y")
+from content_date import CONTENT_UPDATED, CONTENT_UPDATED_HUMAN
+MODIFIED = CONTENT_UPDATED
+MOD_HUMAN = CONTENT_UPDATED_HUMAN
 
 # slug, subject, question, verdict_label, paragraphs[], what_to_do[]
 ARTICLES = [

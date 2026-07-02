@@ -80,8 +80,8 @@ CORE = [
  ("Stearic Acid",2,"Fatty acid",["stearic acid"]),
  ("Oleic Acid",2,"Fatty acid",["oleic acid"]),
  ("Linoleic Acid",0,"Fatty acid",["linoleic acid"]),
- ("Hexadecyl Alcohol",5,"Fatty alcohol",["hexadecyl alcohol"]),
- ("Cetyl Alcohol",2,"Fatty alcohol",["cetyl alcohol"]),
+ # NOTE: "Hexadecyl Alcohol" is the older synonym for Cetyl Alcohol (1-hexadecanol) — one entry, one rating.
+ ("Cetyl Alcohol",2,"Fatty alcohol",["cetyl alcohol","hexadecyl alcohol","1-hexadecanol"]),
  ("Cetearyl Alcohol",2,"Fatty alcohol",["cetearyl alcohol"]),
  ("Stearyl Alcohol",2,"Fatty alcohol",["stearyl alcohol"]),
  ("Behenyl Alcohol",1,"Fatty alcohol",["behenyl alcohol"]),
@@ -177,7 +177,9 @@ CORE = [
  ("Ascorbic Acid",0,"Active",["ascorbic acid","vitamin c"]),
  ("Magnesium Ascorbyl Phosphate",0,"Active",["magnesium ascorbyl phosphate"]),
  ("Tetrahexyldecyl Ascorbate",2,"Active",["tetrahexyldecyl ascorbate"]),
- ("Tocopherol",2,"Active",["tocopherol","tocopheryl acetate","vitamin e"]),
+ # NOTE: "tocopheryl acetate" is deliberately NOT an alias here — it is a distinct ester with its own
+ # 0/5 entry in FUNCTIONAL below. Keeping them separate avoids one INCI name resolving to two ratings.
+ ("Tocopherol",2,"Active",["tocopherol","vitamin e"]),
  ("Benzoyl Peroxide",0,"Active",["benzoyl peroxide"]),
  ("Adapalene",0,"Active",["adapalene"]),
  ("Zinc Oxide",1,"Sunscreen",["zinc oxide"]),
@@ -295,6 +297,13 @@ FUNCTIONAL = [
  "Sodium Silicate","Polymethylsilsesquioxane","Nylon-12","Polyethylene","HDI/Trimethylol Hexyllactone Crosspolymer",
 ]
 
+def norm_alias(s):
+    """Mirror of the JS normalize(): aliases are stored pre-normalized so every
+    alias is actually reachable at lookup time (e.g. 'St. Johns Wort' -> 'st johns wort')."""
+    s = re.sub(r"\([^)]*\)", " ", s.lower())
+    s = re.sub(r"[^a-z0-9&/\-\s]", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
 def aliases_for(name):
     a = {name.lower()}
     # strip trailing descriptors that don't change identity
@@ -305,7 +314,8 @@ entries = {}
 def add(name, r, cat, al):
     key = name
     if key in entries: return
-    entries[key] = {"n": name, "r": r, "c": cat, "a": sorted(set(a.lower() for a in al))}
+    entries[key] = {"n": name, "r": r, "c": cat,
+                    "a": sorted({norm_alias(a) for a in al if norm_alias(a)})}
 
 for name, r, cat, al in CORE:
     add(name, r, cat, al)
@@ -313,6 +323,16 @@ for name in EXTRACTS:
     add(name, 0, "Botanical extract", aliases_for(name))
 for name in FUNCTIONAL:
     add(name, 0, "Functional", aliases_for(name))
+
+# Build-time integrity check: no alias may resolve to two different entries.
+# (Would have caught the tocopheryl-acetate and hexadecyl-alcohol contradictions.)
+_alias_owner = {}
+for e in entries.values():
+    for a in e["a"]:
+        if a in _alias_owner and _alias_owner[a] != e["n"]:
+            raise SystemExit(
+                f"FATAL: alias '{a}' maps to both '{_alias_owner[a]}' and '{e['n']}' — fix the data.")
+        _alias_owner[a] = e["n"]
 
 def slugify(n):
     return re.sub(r'[^a-z0-9]+', '-', n.lower()).strip('-')
@@ -343,15 +363,18 @@ db_json = "[\n" + ",\n".join("  " + json.dumps(e, ensure_ascii=False) for e in D
 json.dump(DB, open("db.json", "w"), ensure_ascii=False)
 
 ENGINE = r'''
-const lookup = {};
+const lookup = Object.create(null); // null prototype: user input like "constructor" can't hit Object.prototype
 DB.forEach(item => item.a.forEach(al => lookup[al] = item));
 function normalize(s){return s.toLowerCase().replace(/\([^)]*\)/g,' ').replace(/[^a-z0-9&/\-\s]/g,' ').replace(/\s+/g,' ').trim();}
 function parseList(raw){return raw.split(/[,;\n•·]+/).map(x=>x.trim()).filter(Boolean);}
 function match(token){
   const norm = normalize(token);
   if(lookup[norm]) return lookup[norm];
-  for(const al in lookup){ if(norm === al) return lookup[al]; }
-  for(const al in lookup){ if(al.length>5 && norm.includes(al)) return lookup[al]; }
+  // Fallback: alias must appear as a whole-word SUFFIX of the token. INCI names put the
+  // chemical head-noun last ("cocos nucifera coconut oil" -> "coconut oil"), so this keeps
+  // botanical-name recall without the old substring false-positives ("sucrose stearate"
+  // must NOT match "sucrose"; "lysolecithin" must NOT match "lecithin").
+  for(const al in lookup){ if(al.length>5 && norm.length>al.length && norm.endsWith(' '+al)) return lookup[al]; }
   return null;
 }
 function pill(r){
@@ -409,7 +432,7 @@ function checkFungal(){
 }
 function renderTable(){ const tb = document.getElementById('dbtable'); if(!tb) return;
   const rows = DB.slice().sort((a,b)=> b.r-a.r || a.n.localeCompare(b.n));
-  tb.innerHTML = rows.map(m=>'<tr data-name="'+m.n.toLowerCase()+'"><td><a href="/ingredient/'+m.s+'.html">'+m.n+'</a></td><td>'+m.c+'</td><td>'+pill(m.r)+'</td></tr>').join('');
+  tb.innerHTML = rows.map(m=>'<tr data-name="'+escapeHtml(m.n.toLowerCase())+'"><td><a href="/ingredient/'+m.s+'.html">'+escapeHtml(m.n)+'</a></td><td>'+escapeHtml(m.c)+'</td><td>'+pill(m.r)+'</td></tr>').join('');
   const c=document.getElementById('count'); if(c) c.textContent = DB.length; }
 function filterTable(){ const q = document.getElementById('dbsearch').value.toLowerCase();
   document.querySelectorAll('#dbtable tr').forEach(tr=>{ tr.style.display = tr.getAttribute('data-name').includes(q) ? '' : 'none'; }); }
@@ -422,14 +445,14 @@ with open("checker.js","w") as f:
 print("DB entries:", len(DB))
 
 # Server-render the ingredient table into the list page so crawlers/AI see content without JS
-import re as _re
+import re as _re, html as _html
 def _pill(r):
     if r>=3: return f'<span class="pill bad">Clogging risk · {r}/5</span>'
     if r>=1: return f'<span class="pill low">Low risk · {r}/5</span>'
     return '<span class="pill safe">Acne safe · 0/5</span>'
 _rows = sorted(DB, key=lambda x: (-x["r"], x["n"]))
 _rows_html = "".join(
-    f'<tr data-name="{e["n"].lower()}"><td><a href="/ingredient/{e["s"]}.html">{e["n"]}</a></td><td>{e["c"]}</td><td>{_pill(e["r"])}</td></tr>'
+    f'<tr data-name="{_html.escape(e["n"].lower(), quote=True)}"><td><a href="/ingredient/{e["s"]}.html">{_html.escape(e["n"])}</a></td><td>{_html.escape(e["c"])}</td><td>{_pill(e["r"])}</td></tr>'
     for e in _rows
 )
 _p = "comedogenic-ingredients-list.html"

@@ -5,10 +5,16 @@ BRAND=(224,101,79); CREAM=(251,247,244); INK=(36,31,28); WHITE=(255,255,255)
 
 def font(sz, bold=True):
     paths=["/System/Library/Fonts/Supplemental/Arial Bold.ttf" if bold else "/System/Library/Fonts/Supplemental/Arial.ttf",
-           "/System/Library/Fonts/Helvetica.ttc","/Library/Fonts/Arial.ttf"]
+           "/System/Library/Fonts/Helvetica.ttc","/Library/Fonts/Arial.ttf",
+           # Linux/CI fallbacks so images don't silently render with a tiny bitmap font
+           "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+           "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"]
     for p in paths:
         try: return ImageFont.truetype(p, sz)
         except Exception: pass
+    import sys
+    print("WARNING: no TrueType font found — falling back to a tiny bitmap font; "
+          "generated images will look broken. Install DejaVu/Liberation fonts.", file=sys.stderr)
     return ImageFont.load_default()
 
 def logo_dot(size, pad_ratio=0.0, bg=None):

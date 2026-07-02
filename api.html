@@ -50,6 +50,7 @@
   "result": {
     "name": "Coconut Oil", "rating": 4, "category": "Oil",
     "poreClogging": true, "fungalAcneTrigger": true,
+    "match": "exact",
     "slug": "coconut-oil",
     "url": "https://acnesafecheck.com/ingredient/coconut-oil.html"
   }
@@ -59,12 +60,15 @@
     <pre><code>GET https://acnesafecheck.com/api/check?ingredients=water,glycerin,coconut oil,niacinamide</code></pre>
     <pre><code>{
   "summary": { "total": 4, "matched": 4, "poreClogging": 1, "fungalAcneTriggers": 1 },
-  "results": [ { "input": "water", "name": "Water", "rating": 0, ... }, ... ]
+  "results": [ { "input": "water", "result": { "name": "Water", "rating": 0, "match": "exact", ... } },
+               { "input": "some unknown ingredient", "result": null }, ... ]
 }</code></pre>
 
     <h2>Notes</h2>
     <ul>
       <li>CORS is enabled — call it directly from the browser.</li>
+      <li><code>result</code> is <code>null</code> when an ingredient isn't in the database. <code>match</code> is <code>"exact"</code> for a direct alias hit or <code>"partial"</code> when we matched the trailing INCI name inside a longer token (e.g. "cocos nucifera coconut oil" → Coconut Oil).</li>
+      <li>Limits: max 200 ingredients / 20,000 characters per request.</li>
       <li>Responses are cached at the edge; no API key required for normal use.</li>
       <li>Ratings are general guidance compiled from published references, not medical advice. Please attribute <a href="/">acnesafecheck.com</a>.</li>
     </ul>

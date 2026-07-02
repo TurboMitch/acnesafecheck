@@ -70,7 +70,7 @@ function acsWait(e){e.preventDefault();var f=e.target,email=f.email.value,m=docu
   fetch("/api/subscribe",{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,list:'premium-waitlist'})})
     .then(r=>r.json()).then(d=>{
       if(d.ok){m.textContent="You're on the waitlist — thanks!";f.reset();}
-      else if(d.configured===false){m.textContent="You're on the list! You'll be added as soon as the waitlist goes live.";f.reset();}
+      else if(d.configured===false){m.textContent="The waitlist isn't live just yet — please check back soon.";}
       else{m.textContent="Hmm, that didn't work — please try again.";}})
     .catch(()=>{m.textContent="Something went wrong, please try again.";});
   return false;}

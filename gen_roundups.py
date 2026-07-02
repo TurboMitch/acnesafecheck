@@ -6,13 +6,17 @@ from urllib.parse import quote_plus
 os.makedirs("non-comedogenic", exist_ok=True)
 VER = '29b2213b058b3dbbe63b2ad069034fd4e718ab8b42f4f8d54431f17296323eb9'
 AN = 'dTgyD+bV2xvop4os/0GghQ'
+from content_date import CONTENT_UPDATED, CONTENT_UPDATED_HUMAN
 PUBLISHED = "2026-06-18"
-MODIFIED = datetime.date.today().isoformat()
-MOD_HUMAN = datetime.date.today().strftime("%B %Y")
-AMZ_TAG = "acnesafecheck-20"   # TODO: replace with the real Amazon Associates tag once approved
+MODIFIED = CONTENT_UPDATED
+MOD_HUMAN = CONTENT_UPDATED_HUMAN
+# Amazon Associates tag. Leave EMPTY until the Associates account is approved —
+# shipping an unregistered tag mis-attributes and breaches Amazon's Operating Agreement.
+AMZ_TAG = ""
 
 def amz(q):
-    return f"https://www.amazon.com/s?k={quote_plus(q)}&tag={AMZ_TAG}"
+    base = f"https://www.amazon.com/s?k={quote_plus(q)}"
+    return f"{base}&tag={AMZ_TAG}" if AMZ_TAG else base
 
 # Each: slug, type label, H1, vol-intent intro, secondary terms, avoid list, lookfor list, picks[(name, blurb, query)]
 PAGES = [
@@ -105,12 +109,24 @@ PAGES = [
    ("The Inkey List Salicylic Acid Scalp Treatment","Targets scalp build-up that can clog the hairline.","The Inkey List salicylic acid scalp treatment")]),
 ]
 
-def pill_safe(): return '<span class="pill safe">Acne safe</span>'
+def pill_safe(): return '<span class="pill safe">Screened pick</span>'
 def pill_bad(): return '<span class="pill bad">Avoid</span>'
 
+# Resolve ingredient display names to REAL db.json slugs (by name, then by alias).
+# Slugifying display names produced dead links (e.g. "Flaxseed Oil" -> /ingredient/flaxseed-oil.html
+# while the actual slug is linseed-flaxseed-oil). Unknown names now fail the build.
+_DB = json.load(open("db.json", encoding="utf-8"))
+_slug_by_key = {}
+for _e in _DB:
+    _slug_by_key[_e["n"].lower()] = _e["s"]
+    for _a in _e["a"]:
+        _slug_by_key.setdefault(_a, _e["s"])
+
 def slug_for_ing(n):
-    import re
-    return re.sub(r'[^a-z0-9]+','-',n.lower()).strip('-')
+    key = n.lower().strip()
+    if key not in _slug_by_key:
+        raise SystemExit(f"FATAL: ingredient '{n}' not found in db.json (name or alias) — fix PAGES.")
+    return _slug_by_key[key]
 
 NEWSLETTER = """
   <section class="card" style="background:#fff7f4;border-color:#f3d8cf">
@@ -127,7 +143,7 @@ NEWSLETTER = """
     fetch("/api/subscribe",{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,list:'newsletter'})})
       .then(r=>r.json()).then(d=>{
         if(d.ok){m.textContent="You're in — thanks for subscribing!";f.reset();}
-        else if(d.configured===false){m.textContent="Thanks! You'll be added as soon as the newsletter goes live.";f.reset();}
+        else if(d.configured===false){m.textContent="Signups aren't live just yet — please check back soon.";}
         else{m.textContent="Hmm, that didn't work — please try again.";}})
       .catch(()=>{m.textContent="Something went wrong, please try again.";});
     return false;}
@@ -210,6 +226,12 @@ TPL = """<!DOCTYPE html>
 
 def esc(s): return html.escape(s, quote=True)
 
+def singular(typ):
+    """Grammatical phrase for 'check a/an <thing>' ('oils' -> 'a face oil', not 'a oils')."""
+    special = {"oils": "a face oil", "hair products": "a hair product"}
+    if typ in special: return special[typ]
+    return ("an " if typ[0] in "aeiou" else "a ") + typ
+
 def build_jsonld(slug, typ, h1_plain, intro, picks):
     url = f"https://acnesafecheck.com/non-comedogenic/{slug}.html"
     graph = [
@@ -233,7 +255,7 @@ def build_jsonld(slug, typ, h1_plain, intro, picks):
         {"@type": "FAQPage", "@id": url + "#faq", "mainEntity": [
             {"@type": "Question", "name": "Does \"non-comedogenic\" actually mean anything?",
              "acceptedAnswer": {"@type": "Answer", "text": "It usually means rated 0 on the comedogenic scale, but it isn't a regulated term — a product can be labelled non-comedogenic and still contain a pore-clogger. That's why we check the real ingredient list."}},
-            {"@type": "Question", "name": f"How do I check a {typ} for pore-clogging ingredients?",
+            {"@type": "Question", "name": f"How do I check {singular(typ)} for pore-clogging ingredients?",
              "acceptedAnswer": {"@type": "Answer", "text": "Paste the ingredient list into the AcneSafeCheck comedogenic ingredient checker at https://acnesafecheck.com/comedogenic-ingredient-checker.html — it flags every pore-clogging ingredient and ranks it 0–5 on the comedogenicity scale."}}]},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://acnesafecheck.com/"},

@@ -2,7 +2,6 @@
 const DB = [
   {"n": "Algae Extract", "r": 5, "c": "Marine", "a": ["algae", "algae extract"], "s": "algae-extract", "fa": false},
   {"n": "Carrageenan", "r": 5, "c": "Thickener", "a": ["carrageenan", "chondrus crispus"], "s": "carrageenan", "fa": false},
-  {"n": "Hexadecyl Alcohol", "r": 5, "c": "Fatty alcohol", "a": ["hexadecyl alcohol"], "s": "hexadecyl-alcohol", "fa": true},
   {"n": "Isocetyl Stearate", "r": 5, "c": "Ester", "a": ["isocetyl stearate"], "s": "isocetyl-stearate", "fa": true},
   {"n": "Isopropyl Isostearate", "r": 5, "c": "Ester", "a": ["isopropyl isostearate"], "s": "isopropyl-isostearate", "fa": true},
   {"n": "Isopropyl Linoleate", "r": 5, "c": "Ester", "a": ["isopropyl linoleate"], "s": "isopropyl-linoleate", "fa": true},
@@ -65,7 +64,7 @@ const DB = [
   {"n": "Borage Oil", "r": 2, "c": "Oil", "a": ["borage oil", "borago officinalis seed oil"], "s": "borage-oil", "fa": true},
   {"n": "Ceteareth-25", "r": 2, "c": "Emulsifier", "a": ["ceteareth-25"], "s": "ceteareth-25", "fa": true},
   {"n": "Cetearyl Alcohol", "r": 2, "c": "Fatty alcohol", "a": ["cetearyl alcohol"], "s": "cetearyl-alcohol", "fa": true},
-  {"n": "Cetyl Alcohol", "r": 2, "c": "Fatty alcohol", "a": ["cetyl alcohol"], "s": "cetyl-alcohol", "fa": true},
+  {"n": "Cetyl Alcohol", "r": 2, "c": "Fatty alcohol", "a": ["1-hexadecanol", "cetyl alcohol", "hexadecyl alcohol"], "s": "cetyl-alcohol", "fa": true},
   {"n": "D&C Red 27", "r": 2, "c": "Colorant", "a": ["d&c red 27", "red 27"], "s": "d-c-red-27", "fa": false},
   {"n": "D&C Red 33", "r": 2, "c": "Colorant", "a": ["d&c red 33", "red 33"], "s": "d-c-red-33", "fa": false},
   {"n": "Evening Primrose Oil", "r": 2, "c": "Oil", "a": ["evening primrose oil", "oenothera biennis oil"], "s": "evening-primrose-oil", "fa": true},
@@ -87,7 +86,7 @@ const DB = [
   {"n": "Sweet Almond Oil", "r": 2, "c": "Oil", "a": ["almond oil", "prunus amygdalus dulcis oil", "sweet almond oil"], "s": "sweet-almond-oil", "fa": true},
   {"n": "Tamanu Oil", "r": 2, "c": "Oil", "a": ["calophyllum inophyllum seed oil", "tamanu oil"], "s": "tamanu-oil", "fa": true},
   {"n": "Tetrahexyldecyl Ascorbate", "r": 2, "c": "Active", "a": ["tetrahexyldecyl ascorbate"], "s": "tetrahexyldecyl-ascorbate", "fa": false},
-  {"n": "Tocopherol", "r": 2, "c": "Active", "a": ["tocopherol", "tocopheryl acetate", "vitamin e"], "s": "tocopherol", "fa": true},
+  {"n": "Tocopherol", "r": 2, "c": "Active", "a": ["tocopherol", "vitamin e"], "s": "tocopherol", "fa": true},
   {"n": "Wheat Bran Lipids", "r": 2, "c": "Oil", "a": ["wheat bran lipids"], "s": "wheat-bran-lipids", "fa": true},
   {"n": "Amodimethicone", "r": 1, "c": "Silicone", "a": ["amodimethicone"], "s": "amodimethicone", "fa": false},
   {"n": "Behenyl Alcohol", "r": 1, "c": "Fatty alcohol", "a": ["behenyl alcohol"], "s": "behenyl-alcohol", "fa": true},
@@ -143,7 +142,7 @@ const DB = [
   {"n": "Adapalene", "r": 0, "c": "Active", "a": ["adapalene"], "s": "adapalene", "fa": false},
   {"n": "Adenosine", "r": 0, "c": "Functional", "a": ["adenosine"], "s": "adenosine", "fa": false},
   {"n": "Agar", "r": 0, "c": "Functional", "a": ["agar"], "s": "agar", "fa": false},
-  {"n": "Alcohol Denat.", "r": 0, "c": "Solvent", "a": ["alcohol denat", "alcohol denat.", "denatured alcohol"], "s": "alcohol-denat", "fa": false},
+  {"n": "Alcohol Denat.", "r": 0, "c": "Solvent", "a": ["alcohol denat", "denatured alcohol"], "s": "alcohol-denat", "fa": false},
   {"n": "Allantoin", "r": 0, "c": "Soothing", "a": ["allantoin"], "s": "allantoin", "fa": false},
   {"n": "Allantoin Extract", "r": 0, "c": "Botanical extract", "a": ["allantoin extract"], "s": "allantoin-extract", "fa": false},
   {"n": "Allium Cepa Extract", "r": 0, "c": "Botanical extract", "a": ["allium cepa extract"], "s": "allium-cepa-extract", "fa": false},
@@ -517,7 +516,7 @@ const DB = [
   {"n": "Spearmint Leaf Extract", "r": 0, "c": "Botanical extract", "a": ["spearmint leaf extract"], "s": "spearmint-leaf-extract", "fa": false},
   {"n": "Spinach Extract", "r": 0, "c": "Botanical extract", "a": ["spinach extract"], "s": "spinach-extract", "fa": false},
   {"n": "Spirulina Extract", "r": 0, "c": "Botanical extract", "a": ["spirulina extract"], "s": "spirulina-extract", "fa": false},
-  {"n": "St. Johns Wort Extract", "r": 0, "c": "Botanical extract", "a": ["st. johns wort extract"], "s": "st-johns-wort-extract", "fa": false},
+  {"n": "St. Johns Wort Extract", "r": 0, "c": "Botanical extract", "a": ["st johns wort extract"], "s": "st-johns-wort-extract", "fa": false},
   {"n": "Strawberry Extract", "r": 0, "c": "Botanical extract", "a": ["strawberry extract"], "s": "strawberry-extract", "fa": false},
   {"n": "Sucrose", "r": 0, "c": "Functional", "a": ["sucrose"], "s": "sucrose", "fa": false},
   {"n": "Sunflower Oil", "r": 0, "c": "Oil", "a": ["helianthus annuus seed oil", "sunflower oil"], "s": "sunflower-oil", "fa": true},
@@ -562,15 +561,18 @@ const DB = [
   {"n": "p-Anisic Acid", "r": 0, "c": "Functional", "a": ["p-anisic acid"], "s": "p-anisic-acid", "fa": false}
 ];
 
-const lookup = {};
+const lookup = Object.create(null); // null prototype: user input like "constructor" can't hit Object.prototype
 DB.forEach(item => item.a.forEach(al => lookup[al] = item));
 function normalize(s){return s.toLowerCase().replace(/\([^)]*\)/g,' ').replace(/[^a-z0-9&/\-\s]/g,' ').replace(/\s+/g,' ').trim();}
 function parseList(raw){return raw.split(/[,;\n•·]+/).map(x=>x.trim()).filter(Boolean);}
 function match(token){
   const norm = normalize(token);
   if(lookup[norm]) return lookup[norm];
-  for(const al in lookup){ if(norm === al) return lookup[al]; }
-  for(const al in lookup){ if(al.length>5 && norm.includes(al)) return lookup[al]; }
+  // Fallback: alias must appear as a whole-word SUFFIX of the token. INCI names put the
+  // chemical head-noun last ("cocos nucifera coconut oil" -> "coconut oil"), so this keeps
+  // botanical-name recall without the old substring false-positives ("sucrose stearate"
+  // must NOT match "sucrose"; "lysolecithin" must NOT match "lecithin").
+  for(const al in lookup){ if(al.length>5 && norm.length>al.length && norm.endsWith(' '+al)) return lookup[al]; }
   return null;
 }
 function pill(r){
@@ -628,7 +630,7 @@ function checkFungal(){
 }
 function renderTable(){ const tb = document.getElementById('dbtable'); if(!tb) return;
   const rows = DB.slice().sort((a,b)=> b.r-a.r || a.n.localeCompare(b.n));
-  tb.innerHTML = rows.map(m=>'<tr data-name="'+m.n.toLowerCase()+'"><td><a href="/ingredient/'+m.s+'.html">'+m.n+'</a></td><td>'+m.c+'</td><td>'+pill(m.r)+'</td></tr>').join('');
+  tb.innerHTML = rows.map(m=>'<tr data-name="'+escapeHtml(m.n.toLowerCase())+'"><td><a href="/ingredient/'+m.s+'.html">'+escapeHtml(m.n)+'</a></td><td>'+escapeHtml(m.c)+'</td><td>'+pill(m.r)+'</td></tr>').join('');
   const c=document.getElementById('count'); if(c) c.textContent = DB.length; }
 function filterTable(){ const q = document.getElementById('dbsearch').value.toLowerCase();
   document.querySelectorAll('#dbtable tr').forEach(tr=>{ tr.style.display = tr.getAttribute('data-name').includes(q) ? '' : 'none'; }); }
