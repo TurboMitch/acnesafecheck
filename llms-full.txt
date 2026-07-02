@@ -1,0 +1,572 @@
+# AcneSafeCheck — full comedogenic ingredient database
+
+> The complete AcneSafeCheck database: 559 cosmetic ingredients, each with a comedogenicity
+> rating (0 = non-comedogenic / acne safe … 5 = highly pore-clogging) and a fungal-acne
+> (Malassezia) trigger flag. Compiled from published comedogenicity references (Fulton et al.
+> 1984, PMID 6229554; Draelos & DiNardo 2006, PMID 16488305; AAD guidance). A rating reflects
+> an ingredient's potential at high concentration, not a verdict on any finished formula.
+> Licence: CC BY 4.0 — cite acnesafecheck.com. Machine-readable: https://acnesafecheck.com/data/acnesafecheck-ingredients.json and .csv. Docs: https://acnesafecheck.com/data.html
+
+Last updated: 2026-07-02
+
+Format: Name | rating/5 | category | fungal-acne trigger yes/no | detail page
+
+Acai Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/acai-extract.html
+Acetyl Glucosamine | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/acetyl-glucosamine.html
+Acetyl Hexapeptide-8 | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/acetyl-hexapeptide-8.html
+Acetylated Lanolin | 4/5 | Occlusive | FA-trigger: no | https://acnesafecheck.com/ingredient/acetylated-lanolin.html
+Acetylated Lanolin Alcohol | 4/5 | Occlusive | FA-trigger: no | https://acnesafecheck.com/ingredient/acetylated-lanolin-alcohol.html
+Acrylates/C10-30 Alkyl Acrylate Crosspolymer | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/acrylates-c10-30-alkyl-acrylate-crosspolymer.html
+Adansonia Digitata Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/adansonia-digitata-extract.html
+Adapalene | 0/5 | Active | FA-trigger: no | https://acnesafecheck.com/ingredient/adapalene.html
+Adenosine | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/adenosine.html
+Agar | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/agar.html
+Alcohol Denat. | 0/5 | Solvent | FA-trigger: no | https://acnesafecheck.com/ingredient/alcohol-denat.html
+Algae Extract | 5/5 | Marine | FA-trigger: no | https://acnesafecheck.com/ingredient/algae-extract.html
+Algin | 4/5 | Thickener | FA-trigger: no | https://acnesafecheck.com/ingredient/algin.html
+Allantoin | 0/5 | Soothing | FA-trigger: no | https://acnesafecheck.com/ingredient/allantoin.html
+Allantoin Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/allantoin-extract.html
+Allium Cepa Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/allium-cepa-extract.html
+Aloe Barbadensis Leaf Juice | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/aloe-barbadensis-leaf-juice.html
+Aloe Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/aloe-extract.html
+Aloe Ferox Leaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/aloe-ferox-leaf-extract.html
+Aloe Juice Powder | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/aloe-juice-powder.html
+Aloe Powder | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/aloe-powder.html
+Aloe Vera | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/aloe-vera.html
+Alpha Lipoic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/alpha-lipoic-acid.html
+Alpha-Arbutin | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/alpha-arbutin.html
+Aluminum Starch Octenylsuccinate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/aluminum-starch-octenylsuccinate.html
+Aminomethyl Propanol | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/aminomethyl-propanol.html
+Amla Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/amla-extract.html
+Ammonium Lactate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/ammonium-lactate.html
+Amodimethicone | 1/5 | Silicone | FA-trigger: no | https://acnesafecheck.com/ingredient/amodimethicone.html
+Anisic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/anisic-acid.html
+Apple Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/apple-extract.html
+Apricot Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/apricot-extract.html
+Apricot Kernel Oil | 2/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/apricot-kernel-oil.html
+Arbutin | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/arbutin.html
+Argan Oil | 0/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/argan-oil.html
+Argireline | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/argireline.html
+Arnica Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/arnica-extract.html
+Arnica Montana Flower Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/arnica-montana-flower-extract.html
+Artemisia Vulgaris Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/artemisia-vulgaris-extract.html
+Artichoke Leaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/artichoke-leaf-extract.html
+Ascorbic Acid | 0/5 | Active | FA-trigger: no | https://acnesafecheck.com/ingredient/ascorbic-acid.html
+Ascorbyl Glucoside | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/ascorbyl-glucoside.html
+Ascorbyl Palmitate | 0/5 | Functional | FA-trigger: yes | https://acnesafecheck.com/ingredient/ascorbyl-palmitate.html
+Ashwagandha Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/ashwagandha-extract.html
+Asiaticoside | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/asiaticoside.html
+Asparagus Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/asparagus-extract.html
+Avena Sativa Kernel Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/avena-sativa-kernel-extract.html
+Avobenzone | 0/5 | Sunscreen | FA-trigger: no | https://acnesafecheck.com/ingredient/avobenzone.html
+Avocado Oil | 3/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/avocado-oil.html
+Azadirachta Indica Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/azadirachta-indica-extract.html
+Azelaic Acid | 0/5 | Active | FA-trigger: no | https://acnesafecheck.com/ingredient/azelaic-acid.html
+Bakuchiol | 0/5 | Active | FA-trigger: no | https://acnesafecheck.com/ingredient/bakuchiol.html
+Bamboo Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/bamboo-extract.html
+Bambusa Vulgaris Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/bambusa-vulgaris-extract.html
+Banana Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/banana-extract.html
+Baobab Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/baobab-extract.html
+Barley Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/barley-extract.html
+Basil Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/basil-extract.html
+Beeswax | 2/5 | Wax | FA-trigger: no | https://acnesafecheck.com/ingredient/beeswax.html
+Beetroot Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/beetroot-extract.html
+Behenyl Alcohol | 1/5 | Fatty alcohol | FA-trigger: yes | https://acnesafecheck.com/ingredient/behenyl-alcohol.html
+Bentonite | 0/5 | Clay | FA-trigger: no | https://acnesafecheck.com/ingredient/bentonite.html
+Benzoyl Peroxide | 0/5 | Active | FA-trigger: no | https://acnesafecheck.com/ingredient/benzoyl-peroxide.html
+Benzyl Alcohol | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/benzyl-alcohol.html
+Bergamot Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/bergamot-extract.html
+Beta-Glucan | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/beta-glucan.html
+Betaine | 0/5 | Humectant | FA-trigger: no | https://acnesafecheck.com/ingredient/betaine.html
+BHA Preservative | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/bha-preservative.html
+BHT | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/bht.html
+Bifida Ferment Lysate | 0/5 | Botanical extract | FA-trigger: yes | https://acnesafecheck.com/ingredient/bifida-ferment-lysate.html
+Bilberry Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/bilberry-extract.html
+Biotin | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/biotin.html
+Birch Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/birch-extract.html
+Black Tea Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/black-tea-extract.html
+Blackberry Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/blackberry-extract.html
+Blueberry Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/blueberry-extract.html
+Borage Oil | 2/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/borage-oil.html
+Boron Nitride | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/boron-nitride.html
+Boswellia Serrata Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/boswellia-serrata-extract.html
+Brahmi Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/brahmi-extract.html
+Broccoli Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/broccoli-extract.html
+Burdock Root Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/burdock-root-extract.html
+Butyl Stearate | 3/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/butyl-stearate.html
+Butylene Glycol | 0/5 | Humectant | FA-trigger: no | https://acnesafecheck.com/ingredient/butylene-glycol.html
+Cabbage Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cabbage-extract.html
+Cactus Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cactus-extract.html
+Caffeine | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/caffeine.html
+Calcium Carbonate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/calcium-carbonate.html
+Calcium Chloride | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/calcium-chloride.html
+Calcium Pantothenate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/calcium-pantothenate.html
+Calendula Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/calendula-extract.html
+Calendula Officinalis Flower Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/calendula-officinalis-flower-extract.html
+Camellia / Tsubaki Oil | 1/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/camellia-tsubaki-oil.html
+Camellia Japonica Leaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/camellia-japonica-leaf-extract.html
+Camellia Sinensis Leaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/camellia-sinensis-leaf-extract.html
+Candelilla Wax | 1/5 | Wax | FA-trigger: no | https://acnesafecheck.com/ingredient/candelilla-wax.html
+Caprylhydroxamic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/caprylhydroxamic-acid.html
+Caprylic/Capric Triglyceride | 1/5 | Ester | FA-trigger: no | https://acnesafecheck.com/ingredient/caprylic-capric-triglyceride.html
+Caprylyl Glycol | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/caprylyl-glycol.html
+Carbomer | 0/5 | Thickener | FA-trigger: no | https://acnesafecheck.com/ingredient/carbomer.html
+Cardamom Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cardamom-extract.html
+Carica Papaya Fruit Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/carica-papaya-fruit-extract.html
+Carnauba Wax | 1/5 | Wax | FA-trigger: no | https://acnesafecheck.com/ingredient/carnauba-wax.html
+Carnosine | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/carnosine.html
+Carrageenan | 5/5 | Thickener | FA-trigger: no | https://acnesafecheck.com/ingredient/carrageenan.html
+Carrot Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/carrot-extract.html
+Castor Oil | 1/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/castor-oil.html
+Cedarwood Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cedarwood-extract.html
+Celery Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/celery-extract.html
+Cellulose Gum | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/cellulose-gum.html
+Centaurea Cyanus Flower Water | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/centaurea-cyanus-flower-water.html
+Centella Asiatica Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/centella-asiatica-extract.html
+Ceteareth-20 | 4/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/ceteareth-20.html
+Ceteareth-25 | 2/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/ceteareth-25.html
+Cetearyl Alcohol | 2/5 | Fatty alcohol | FA-trigger: yes | https://acnesafecheck.com/ingredient/cetearyl-alcohol.html
+Cetearyl Ethylhexanoate | 1/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/cetearyl-ethylhexanoate.html
+Cetearyl Glucoside | 0/5 | Emulsifier | FA-trigger: no | https://acnesafecheck.com/ingredient/cetearyl-glucoside.html
+Cetyl Acetate | 3/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/cetyl-acetate.html
+Cetyl Alcohol | 2/5 | Fatty alcohol | FA-trigger: yes | https://acnesafecheck.com/ingredient/cetyl-alcohol.html
+Cha de Bugre Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cha-de-bugre-extract.html
+Chamomile Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/chamomile-extract.html
+Chamomilla Recutita Flower Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/chamomilla-recutita-flower-extract.html
+Charcoal | 0/5 | Misc | FA-trigger: no | https://acnesafecheck.com/ingredient/charcoal.html
+Chickweed Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/chickweed-extract.html
+Chlorella Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/chlorella-extract.html
+Chlorphenesin | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/chlorphenesin.html
+Cica | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cica.html
+Cilantro Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cilantro-extract.html
+Cinnamon Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cinnamon-extract.html
+Citric Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/citric-acid.html
+Citrus Limon Peel Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/citrus-limon-peel-extract.html
+Cleavers Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cleavers-extract.html
+Clove Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/clove-extract.html
+Cocamidopropyl Betaine | 1/5 | Surfactant | FA-trigger: no | https://acnesafecheck.com/ingredient/cocamidopropyl-betaine.html
+Coco-Caprylate | 1/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/coco-caprylate.html
+Coco-Glucoside | 0/5 | Surfactant | FA-trigger: no | https://acnesafecheck.com/ingredient/coco-glucoside.html
+Cocoa Butter | 4/5 | Butter | FA-trigger: yes | https://acnesafecheck.com/ingredient/cocoa-butter.html
+Cocoa Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cocoa-extract.html
+Coconut Alkanes | 3/5 | Oil | FA-trigger: no | https://acnesafecheck.com/ingredient/coconut-alkanes.html
+Coconut Butter | 4/5 | Butter | FA-trigger: yes | https://acnesafecheck.com/ingredient/coconut-butter.html
+Coconut Oil | 4/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/coconut-oil.html
+Coenzyme Q10 | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/coenzyme-q10.html
+Coffea Arabica Seed Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/coffea-arabica-seed-extract.html
+Coffee Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/coffee-extract.html
+Collagen | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/collagen.html
+Colloidal Oatmeal | 0/5 | Soothing | FA-trigger: no | https://acnesafecheck.com/ingredient/colloidal-oatmeal.html
+Comfrey Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/comfrey-extract.html
+Copper PCA | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/copper-pca.html
+Copper Tripeptide-1 | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/copper-tripeptide-1.html
+Corn Oil | 3/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/corn-oil.html
+Corn Starch | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/corn-starch.html
+Cornflower Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cornflower-extract.html
+Cotton Seed Oil | 3/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/cotton-seed-oil.html
+Cranberry Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cranberry-extract.html
+Cucumber Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cucumber-extract.html
+Cucumis Sativus Fruit Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cucumis-sativus-fruit-extract.html
+Cucurbita Pepo Seed Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/cucurbita-pepo-seed-extract.html
+Cupuacu Butter | 1/5 | Butter | FA-trigger: yes | https://acnesafecheck.com/ingredient/cupuacu-butter.html
+Curcuma Longa Root Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/curcuma-longa-root-extract.html
+Cyanocobalamin | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/cyanocobalamin.html
+Cyclodextrin | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/cyclodextrin.html
+Cyclohexasiloxane | 0/5 | Silicone | FA-trigger: no | https://acnesafecheck.com/ingredient/cyclohexasiloxane.html
+Cyclomethicone | 0/5 | Silicone | FA-trigger: no | https://acnesafecheck.com/ingredient/cyclomethicone.html
+Cyclopentasiloxane | 0/5 | Silicone | FA-trigger: no | https://acnesafecheck.com/ingredient/cyclopentasiloxane.html
+D&C Red 17 | 3/5 | Colorant | FA-trigger: no | https://acnesafecheck.com/ingredient/d-c-red-17.html
+D&C Red 21 | 3/5 | Colorant | FA-trigger: no | https://acnesafecheck.com/ingredient/d-c-red-21.html
+D&C Red 27 | 2/5 | Colorant | FA-trigger: no | https://acnesafecheck.com/ingredient/d-c-red-27.html
+D&C Red 30 | 3/5 | Colorant | FA-trigger: no | https://acnesafecheck.com/ingredient/d-c-red-30.html
+D&C Red 33 | 2/5 | Colorant | FA-trigger: no | https://acnesafecheck.com/ingredient/d-c-red-33.html
+D&C Red 36 | 3/5 | Colorant | FA-trigger: no | https://acnesafecheck.com/ingredient/d-c-red-36.html
+D&C Red 6 | 3/5 | Colorant | FA-trigger: no | https://acnesafecheck.com/ingredient/d-c-red-6.html
+D&C Red 7 | 3/5 | Colorant | FA-trigger: no | https://acnesafecheck.com/ingredient/d-c-red-7.html
+D&C Red 9 | 3/5 | Colorant | FA-trigger: no | https://acnesafecheck.com/ingredient/d-c-red-9.html
+Daisy Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/daisy-extract.html
+Dandelion Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/dandelion-extract.html
+Date Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/date-extract.html
+Daucus Carota Sativa Root Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/daucus-carota-sativa-root-extract.html
+Decyl Glucoside | 0/5 | Surfactant | FA-trigger: no | https://acnesafecheck.com/ingredient/decyl-glucoside.html
+Decyl Oleate | 3/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/decyl-oleate.html
+Dehydroacetic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/dehydroacetic-acid.html
+Diisopropyl Adipate | 1/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/diisopropyl-adipate.html
+Dill Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/dill-extract.html
+Dimethicone | 1/5 | Silicone | FA-trigger: no | https://acnesafecheck.com/ingredient/dimethicone.html
+Dimethicone Crosspolymer | 1/5 | Silicone | FA-trigger: no | https://acnesafecheck.com/ingredient/dimethicone-crosspolymer.html
+Dipropylene Glycol | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/dipropylene-glycol.html
+Disodium Cocoamphodiacetate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/disodium-cocoamphodiacetate.html
+Disodium EDTA | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/disodium-edta.html
+Echinacea Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/echinacea-extract.html
+Ectoin | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/ectoin.html
+Edelweiss Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/edelweiss-extract.html
+Elastin | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/elastin.html
+Elderflower Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/elderflower-extract.html
+Equisetum Arvense Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/equisetum-arvense-extract.html
+Ergothioneine | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/ergothioneine.html
+Ethanol | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/ethanol.html
+Ethylhexylglycerin | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/ethylhexylglycerin.html
+Eucalyptus Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/eucalyptus-extract.html
+Evening Primrose Oil | 2/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/evening-primrose-oil.html
+Fennel Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/fennel-extract.html
+Fermented Rice Water | 0/5 | Botanical extract | FA-trigger: yes | https://acnesafecheck.com/ingredient/fermented-rice-water.html
+Ferulate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/ferulate.html
+Ferulic Acid | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/ferulic-acid.html
+Fig Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/fig-extract.html
+Folic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/folic-acid.html
+Fragrance | 1/5 | Fragrance | FA-trigger: no | https://acnesafecheck.com/ingredient/fragrance.html
+Frankincense Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/frankincense-extract.html
+Fructose | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/fructose.html
+Galactomyces Ferment Filtrate | 0/5 | Botanical extract | FA-trigger: yes | https://acnesafecheck.com/ingredient/galactomyces-ferment-filtrate.html
+Garlic Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/garlic-extract.html
+Gellan Gum | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/gellan-gum.html
+Ginger Root Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/ginger-root-extract.html
+Ginkgo Biloba Leaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/ginkgo-biloba-leaf-extract.html
+Ginseng Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/ginseng-extract.html
+Gluconolactone | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/gluconolactone.html
+Glucose | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/glucose.html
+Glutathione | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/glutathione.html
+Glycereth-26 | 0/5 | Humectant | FA-trigger: no | https://acnesafecheck.com/ingredient/glycereth-26.html
+Glycerin | 0/5 | Humectant | FA-trigger: no | https://acnesafecheck.com/ingredient/glycerin.html
+Glyceryl Caprylate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/glyceryl-caprylate.html
+Glyceryl Oleate | 2/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/glyceryl-oleate.html
+Glyceryl Stearate | 1/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/glyceryl-stearate.html
+Glyceryl Stearate SE | 3/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/glyceryl-stearate-se.html
+Glyceryl Undecylenate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/glyceryl-undecylenate.html
+Glycine Soja Seed Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/glycine-soja-seed-extract.html
+Glycolic Acid | 0/5 | Active | FA-trigger: no | https://acnesafecheck.com/ingredient/glycolic-acid.html
+Glycyrrhiza Glabra Root Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/glycyrrhiza-glabra-root-extract.html
+Goji Berry Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/goji-berry-extract.html
+Gotu Kola Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/gotu-kola-extract.html
+Grape Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/grape-extract.html
+Grapefruit Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/grapefruit-extract.html
+Grapeseed Oil | 1/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/grapeseed-oil.html
+Green Tea Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/green-tea-extract.html
+Guar Hydroxypropyltrimonium Chloride | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/guar-hydroxypropyltrimonium-chloride.html
+Guarana Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/guarana-extract.html
+Hamamelis Virginiana Water | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/hamamelis-virginiana-water.html
+Hawthorn Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/hawthorn-extract.html
+HDI/Trimethylol Hexyllactone Crosspolymer | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/hdi-trimethylol-hexyllactone-crosspolymer.html
+Heartleaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/heartleaf-extract.html
+Helichrysum Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/helichrysum-extract.html
+Hemp Seed Oil | 0/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/hemp-seed-oil.html
+Hexapeptide-9 | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/hexapeptide-9.html
+Hexylene Glycol | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/hexylene-glycol.html
+Hibiscus Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/hibiscus-extract.html
+Hippophae Rhamnoides Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/hippophae-rhamnoides-extract.html
+Holy Basil Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/holy-basil-extract.html
+Homosalate | 1/5 | Sunscreen | FA-trigger: no | https://acnesafecheck.com/ingredient/homosalate.html
+Honey Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/honey-extract.html
+Hops Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/hops-extract.html
+Horsetail Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/horsetail-extract.html
+Houttuynia Cordata Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/houttuynia-cordata-extract.html
+Hyaluronic Acid | 0/5 | Humectant | FA-trigger: no | https://acnesafecheck.com/ingredient/hyaluronic-acid.html
+Hydrated Silica | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/hydrated-silica.html
+Hydrogenated Castor Oil | 1/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/hydrogenated-castor-oil.html
+Hydrogenated Lecithin | 1/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/hydrogenated-lecithin.html
+Hydrolyzed Collagen | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/hydrolyzed-collagen.html
+Hydrolyzed Hyaluronic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/hydrolyzed-hyaluronic-acid.html
+Hydrolyzed Silk | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/hydrolyzed-silk.html
+Hydrolyzed Wheat Protein | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/hydrolyzed-wheat-protein.html
+Hydroxyethylcellulose | 0/5 | Thickener | FA-trigger: no | https://acnesafecheck.com/ingredient/hydroxyethylcellulose.html
+Hydroxypropyl Cyclodextrin | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/hydroxypropyl-cyclodextrin.html
+Hydroxypropyl Guar | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/hydroxypropyl-guar.html
+Idebenone | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/idebenone.html
+Inositol | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/inositol.html
+Inulin | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/inulin.html
+Iron Oxides | 0/5 | Colorant | FA-trigger: no | https://acnesafecheck.com/ingredient/iron-oxides.html
+Isocetyl Stearate | 5/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/isocetyl-stearate.html
+Isohexadecane | 1/5 | Ester | FA-trigger: no | https://acnesafecheck.com/ingredient/isohexadecane.html
+Isononyl Isononanoate | 1/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/isononyl-isononanoate.html
+Isopentyldiol | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/isopentyldiol.html
+Isopropyl Alcohol | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/isopropyl-alcohol.html
+Isopropyl Isostearate | 5/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/isopropyl-isostearate.html
+Isopropyl Linoleate | 5/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/isopropyl-linoleate.html
+Isopropyl Myristate | 5/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/isopropyl-myristate.html
+Isopropyl Palmitate | 4/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/isopropyl-palmitate.html
+Isostearyl Isostearate | 4/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/isostearyl-isostearate.html
+Isostearyl Neopentanoate | 4/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/isostearyl-neopentanoate.html
+Jasmine Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/jasmine-extract.html
+Jojoba Oil | 2/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/jojoba-oil.html
+Kale Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/kale-extract.html
+Kaolin | 0/5 | Clay | FA-trigger: no | https://acnesafecheck.com/ingredient/kaolin.html
+Keratin | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/keratin.html
+Kojic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/kojic-acid.html
+Kokum Butter | 1/5 | Butter | FA-trigger: yes | https://acnesafecheck.com/ingredient/kokum-butter.html
+Lactic Acid | 0/5 | Active | FA-trigger: no | https://acnesafecheck.com/ingredient/lactic-acid.html
+Lactic Acid Bacteria | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/lactic-acid-bacteria.html
+Lactobacillus Ferment | 0/5 | Botanical extract | FA-trigger: yes | https://acnesafecheck.com/ingredient/lactobacillus-ferment.html
+Lactobionic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/lactobionic-acid.html
+Laminaria Digitata Extract | 4/5 | Marine | FA-trigger: no | https://acnesafecheck.com/ingredient/laminaria-digitata-extract.html
+Lanolin | 2/5 | Occlusive | FA-trigger: no | https://acnesafecheck.com/ingredient/lanolin.html
+Lanolin Alcohol | 2/5 | Occlusive | FA-trigger: no | https://acnesafecheck.com/ingredient/lanolin-alcohol.html
+Laureth-23 | 3/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/laureth-23.html
+Laureth-4 | 5/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/laureth-4.html
+Lauric Acid | 4/5 | Fatty acid | FA-trigger: yes | https://acnesafecheck.com/ingredient/lauric-acid.html
+Lauryl Glucoside | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/lauryl-glucoside.html
+Lavandula Angustifolia Flower Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/lavandula-angustifolia-flower-extract.html
+Lavender Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/lavender-extract.html
+Lavender Oil | 1/5 | Essential oil | FA-trigger: no | https://acnesafecheck.com/ingredient/lavender-oil.html
+Lecithin | 4/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/lecithin.html
+Lemon Balm Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/lemon-balm-extract.html
+Lemon Peel Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/lemon-peel-extract.html
+Leontopodium Alpinum Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/leontopodium-alpinum-extract.html
+Lettuce Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/lettuce-extract.html
+Levulinic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/levulinic-acid.html
+Licorice Root Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/licorice-root-extract.html
+Limonene | 1/5 | Fragrance | FA-trigger: no | https://acnesafecheck.com/ingredient/limonene.html
+Linalool | 1/5 | Fragrance | FA-trigger: no | https://acnesafecheck.com/ingredient/linalool.html
+Linden Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/linden-extract.html
+Linoleic Acid | 0/5 | Fatty acid | FA-trigger: yes | https://acnesafecheck.com/ingredient/linoleic-acid.html
+Linseed / Flaxseed Oil | 4/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/linseed-flaxseed-oil.html
+Lotus Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/lotus-extract.html
+Macadamia Oil | 2/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/macadamia-oil.html
+Madecassoside | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/madecassoside.html
+Magnesium Ascorbyl Phosphate | 0/5 | Active | FA-trigger: no | https://acnesafecheck.com/ingredient/magnesium-ascorbyl-phosphate.html
+Magnesium Chloride | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/magnesium-chloride.html
+Magnesium Stearate | 0/5 | Functional | FA-trigger: yes | https://acnesafecheck.com/ingredient/magnesium-stearate.html
+Magnesium Sulfate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/magnesium-sulfate.html
+Malic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/malic-acid.html
+Mallow Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/mallow-extract.html
+Maltodextrin | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/maltodextrin.html
+Mandarin Orange Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/mandarin-orange-extract.html
+Mandelic Acid | 0/5 | Active | FA-trigger: no | https://acnesafecheck.com/ingredient/mandelic-acid.html
+Manganese PCA | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/manganese-pca.html
+Mango Butter | 0/5 | Butter | FA-trigger: yes | https://acnesafecheck.com/ingredient/mango-butter.html
+Mango Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/mango-extract.html
+Manuka Honey | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/manuka-honey.html
+Marigold Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/marigold-extract.html
+Maritime Pine Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/maritime-pine-extract.html
+Marshmallow Root Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/marshmallow-root-extract.html
+Marula Oil | 1/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/marula-oil.html
+Matcha Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/matcha-extract.html
+Mate Leaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/mate-leaf-extract.html
+Matrixyl | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/matrixyl.html
+Meadowfoam Seed Oil | 1/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/meadowfoam-seed-oil.html
+Melissa Officinalis Leaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/melissa-officinalis-leaf-extract.html
+Methylparaben | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/methylparaben.html
+Methylpropanediol | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/methylpropanediol.html
+Mica | 0/5 | Colorant | FA-trigger: no | https://acnesafecheck.com/ingredient/mica.html
+Mineral Oil | 1/5 | Oil | FA-trigger: no | https://acnesafecheck.com/ingredient/mineral-oil.html
+Mink Oil | 3/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/mink-oil.html
+Moringa Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/moringa-extract.html
+Mugwort Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/mugwort-extract.html
+Mushroom Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/mushroom-extract.html
+Myristic Acid | 3/5 | Fatty acid | FA-trigger: yes | https://acnesafecheck.com/ingredient/myristic-acid.html
+Myristyl Lactate | 4/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/myristyl-lactate.html
+Myristyl Myristate | 5/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/myristyl-myristate.html
+Myrrh Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/myrrh-extract.html
+N-Acetyl Glucosamine | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/n-acetyl-glucosamine.html
+Neem Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/neem-extract.html
+Nelumbo Nucifera Flower Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/nelumbo-nucifera-flower-extract.html
+Neroli Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/neroli-extract.html
+Nettle Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/nettle-extract.html
+Niacinamide | 0/5 | Active | FA-trigger: no | https://acnesafecheck.com/ingredient/niacinamide.html
+Nylon-12 | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/nylon-12.html
+Oak Bark Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/oak-bark-extract.html
+Oat Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/oat-extract.html
+Octinoxate | 1/5 | Sunscreen | FA-trigger: no | https://acnesafecheck.com/ingredient/octinoxate.html
+Octocrylene | 1/5 | Sunscreen | FA-trigger: no | https://acnesafecheck.com/ingredient/octocrylene.html
+Octyl Palmitate | 4/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/octyl-palmitate.html
+Octyl Stearate | 5/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/octyl-stearate.html
+Olea Europaea Leaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/olea-europaea-leaf-extract.html
+Oleic Acid | 2/5 | Fatty acid | FA-trigger: yes | https://acnesafecheck.com/ingredient/oleic-acid.html
+Oligopeptide-1 | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/oligopeptide-1.html
+Olive Leaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/olive-leaf-extract.html
+Olive Oil | 2/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/olive-oil.html
+Opuntia Ficus-Indica Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/opuntia-ficus-indica-extract.html
+Orange Blossom Water | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/orange-blossom-water.html
+Oregano Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/oregano-extract.html
+Oryza Sativa Bran Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/oryza-sativa-bran-extract.html
+p-Anisic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/p-anisic-acid.html
+Palmitic Acid | 2/5 | Fatty acid | FA-trigger: yes | https://acnesafecheck.com/ingredient/palmitic-acid.html
+Palmitoyl Hexapeptide-12 | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/palmitoyl-hexapeptide-12.html
+Palmitoyl Pentapeptide-4 | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/palmitoyl-pentapeptide-4.html
+Palmitoyl Tripeptide-1 | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/palmitoyl-tripeptide-1.html
+Palmitoyl Tripeptide-5 | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/palmitoyl-tripeptide-5.html
+Panax Ginseng Root Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/panax-ginseng-root-extract.html
+Panthenol | 0/5 | Soothing | FA-trigger: no | https://acnesafecheck.com/ingredient/panthenol.html
+Papaya Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/papaya-extract.html
+Parsley Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/parsley-extract.html
+PCA | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/pca.html
+Peach Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/peach-extract.html
+Peanut Oil | 2/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/peanut-oil.html
+Pear Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/pear-extract.html
+PEG-100 Stearate | 1/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/peg-100-stearate.html
+PEG-150 Distearate | 1/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/peg-150-distearate.html
+PEG-16 Lanolin | 4/5 | Emulsifier | FA-trigger: no | https://acnesafecheck.com/ingredient/peg-16-lanolin.html
+PEG-40 Stearate | 1/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/peg-40-stearate.html
+PEG-8 Stearate | 3/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/peg-8-stearate.html
+Pentylene Glycol | 0/5 | Humectant | FA-trigger: no | https://acnesafecheck.com/ingredient/pentylene-glycol.html
+Peppermint Leaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/peppermint-leaf-extract.html
+Peppermint Oil | 2/5 | Essential oil | FA-trigger: no | https://acnesafecheck.com/ingredient/peppermint-oil.html
+Perlite | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/perlite.html
+Petrolatum | 0/5 | Occlusive | FA-trigger: no | https://acnesafecheck.com/ingredient/petrolatum.html
+Phenoxyethanol | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/phenoxyethanol.html
+Phenyl Trimethicone | 1/5 | Silicone | FA-trigger: no | https://acnesafecheck.com/ingredient/phenyl-trimethicone.html
+Phytic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/phytic-acid.html
+Phytic Acid Complex | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/phytic-acid-complex.html
+Pine Bark Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/pine-bark-extract.html
+Pineapple Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/pineapple-extract.html
+Pinus Pinaster Bark Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/pinus-pinaster-bark-extract.html
+Plantain Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/plantain-extract.html
+Polyacrylate Crosspolymer-6 | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/polyacrylate-crosspolymer-6.html
+Polyethylene | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/polyethylene.html
+Polyglutamic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/polyglutamic-acid.html
+Polyglyceryl-3 Diisostearate | 4/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/polyglyceryl-3-diisostearate.html
+Polyhydroxy Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/polyhydroxy-acid.html
+Polymethylsilsesquioxane | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/polymethylsilsesquioxane.html
+Polyquaternium-10 | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/polyquaternium-10.html
+Polysorbate 20 | 0/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/polysorbate-20.html
+Polysorbate 80 | 1/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/polysorbate-80.html
+Pomegranate Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/pomegranate-extract.html
+Pomegranate Seed Oil | 1/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/pomegranate-seed-oil.html
+Potassium Chloride | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/potassium-chloride.html
+Potassium Sorbate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/potassium-sorbate.html
+PPG-2 Myristyl Ether Propionate | 3/5 | Ester | FA-trigger: yes | https://acnesafecheck.com/ingredient/ppg-2-myristyl-ether-propionate.html
+Propanediol | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/propanediol.html
+Propolis Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/propolis-extract.html
+Propylene Glycol | 0/5 | Humectant | FA-trigger: no | https://acnesafecheck.com/ingredient/propylene-glycol.html
+Propylparaben | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/propylparaben.html
+Pullulan | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/pullulan.html
+Pumpkin Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/pumpkin-extract.html
+Punica Granatum Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/punica-granatum-extract.html
+Pyridoxine | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/pyridoxine.html
+Pyrus Malus Fruit Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/pyrus-malus-fruit-extract.html
+Raspberry Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/raspberry-extract.html
+Red Algae | 5/5 | Marine | FA-trigger: no | https://acnesafecheck.com/ingredient/red-algae.html
+Red Clover Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/red-clover-extract.html
+Reishi Mushroom Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/reishi-mushroom-extract.html
+Resveratrol | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/resveratrol.html
+Retinol | 1/5 | Active | FA-trigger: no | https://acnesafecheck.com/ingredient/retinol.html
+Retinyl Palmitate | 2/5 | Active | FA-trigger: yes | https://acnesafecheck.com/ingredient/retinyl-palmitate.html
+Riboflavin | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/riboflavin.html
+Rice Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/rice-extract.html
+Rooibos Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/rooibos-extract.html
+Rosa Damascena Flower Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/rosa-damascena-flower-extract.html
+Rose Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/rose-extract.html
+Rose Water | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/rose-water.html
+Rosehip Oil | 1/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/rosehip-oil.html
+Rosemary Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/rosemary-extract.html
+Rosmarinus Officinalis Leaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/rosmarinus-officinalis-leaf-extract.html
+Royal Jelly Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/royal-jelly-extract.html
+Saccharomyces Ferment | 0/5 | Botanical extract | FA-trigger: yes | https://acnesafecheck.com/ingredient/saccharomyces-ferment.html
+Safflower Oil | 0/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/safflower-oil.html
+Sage Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/sage-extract.html
+Salicylic Acid | 0/5 | Active | FA-trigger: no | https://acnesafecheck.com/ingredient/salicylic-acid.html
+Salix Alba Bark Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/salix-alba-bark-extract.html
+Salvia Officinalis Leaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/salvia-officinalis-leaf-extract.html
+Sambucus Nigra Flower Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/sambucus-nigra-flower-extract.html
+Sandalwood Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/sandalwood-extract.html
+Sclerotium Gum | 0/5 | Thickener | FA-trigger: no | https://acnesafecheck.com/ingredient/sclerotium-gum.html
+Sea Buckthorn Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/sea-buckthorn-extract.html
+Sea Kelp Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/sea-kelp-extract.html
+Sea Salt Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/sea-salt-extract.html
+Seawater | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/seawater.html
+Sesame Oil | 3/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/sesame-oil.html
+Shark Liver Oil | 3/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/shark-liver-oil.html
+Shea Butter | 0/5 | Butter | FA-trigger: yes | https://acnesafecheck.com/ingredient/shea-butter.html
+Shiitake Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/shiitake-extract.html
+Shikakai Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/shikakai-extract.html
+Silica | 0/5 | Mineral | FA-trigger: no | https://acnesafecheck.com/ingredient/silica.html
+Silk Protein | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/silk-protein.html
+Snail Secretion Filtrate | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/snail-secretion-filtrate.html
+Snow Mushroom Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/snow-mushroom-extract.html
+Sodium Acetylated Hyaluronate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-acetylated-hyaluronate.html
+Sodium Anisate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-anisate.html
+Sodium Ascorbyl Phosphate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-ascorbyl-phosphate.html
+Sodium Benzoate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-benzoate.html
+Sodium Chloride | 0/5 | Misc | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-chloride.html
+Sodium Citrate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-citrate.html
+Sodium Cocoyl Glycinate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-cocoyl-glycinate.html
+Sodium Cocoyl Isethionate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-cocoyl-isethionate.html
+Sodium Gluconate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-gluconate.html
+Sodium Hyaluronate Crosspolymer | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-hyaluronate-crosspolymer.html
+Sodium Hydroxide | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-hydroxide.html
+Sodium Lactate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-lactate.html
+Sodium Laureth Sulfate | 3/5 | Surfactant | FA-trigger: yes | https://acnesafecheck.com/ingredient/sodium-laureth-sulfate.html
+Sodium Lauroyl Lactylate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-lauroyl-lactylate.html
+Sodium Lauroyl Sarcosinate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-lauroyl-sarcosinate.html
+Sodium Lauryl Sulfate | 5/5 | Surfactant | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-lauryl-sulfate.html
+Sodium Levulinate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-levulinate.html
+Sodium Metabisulfite | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-metabisulfite.html
+Sodium Methyl Cocoyl Taurate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-methyl-cocoyl-taurate.html
+Sodium PCA | 0/5 | Humectant | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-pca.html
+Sodium Phytate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-phytate.html
+Sodium Polyglutamate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-polyglutamate.html
+Sodium Silicate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-silicate.html
+Sodium Starch Octenylsuccinate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-starch-octenylsuccinate.html
+Sodium Sulfite | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sodium-sulfite.html
+Solanum Lycopersicum Fruit Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/solanum-lycopersicum-fruit-extract.html
+Sorbic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sorbic-acid.html
+Sorbitan Oleate | 3/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/sorbitan-oleate.html
+Sorbitan Sesquioleate | 3/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/sorbitan-sesquioleate.html
+Sorbitan Stearate | 1/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/sorbitan-stearate.html
+Sorbitol | 0/5 | Humectant | FA-trigger: no | https://acnesafecheck.com/ingredient/sorbitol.html
+Soy Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/soy-extract.html
+Soybean Oil | 3/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/soybean-oil.html
+Spearmint Leaf Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/spearmint-leaf-extract.html
+Spearmint Oil | 3/5 | Essential oil | FA-trigger: no | https://acnesafecheck.com/ingredient/spearmint-oil.html
+Spinach Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/spinach-extract.html
+Spirulina Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/spirulina-extract.html
+Squalane | 1/5 | Oil | FA-trigger: no | https://acnesafecheck.com/ingredient/squalane.html
+Squalene | 1/5 | Oil | FA-trigger: no | https://acnesafecheck.com/ingredient/squalene.html
+St. Johns Wort Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/st-johns-wort-extract.html
+Steareth-10 | 4/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/steareth-10.html
+Steareth-2 | 2/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/steareth-2.html
+Steareth-20 | 2/5 | Emulsifier | FA-trigger: yes | https://acnesafecheck.com/ingredient/steareth-20.html
+Stearic Acid | 2/5 | Fatty acid | FA-trigger: yes | https://acnesafecheck.com/ingredient/stearic-acid.html
+Stearyl Alcohol | 2/5 | Fatty alcohol | FA-trigger: yes | https://acnesafecheck.com/ingredient/stearyl-alcohol.html
+Strawberry Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/strawberry-extract.html
+Sucrose | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/sucrose.html
+Sunflower Oil | 0/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/sunflower-oil.html
+Sweet Almond Oil | 2/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/sweet-almond-oil.html
+Talc | 1/5 | Mineral | FA-trigger: no | https://acnesafecheck.com/ingredient/talc.html
+Tamanu Oil | 2/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/tamanu-oil.html
+Tapioca Starch | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/tapioca-starch.html
+Taraxacum Officinale Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/taraxacum-officinale-extract.html
+Tartaric Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/tartaric-acid.html
+Tea Tree Oil | 1/5 | Essential oil | FA-trigger: no | https://acnesafecheck.com/ingredient/tea-tree-oil.html
+Tetrahexyldecyl Ascorbate | 2/5 | Active | FA-trigger: no | https://acnesafecheck.com/ingredient/tetrahexyldecyl-ascorbate.html
+Tetrasodium EDTA | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/tetrasodium-edta.html
+Tetrasodium Glutamate Diacetate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/tetrasodium-glutamate-diacetate.html
+Thiamine | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/thiamine.html
+Thyme Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/thyme-extract.html
+Tiger Grass Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/tiger-grass-extract.html
+Titanium Dioxide | 1/5 | Sunscreen | FA-trigger: no | https://acnesafecheck.com/ingredient/titanium-dioxide.html
+Tocopherol | 2/5 | Active | FA-trigger: yes | https://acnesafecheck.com/ingredient/tocopherol.html
+Tocopheryl Acetate | 0/5 | Functional | FA-trigger: yes | https://acnesafecheck.com/ingredient/tocopheryl-acetate.html
+Tomato Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/tomato-extract.html
+Tranexamic Acid | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/tranexamic-acid.html
+Trehalose | 0/5 | Humectant | FA-trigger: no | https://acnesafecheck.com/ingredient/trehalose.html
+Tremella Fuciformis Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/tremella-fuciformis-extract.html
+Triethanolamine | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/triethanolamine.html
+Tripeptide-1 | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/tripeptide-1.html
+Trisodium Ethylenediamine Disuccinate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/trisodium-ethylenediamine-disuccinate.html
+Turmeric Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/turmeric-extract.html
+Ubiquinone | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/ubiquinone.html
+Urea | 0/5 | Humectant | FA-trigger: no | https://acnesafecheck.com/ingredient/urea.html
+Urtica Dioica Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/urtica-dioica-extract.html
+Vaccinium Myrtillus Fruit Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/vaccinium-myrtillus-fruit-extract.html
+Vanilla Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/vanilla-extract.html
+Vitis Vinifera Fruit Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/vitis-vinifera-fruit-extract.html
+Water | 0/5 | Solvent | FA-trigger: no | https://acnesafecheck.com/ingredient/water.html
+Watermelon Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/watermelon-extract.html
+Wheat Bran Lipids | 2/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/wheat-bran-lipids.html
+Wheat Germ Glyceride | 3/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/wheat-germ-glyceride.html
+Wheat Germ Oil | 5/5 | Oil | FA-trigger: yes | https://acnesafecheck.com/ingredient/wheat-germ-oil.html
+Wheat Protein | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/wheat-protein.html
+White Tea Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/white-tea-extract.html
+Willow Bark Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/willow-bark-extract.html
+Witch Hazel | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/witch-hazel.html
+Xanthan Gum | 0/5 | Thickener | FA-trigger: no | https://acnesafecheck.com/ingredient/xanthan-gum.html
+Yarrow Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/yarrow-extract.html
+Yeast Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/yeast-extract.html
+Yerba Mate Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/yerba-mate-extract.html
+Zinc Gluconate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/zinc-gluconate.html
+Zinc Oxide | 1/5 | Sunscreen | FA-trigger: no | https://acnesafecheck.com/ingredient/zinc-oxide.html
+Zinc PCA | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/zinc-pca.html
+Zinc Stearate | 0/5 | Functional | FA-trigger: yes | https://acnesafecheck.com/ingredient/zinc-stearate.html
+Zinc Sulfate | 0/5 | Functional | FA-trigger: no | https://acnesafecheck.com/ingredient/zinc-sulfate.html
+Zingiber Officinale Root Extract | 0/5 | Botanical extract | FA-trigger: no | https://acnesafecheck.com/ingredient/zingiber-officinale-root-extract.html

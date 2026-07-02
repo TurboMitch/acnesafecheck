@@ -45,7 +45,7 @@ def lastmod_for(path):
     return GIT_DATES[path]
 
 urls = []
-for path in glob.glob("*.html") + glob.glob("ingredient/*.html") + glob.glob("non-comedogenic/*.html") + glob.glob("article/*.html"):
+for path in glob.glob("*.html") + glob.glob("ingredient/*.html") + glob.glob("non-comedogenic/*.html") + glob.glob("article/*.html") + glob.glob("vs/*.html"):
     rel = path
     loc = f"{BASE}/{rel}"
     mod = lastmod_for(path)
@@ -60,7 +60,9 @@ for path in glob.glob("*.html") + glob.glob("ingredient/*.html") + glob.glob("no
         pri = "0.6"
     elif rel.startswith("non-comedogenic/"):
         pri = "0.7"
-    elif rel.startswith("article/"):
+    elif rel == "data.html":
+        pri = "0.8"
+    elif rel.startswith("article/") or rel.startswith("vs/"):
         pri = "0.6"
     else:
         pri = "0.5"

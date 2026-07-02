@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Free Comedogenic Ingredient API | AcneSafeCheck</title>
-<meta name="description" content="A free JSON API for comedogenicity (0–5) and fungal-acne data on 560+ cosmetic ingredients. Look up any ingredient or screen a whole list programmatically.">
+<meta name="description" content="A free JSON API for comedogenicity (0–5) and fungal-acne data on 550+ cosmetic ingredients. Look up any ingredient or screen a whole list programmatically.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#e0654f">
 <meta name="ahrefs-site-verification" content="29b2213b058b3dbbe63b2ad069034fd4e718ab8b42f4f8d54431f17296323eb9">
@@ -15,7 +15,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta property="og:title" content="Free Comedogenic Ingredient API">
-<meta property="og:description" content="JSON API for comedogenicity and fungal-acne data on 560+ ingredients.">
+<meta property="og:description" content="JSON API for comedogenicity and fungal-acne data on 550+ ingredients.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://acnesafecheck.com/api.html">
 <meta property="og:image" content="https://acnesafecheck.com/og.png">
@@ -23,7 +23,7 @@
 <meta name="twitter:image" content="https://acnesafecheck.com/og.png">
 <link rel="stylesheet" href="/styles.css">
 <style>pre{background:#2b2320;color:#f7eee9;padding:14px;border-radius:10px;overflow:auto;font-size:13px}code{font-family:ui-monospace,Menlo,Consolas,monospace}</style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://acnesafecheck.com/api.html#page","name":"AcneSafeCheck Developer API","description":"A free JSON API for comedogenicity (0–5) and fungal-acne data on 560+ cosmetic ingredients. Look up any ingredient or screen a whole list programmatically.","url":"https://acnesafecheck.com/api.html","inLanguage":"en","isPartOf":{"@id":"https://acnesafecheck.com/#site"},"publisher":{"@type":"Organization","@id":"https://acnesafecheck.com/#org","name":"AcneSafeCheck"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://acnesafecheck.com/"},{"@type":"ListItem","position":2,"name":"API","item":"https://acnesafecheck.com/api.html"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://acnesafecheck.com/api.html#page","name":"AcneSafeCheck Developer API","description":"A free JSON API for comedogenicity (0–5) and fungal-acne data on 550+ cosmetic ingredients. Look up any ingredient or screen a whole list programmatically.","url":"https://acnesafecheck.com/api.html","inLanguage":"en","isPartOf":{"@id":"https://acnesafecheck.com/#site"},"publisher":{"@type":"Organization","@id":"https://acnesafecheck.com/#org","name":"AcneSafeCheck"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://acnesafecheck.com/"},{"@type":"ListItem","position":2,"name":"API","item":"https://acnesafecheck.com/api.html"}]}]}</script>
 </head>
 <body>
 <header><div class="wrap bar">
@@ -39,7 +39,7 @@
 <main class="wrap">
   <section class="hero">
     <h1>Comedogenic ingredient API</h1>
-    <p>A free, read-only JSON API over our database of 560+ ingredients — comedogenicity rating (0–5), pore-clogging flag and fungal-acne (Malassezia) trigger. Build it into your own app, store or skincare tool.</p>
+    <p>A free, read-only JSON API over our database of 550+ ingredients — comedogenicity rating (0–5), pore-clogging flag and fungal-acne (Malassezia) trigger. Build it into your own app, store or skincare tool.</p>
   </section>
 
   <section class="prose">
@@ -70,6 +70,7 @@
       <li><code>result</code> is <code>null</code> when an ingredient isn't in the database. <code>match</code> is <code>"exact"</code> for a direct alias hit or <code>"partial"</code> when we matched the trailing INCI name inside a longer token (e.g. "cocos nucifera coconut oil" → Coconut Oil).</li>
       <li>Limits: max 200 ingredients / 20,000 characters per request.</li>
       <li>Responses are cached at the edge; no API key required for normal use.</li>
+      <li>Want the whole database instead of per-request lookups? Download it from the <a href="/data.html">open dataset page</a> (CSV/JSON, CC BY 4.0).</li>
       <li>Ratings are general guidance compiled from published references, not medical advice. Please attribute <a href="/">acnesafecheck.com</a>.</li>
     </ul>
     <p>Need higher volume, a bulk dataset, or commercial terms? That's part of our upcoming <a href="/premium.html">premium plan</a> — <a href="mailto:hello@acnesafecheck.com?subject=API%20access">get in touch</a>.</p>

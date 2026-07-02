@@ -1,0 +1,6815 @@
+{
+ "dataset": "AcneSafeCheck Comedogenic Ingredients Database",
+ "version": "2026-07-02",
+ "license": "CC BY 4.0 — free to use with attribution to acnesafecheck.com",
+ "homepage": "https://acnesafecheck.com/data.html",
+ "api": "https://acnesafecheck.com/api.html",
+ "count": 559,
+ "scale": "comedogenic_rating: 0 = non-comedogenic (acne safe) … 5 = highly pore-clogging",
+ "ingredients": [
+  {
+   "name": "Acai Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "acai extract"
+   ],
+   "slug": "acai-extract",
+   "url": "https://acnesafecheck.com/ingredient/acai-extract.html"
+  },
+  {
+   "name": "Acetyl Glucosamine",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "acetyl glucosamine"
+   ],
+   "slug": "acetyl-glucosamine",
+   "url": "https://acnesafecheck.com/ingredient/acetyl-glucosamine.html"
+  },
+  {
+   "name": "Acetyl Hexapeptide-8",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "acetyl hexapeptide-8"
+   ],
+   "slug": "acetyl-hexapeptide-8",
+   "url": "https://acnesafecheck.com/ingredient/acetyl-hexapeptide-8.html"
+  },
+  {
+   "name": "Acetylated Lanolin",
+   "comedogenic_rating": 4,
+   "category": "Occlusive",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "acetylated lanolin"
+   ],
+   "slug": "acetylated-lanolin",
+   "url": "https://acnesafecheck.com/ingredient/acetylated-lanolin.html"
+  },
+  {
+   "name": "Acetylated Lanolin Alcohol",
+   "comedogenic_rating": 4,
+   "category": "Occlusive",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "acetylated lanolin alcohol"
+   ],
+   "slug": "acetylated-lanolin-alcohol",
+   "url": "https://acnesafecheck.com/ingredient/acetylated-lanolin-alcohol.html"
+  },
+  {
+   "name": "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "acrylates/c10-30 alkyl acrylate crosspolymer"
+   ],
+   "slug": "acrylates-c10-30-alkyl-acrylate-crosspolymer",
+   "url": "https://acnesafecheck.com/ingredient/acrylates-c10-30-alkyl-acrylate-crosspolymer.html"
+  },
+  {
+   "name": "Adansonia Digitata Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "adansonia digitata extract"
+   ],
+   "slug": "adansonia-digitata-extract",
+   "url": "https://acnesafecheck.com/ingredient/adansonia-digitata-extract.html"
+  },
+  {
+   "name": "Adapalene",
+   "comedogenic_rating": 0,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "adapalene"
+   ],
+   "slug": "adapalene",
+   "url": "https://acnesafecheck.com/ingredient/adapalene.html"
+  },
+  {
+   "name": "Adenosine",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "adenosine"
+   ],
+   "slug": "adenosine",
+   "url": "https://acnesafecheck.com/ingredient/adenosine.html"
+  },
+  {
+   "name": "Agar",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "agar"
+   ],
+   "slug": "agar",
+   "url": "https://acnesafecheck.com/ingredient/agar.html"
+  },
+  {
+   "name": "Alcohol Denat.",
+   "comedogenic_rating": 0,
+   "category": "Solvent",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "alcohol denat",
+    "denatured alcohol"
+   ],
+   "slug": "alcohol-denat",
+   "url": "https://acnesafecheck.com/ingredient/alcohol-denat.html"
+  },
+  {
+   "name": "Algae Extract",
+   "comedogenic_rating": 5,
+   "category": "Marine",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "algae",
+    "algae extract"
+   ],
+   "slug": "algae-extract",
+   "url": "https://acnesafecheck.com/ingredient/algae-extract.html"
+  },
+  {
+   "name": "Algin",
+   "comedogenic_rating": 4,
+   "category": "Thickener",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "algin"
+   ],
+   "slug": "algin",
+   "url": "https://acnesafecheck.com/ingredient/algin.html"
+  },
+  {
+   "name": "Allantoin",
+   "comedogenic_rating": 0,
+   "category": "Soothing",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "allantoin"
+   ],
+   "slug": "allantoin",
+   "url": "https://acnesafecheck.com/ingredient/allantoin.html"
+  },
+  {
+   "name": "Allantoin Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "allantoin extract"
+   ],
+   "slug": "allantoin-extract",
+   "url": "https://acnesafecheck.com/ingredient/allantoin-extract.html"
+  },
+  {
+   "name": "Allium Cepa Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "allium cepa extract"
+   ],
+   "slug": "allium-cepa-extract",
+   "url": "https://acnesafecheck.com/ingredient/allium-cepa-extract.html"
+  },
+  {
+   "name": "Aloe Barbadensis Leaf Juice",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "aloe barbadensis leaf juice"
+   ],
+   "slug": "aloe-barbadensis-leaf-juice",
+   "url": "https://acnesafecheck.com/ingredient/aloe-barbadensis-leaf-juice.html"
+  },
+  {
+   "name": "Aloe Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "aloe extract"
+   ],
+   "slug": "aloe-extract",
+   "url": "https://acnesafecheck.com/ingredient/aloe-extract.html"
+  },
+  {
+   "name": "Aloe Ferox Leaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "aloe ferox leaf extract"
+   ],
+   "slug": "aloe-ferox-leaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/aloe-ferox-leaf-extract.html"
+  },
+  {
+   "name": "Aloe Juice Powder",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "aloe juice powder"
+   ],
+   "slug": "aloe-juice-powder",
+   "url": "https://acnesafecheck.com/ingredient/aloe-juice-powder.html"
+  },
+  {
+   "name": "Aloe Powder",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "aloe powder"
+   ],
+   "slug": "aloe-powder",
+   "url": "https://acnesafecheck.com/ingredient/aloe-powder.html"
+  },
+  {
+   "name": "Aloe Vera",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "aloe vera"
+   ],
+   "slug": "aloe-vera",
+   "url": "https://acnesafecheck.com/ingredient/aloe-vera.html"
+  },
+  {
+   "name": "Alpha Lipoic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "alpha lipoic acid"
+   ],
+   "slug": "alpha-lipoic-acid",
+   "url": "https://acnesafecheck.com/ingredient/alpha-lipoic-acid.html"
+  },
+  {
+   "name": "Alpha-Arbutin",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "alpha-arbutin"
+   ],
+   "slug": "alpha-arbutin",
+   "url": "https://acnesafecheck.com/ingredient/alpha-arbutin.html"
+  },
+  {
+   "name": "Aluminum Starch Octenylsuccinate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "aluminum starch octenylsuccinate"
+   ],
+   "slug": "aluminum-starch-octenylsuccinate",
+   "url": "https://acnesafecheck.com/ingredient/aluminum-starch-octenylsuccinate.html"
+  },
+  {
+   "name": "Aminomethyl Propanol",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "aminomethyl propanol"
+   ],
+   "slug": "aminomethyl-propanol",
+   "url": "https://acnesafecheck.com/ingredient/aminomethyl-propanol.html"
+  },
+  {
+   "name": "Amla Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "amla extract"
+   ],
+   "slug": "amla-extract",
+   "url": "https://acnesafecheck.com/ingredient/amla-extract.html"
+  },
+  {
+   "name": "Ammonium Lactate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ammonium lactate"
+   ],
+   "slug": "ammonium-lactate",
+   "url": "https://acnesafecheck.com/ingredient/ammonium-lactate.html"
+  },
+  {
+   "name": "Amodimethicone",
+   "comedogenic_rating": 1,
+   "category": "Silicone",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "amodimethicone"
+   ],
+   "slug": "amodimethicone",
+   "url": "https://acnesafecheck.com/ingredient/amodimethicone.html"
+  },
+  {
+   "name": "Anisic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "anisic acid"
+   ],
+   "slug": "anisic-acid",
+   "url": "https://acnesafecheck.com/ingredient/anisic-acid.html"
+  },
+  {
+   "name": "Apple Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "apple extract"
+   ],
+   "slug": "apple-extract",
+   "url": "https://acnesafecheck.com/ingredient/apple-extract.html"
+  },
+  {
+   "name": "Apricot Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "apricot extract"
+   ],
+   "slug": "apricot-extract",
+   "url": "https://acnesafecheck.com/ingredient/apricot-extract.html"
+  },
+  {
+   "name": "Apricot Kernel Oil",
+   "comedogenic_rating": 2,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "apricot kernel oil",
+    "prunus armeniaca kernel oil"
+   ],
+   "slug": "apricot-kernel-oil",
+   "url": "https://acnesafecheck.com/ingredient/apricot-kernel-oil.html"
+  },
+  {
+   "name": "Arbutin",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "arbutin"
+   ],
+   "slug": "arbutin",
+   "url": "https://acnesafecheck.com/ingredient/arbutin.html"
+  },
+  {
+   "name": "Argan Oil",
+   "comedogenic_rating": 0,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "argan oil",
+    "argania spinosa kernel oil"
+   ],
+   "slug": "argan-oil",
+   "url": "https://acnesafecheck.com/ingredient/argan-oil.html"
+  },
+  {
+   "name": "Argireline",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "argireline"
+   ],
+   "slug": "argireline",
+   "url": "https://acnesafecheck.com/ingredient/argireline.html"
+  },
+  {
+   "name": "Arnica Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "arnica extract"
+   ],
+   "slug": "arnica-extract",
+   "url": "https://acnesafecheck.com/ingredient/arnica-extract.html"
+  },
+  {
+   "name": "Arnica Montana Flower Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "arnica montana flower extract"
+   ],
+   "slug": "arnica-montana-flower-extract",
+   "url": "https://acnesafecheck.com/ingredient/arnica-montana-flower-extract.html"
+  },
+  {
+   "name": "Artemisia Vulgaris Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "artemisia vulgaris extract"
+   ],
+   "slug": "artemisia-vulgaris-extract",
+   "url": "https://acnesafecheck.com/ingredient/artemisia-vulgaris-extract.html"
+  },
+  {
+   "name": "Artichoke Leaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "artichoke leaf extract"
+   ],
+   "slug": "artichoke-leaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/artichoke-leaf-extract.html"
+  },
+  {
+   "name": "Ascorbic Acid",
+   "comedogenic_rating": 0,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ascorbic acid",
+    "vitamin c"
+   ],
+   "slug": "ascorbic-acid",
+   "url": "https://acnesafecheck.com/ingredient/ascorbic-acid.html"
+  },
+  {
+   "name": "Ascorbyl Glucoside",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ascorbyl glucoside"
+   ],
+   "slug": "ascorbyl-glucoside",
+   "url": "https://acnesafecheck.com/ingredient/ascorbyl-glucoside.html"
+  },
+  {
+   "name": "Ascorbyl Palmitate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "ascorbyl palmitate"
+   ],
+   "slug": "ascorbyl-palmitate",
+   "url": "https://acnesafecheck.com/ingredient/ascorbyl-palmitate.html"
+  },
+  {
+   "name": "Ashwagandha Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ashwagandha extract"
+   ],
+   "slug": "ashwagandha-extract",
+   "url": "https://acnesafecheck.com/ingredient/ashwagandha-extract.html"
+  },
+  {
+   "name": "Asiaticoside",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "asiaticoside"
+   ],
+   "slug": "asiaticoside",
+   "url": "https://acnesafecheck.com/ingredient/asiaticoside.html"
+  },
+  {
+   "name": "Asparagus Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "asparagus extract"
+   ],
+   "slug": "asparagus-extract",
+   "url": "https://acnesafecheck.com/ingredient/asparagus-extract.html"
+  },
+  {
+   "name": "Avena Sativa Kernel Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "avena sativa kernel extract"
+   ],
+   "slug": "avena-sativa-kernel-extract",
+   "url": "https://acnesafecheck.com/ingredient/avena-sativa-kernel-extract.html"
+  },
+  {
+   "name": "Avobenzone",
+   "comedogenic_rating": 0,
+   "category": "Sunscreen",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "avobenzone",
+    "butyl methoxydibenzoylmethane"
+   ],
+   "slug": "avobenzone",
+   "url": "https://acnesafecheck.com/ingredient/avobenzone.html"
+  },
+  {
+   "name": "Avocado Oil",
+   "comedogenic_rating": 3,
+   "category": "Oil",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "avocado oil",
+    "persea gratissima oil"
+   ],
+   "slug": "avocado-oil",
+   "url": "https://acnesafecheck.com/ingredient/avocado-oil.html"
+  },
+  {
+   "name": "Azadirachta Indica Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "azadirachta indica extract"
+   ],
+   "slug": "azadirachta-indica-extract",
+   "url": "https://acnesafecheck.com/ingredient/azadirachta-indica-extract.html"
+  },
+  {
+   "name": "Azelaic Acid",
+   "comedogenic_rating": 0,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "azelaic acid"
+   ],
+   "slug": "azelaic-acid",
+   "url": "https://acnesafecheck.com/ingredient/azelaic-acid.html"
+  },
+  {
+   "name": "Bakuchiol",
+   "comedogenic_rating": 0,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "bakuchiol"
+   ],
+   "slug": "bakuchiol",
+   "url": "https://acnesafecheck.com/ingredient/bakuchiol.html"
+  },
+  {
+   "name": "Bamboo Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "bamboo extract"
+   ],
+   "slug": "bamboo-extract",
+   "url": "https://acnesafecheck.com/ingredient/bamboo-extract.html"
+  },
+  {
+   "name": "Bambusa Vulgaris Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "bambusa vulgaris extract"
+   ],
+   "slug": "bambusa-vulgaris-extract",
+   "url": "https://acnesafecheck.com/ingredient/bambusa-vulgaris-extract.html"
+  },
+  {
+   "name": "Banana Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "banana extract"
+   ],
+   "slug": "banana-extract",
+   "url": "https://acnesafecheck.com/ingredient/banana-extract.html"
+  },
+  {
+   "name": "Baobab Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "baobab extract"
+   ],
+   "slug": "baobab-extract",
+   "url": "https://acnesafecheck.com/ingredient/baobab-extract.html"
+  },
+  {
+   "name": "Barley Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "barley extract"
+   ],
+   "slug": "barley-extract",
+   "url": "https://acnesafecheck.com/ingredient/barley-extract.html"
+  },
+  {
+   "name": "Basil Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "basil extract"
+   ],
+   "slug": "basil-extract",
+   "url": "https://acnesafecheck.com/ingredient/basil-extract.html"
+  },
+  {
+   "name": "Beeswax",
+   "comedogenic_rating": 2,
+   "category": "Wax",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "beeswax",
+    "cera alba"
+   ],
+   "slug": "beeswax",
+   "url": "https://acnesafecheck.com/ingredient/beeswax.html"
+  },
+  {
+   "name": "Beetroot Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "beetroot extract"
+   ],
+   "slug": "beetroot-extract",
+   "url": "https://acnesafecheck.com/ingredient/beetroot-extract.html"
+  },
+  {
+   "name": "Behenyl Alcohol",
+   "comedogenic_rating": 1,
+   "category": "Fatty alcohol",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "behenyl alcohol"
+   ],
+   "slug": "behenyl-alcohol",
+   "url": "https://acnesafecheck.com/ingredient/behenyl-alcohol.html"
+  },
+  {
+   "name": "Bentonite",
+   "comedogenic_rating": 0,
+   "category": "Clay",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "bentonite"
+   ],
+   "slug": "bentonite",
+   "url": "https://acnesafecheck.com/ingredient/bentonite.html"
+  },
+  {
+   "name": "Benzoyl Peroxide",
+   "comedogenic_rating": 0,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "benzoyl peroxide"
+   ],
+   "slug": "benzoyl-peroxide",
+   "url": "https://acnesafecheck.com/ingredient/benzoyl-peroxide.html"
+  },
+  {
+   "name": "Benzyl Alcohol",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "benzyl alcohol"
+   ],
+   "slug": "benzyl-alcohol",
+   "url": "https://acnesafecheck.com/ingredient/benzyl-alcohol.html"
+  },
+  {
+   "name": "Bergamot Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "bergamot extract"
+   ],
+   "slug": "bergamot-extract",
+   "url": "https://acnesafecheck.com/ingredient/bergamot-extract.html"
+  },
+  {
+   "name": "Beta-Glucan",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "beta-glucan"
+   ],
+   "slug": "beta-glucan",
+   "url": "https://acnesafecheck.com/ingredient/beta-glucan.html"
+  },
+  {
+   "name": "Betaine",
+   "comedogenic_rating": 0,
+   "category": "Humectant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "betaine"
+   ],
+   "slug": "betaine",
+   "url": "https://acnesafecheck.com/ingredient/betaine.html"
+  },
+  {
+   "name": "BHA Preservative",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "bha preservative"
+   ],
+   "slug": "bha-preservative",
+   "url": "https://acnesafecheck.com/ingredient/bha-preservative.html"
+  },
+  {
+   "name": "BHT",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "bht"
+   ],
+   "slug": "bht",
+   "url": "https://acnesafecheck.com/ingredient/bht.html"
+  },
+  {
+   "name": "Bifida Ferment Lysate",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "bifida ferment lysate"
+   ],
+   "slug": "bifida-ferment-lysate",
+   "url": "https://acnesafecheck.com/ingredient/bifida-ferment-lysate.html"
+  },
+  {
+   "name": "Bilberry Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "bilberry extract"
+   ],
+   "slug": "bilberry-extract",
+   "url": "https://acnesafecheck.com/ingredient/bilberry-extract.html"
+  },
+  {
+   "name": "Biotin",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "biotin"
+   ],
+   "slug": "biotin",
+   "url": "https://acnesafecheck.com/ingredient/biotin.html"
+  },
+  {
+   "name": "Birch Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "birch extract"
+   ],
+   "slug": "birch-extract",
+   "url": "https://acnesafecheck.com/ingredient/birch-extract.html"
+  },
+  {
+   "name": "Black Tea Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "black tea extract"
+   ],
+   "slug": "black-tea-extract",
+   "url": "https://acnesafecheck.com/ingredient/black-tea-extract.html"
+  },
+  {
+   "name": "Blackberry Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "blackberry extract"
+   ],
+   "slug": "blackberry-extract",
+   "url": "https://acnesafecheck.com/ingredient/blackberry-extract.html"
+  },
+  {
+   "name": "Blueberry Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "blueberry extract"
+   ],
+   "slug": "blueberry-extract",
+   "url": "https://acnesafecheck.com/ingredient/blueberry-extract.html"
+  },
+  {
+   "name": "Borage Oil",
+   "comedogenic_rating": 2,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "borage oil",
+    "borago officinalis seed oil"
+   ],
+   "slug": "borage-oil",
+   "url": "https://acnesafecheck.com/ingredient/borage-oil.html"
+  },
+  {
+   "name": "Boron Nitride",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "boron nitride"
+   ],
+   "slug": "boron-nitride",
+   "url": "https://acnesafecheck.com/ingredient/boron-nitride.html"
+  },
+  {
+   "name": "Boswellia Serrata Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "boswellia serrata extract"
+   ],
+   "slug": "boswellia-serrata-extract",
+   "url": "https://acnesafecheck.com/ingredient/boswellia-serrata-extract.html"
+  },
+  {
+   "name": "Brahmi Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "brahmi extract"
+   ],
+   "slug": "brahmi-extract",
+   "url": "https://acnesafecheck.com/ingredient/brahmi-extract.html"
+  },
+  {
+   "name": "Broccoli Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "broccoli extract"
+   ],
+   "slug": "broccoli-extract",
+   "url": "https://acnesafecheck.com/ingredient/broccoli-extract.html"
+  },
+  {
+   "name": "Burdock Root Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "burdock root extract"
+   ],
+   "slug": "burdock-root-extract",
+   "url": "https://acnesafecheck.com/ingredient/burdock-root-extract.html"
+  },
+  {
+   "name": "Butyl Stearate",
+   "comedogenic_rating": 3,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "butyl stearate"
+   ],
+   "slug": "butyl-stearate",
+   "url": "https://acnesafecheck.com/ingredient/butyl-stearate.html"
+  },
+  {
+   "name": "Butylene Glycol",
+   "comedogenic_rating": 0,
+   "category": "Humectant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "butylene glycol"
+   ],
+   "slug": "butylene-glycol",
+   "url": "https://acnesafecheck.com/ingredient/butylene-glycol.html"
+  },
+  {
+   "name": "Cabbage Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cabbage extract"
+   ],
+   "slug": "cabbage-extract",
+   "url": "https://acnesafecheck.com/ingredient/cabbage-extract.html"
+  },
+  {
+   "name": "Cactus Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cactus extract"
+   ],
+   "slug": "cactus-extract",
+   "url": "https://acnesafecheck.com/ingredient/cactus-extract.html"
+  },
+  {
+   "name": "Caffeine",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "caffeine"
+   ],
+   "slug": "caffeine",
+   "url": "https://acnesafecheck.com/ingredient/caffeine.html"
+  },
+  {
+   "name": "Calcium Carbonate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "calcium carbonate"
+   ],
+   "slug": "calcium-carbonate",
+   "url": "https://acnesafecheck.com/ingredient/calcium-carbonate.html"
+  },
+  {
+   "name": "Calcium Chloride",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "calcium chloride"
+   ],
+   "slug": "calcium-chloride",
+   "url": "https://acnesafecheck.com/ingredient/calcium-chloride.html"
+  },
+  {
+   "name": "Calcium Pantothenate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "calcium pantothenate"
+   ],
+   "slug": "calcium-pantothenate",
+   "url": "https://acnesafecheck.com/ingredient/calcium-pantothenate.html"
+  },
+  {
+   "name": "Calendula Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "calendula extract"
+   ],
+   "slug": "calendula-extract",
+   "url": "https://acnesafecheck.com/ingredient/calendula-extract.html"
+  },
+  {
+   "name": "Calendula Officinalis Flower Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "calendula officinalis flower extract"
+   ],
+   "slug": "calendula-officinalis-flower-extract",
+   "url": "https://acnesafecheck.com/ingredient/calendula-officinalis-flower-extract.html"
+  },
+  {
+   "name": "Camellia / Tsubaki Oil",
+   "comedogenic_rating": 1,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "camellia japonica seed oil",
+    "camellia oil",
+    "tsubaki oil"
+   ],
+   "slug": "camellia-tsubaki-oil",
+   "url": "https://acnesafecheck.com/ingredient/camellia-tsubaki-oil.html"
+  },
+  {
+   "name": "Camellia Japonica Leaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "camellia japonica leaf extract"
+   ],
+   "slug": "camellia-japonica-leaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/camellia-japonica-leaf-extract.html"
+  },
+  {
+   "name": "Camellia Sinensis Leaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "camellia sinensis leaf extract"
+   ],
+   "slug": "camellia-sinensis-leaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/camellia-sinensis-leaf-extract.html"
+  },
+  {
+   "name": "Candelilla Wax",
+   "comedogenic_rating": 1,
+   "category": "Wax",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "candelilla wax",
+    "euphorbia cerifera wax"
+   ],
+   "slug": "candelilla-wax",
+   "url": "https://acnesafecheck.com/ingredient/candelilla-wax.html"
+  },
+  {
+   "name": "Caprylhydroxamic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "caprylhydroxamic acid"
+   ],
+   "slug": "caprylhydroxamic-acid",
+   "url": "https://acnesafecheck.com/ingredient/caprylhydroxamic-acid.html"
+  },
+  {
+   "name": "Caprylic/Capric Triglyceride",
+   "comedogenic_rating": 1,
+   "category": "Ester",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "caprylic capric triglyceride",
+    "caprylic/capric triglyceride"
+   ],
+   "slug": "caprylic-capric-triglyceride",
+   "url": "https://acnesafecheck.com/ingredient/caprylic-capric-triglyceride.html"
+  },
+  {
+   "name": "Caprylyl Glycol",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "caprylyl glycol"
+   ],
+   "slug": "caprylyl-glycol",
+   "url": "https://acnesafecheck.com/ingredient/caprylyl-glycol.html"
+  },
+  {
+   "name": "Carbomer",
+   "comedogenic_rating": 0,
+   "category": "Thickener",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "carbomer"
+   ],
+   "slug": "carbomer",
+   "url": "https://acnesafecheck.com/ingredient/carbomer.html"
+  },
+  {
+   "name": "Cardamom Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cardamom extract"
+   ],
+   "slug": "cardamom-extract",
+   "url": "https://acnesafecheck.com/ingredient/cardamom-extract.html"
+  },
+  {
+   "name": "Carica Papaya Fruit Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "carica papaya fruit extract"
+   ],
+   "slug": "carica-papaya-fruit-extract",
+   "url": "https://acnesafecheck.com/ingredient/carica-papaya-fruit-extract.html"
+  },
+  {
+   "name": "Carnauba Wax",
+   "comedogenic_rating": 1,
+   "category": "Wax",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "carnauba wax",
+    "copernicia cerifera wax"
+   ],
+   "slug": "carnauba-wax",
+   "url": "https://acnesafecheck.com/ingredient/carnauba-wax.html"
+  },
+  {
+   "name": "Carnosine",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "carnosine"
+   ],
+   "slug": "carnosine",
+   "url": "https://acnesafecheck.com/ingredient/carnosine.html"
+  },
+  {
+   "name": "Carrageenan",
+   "comedogenic_rating": 5,
+   "category": "Thickener",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "carrageenan",
+    "chondrus crispus"
+   ],
+   "slug": "carrageenan",
+   "url": "https://acnesafecheck.com/ingredient/carrageenan.html"
+  },
+  {
+   "name": "Carrot Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "carrot extract"
+   ],
+   "slug": "carrot-extract",
+   "url": "https://acnesafecheck.com/ingredient/carrot-extract.html"
+  },
+  {
+   "name": "Castor Oil",
+   "comedogenic_rating": 1,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "castor oil",
+    "ricinus communis seed oil"
+   ],
+   "slug": "castor-oil",
+   "url": "https://acnesafecheck.com/ingredient/castor-oil.html"
+  },
+  {
+   "name": "Cedarwood Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cedarwood extract"
+   ],
+   "slug": "cedarwood-extract",
+   "url": "https://acnesafecheck.com/ingredient/cedarwood-extract.html"
+  },
+  {
+   "name": "Celery Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "celery extract"
+   ],
+   "slug": "celery-extract",
+   "url": "https://acnesafecheck.com/ingredient/celery-extract.html"
+  },
+  {
+   "name": "Cellulose Gum",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cellulose gum"
+   ],
+   "slug": "cellulose-gum",
+   "url": "https://acnesafecheck.com/ingredient/cellulose-gum.html"
+  },
+  {
+   "name": "Centaurea Cyanus Flower Water",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "centaurea cyanus flower water"
+   ],
+   "slug": "centaurea-cyanus-flower-water",
+   "url": "https://acnesafecheck.com/ingredient/centaurea-cyanus-flower-water.html"
+  },
+  {
+   "name": "Centella Asiatica Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "centella asiatica extract"
+   ],
+   "slug": "centella-asiatica-extract",
+   "url": "https://acnesafecheck.com/ingredient/centella-asiatica-extract.html"
+  },
+  {
+   "name": "Ceteareth-20",
+   "comedogenic_rating": 4,
+   "category": "Emulsifier",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "ceteareth-20",
+    "cetearyl alcohol ceteareth-20"
+   ],
+   "slug": "ceteareth-20",
+   "url": "https://acnesafecheck.com/ingredient/ceteareth-20.html"
+  },
+  {
+   "name": "Ceteareth-25",
+   "comedogenic_rating": 2,
+   "category": "Emulsifier",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "ceteareth-25"
+   ],
+   "slug": "ceteareth-25",
+   "url": "https://acnesafecheck.com/ingredient/ceteareth-25.html"
+  },
+  {
+   "name": "Cetearyl Alcohol",
+   "comedogenic_rating": 2,
+   "category": "Fatty alcohol",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "cetearyl alcohol"
+   ],
+   "slug": "cetearyl-alcohol",
+   "url": "https://acnesafecheck.com/ingredient/cetearyl-alcohol.html"
+  },
+  {
+   "name": "Cetearyl Ethylhexanoate",
+   "comedogenic_rating": 1,
+   "category": "Ester",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "cetearyl ethylhexanoate"
+   ],
+   "slug": "cetearyl-ethylhexanoate",
+   "url": "https://acnesafecheck.com/ingredient/cetearyl-ethylhexanoate.html"
+  },
+  {
+   "name": "Cetearyl Glucoside",
+   "comedogenic_rating": 0,
+   "category": "Emulsifier",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cetearyl glucoside"
+   ],
+   "slug": "cetearyl-glucoside",
+   "url": "https://acnesafecheck.com/ingredient/cetearyl-glucoside.html"
+  },
+  {
+   "name": "Cetyl Acetate",
+   "comedogenic_rating": 3,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "cetyl acetate"
+   ],
+   "slug": "cetyl-acetate",
+   "url": "https://acnesafecheck.com/ingredient/cetyl-acetate.html"
+  },
+  {
+   "name": "Cetyl Alcohol",
+   "comedogenic_rating": 2,
+   "category": "Fatty alcohol",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "1-hexadecanol",
+    "cetyl alcohol",
+    "hexadecyl alcohol"
+   ],
+   "slug": "cetyl-alcohol",
+   "url": "https://acnesafecheck.com/ingredient/cetyl-alcohol.html"
+  },
+  {
+   "name": "Cha de Bugre Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cha de bugre extract"
+   ],
+   "slug": "cha-de-bugre-extract",
+   "url": "https://acnesafecheck.com/ingredient/cha-de-bugre-extract.html"
+  },
+  {
+   "name": "Chamomile Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "chamomile extract"
+   ],
+   "slug": "chamomile-extract",
+   "url": "https://acnesafecheck.com/ingredient/chamomile-extract.html"
+  },
+  {
+   "name": "Chamomilla Recutita Flower Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "chamomilla recutita flower extract"
+   ],
+   "slug": "chamomilla-recutita-flower-extract",
+   "url": "https://acnesafecheck.com/ingredient/chamomilla-recutita-flower-extract.html"
+  },
+  {
+   "name": "Charcoal",
+   "comedogenic_rating": 0,
+   "category": "Misc",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "activated charcoal",
+    "charcoal"
+   ],
+   "slug": "charcoal",
+   "url": "https://acnesafecheck.com/ingredient/charcoal.html"
+  },
+  {
+   "name": "Chickweed Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "chickweed extract"
+   ],
+   "slug": "chickweed-extract",
+   "url": "https://acnesafecheck.com/ingredient/chickweed-extract.html"
+  },
+  {
+   "name": "Chlorella Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "chlorella extract"
+   ],
+   "slug": "chlorella-extract",
+   "url": "https://acnesafecheck.com/ingredient/chlorella-extract.html"
+  },
+  {
+   "name": "Chlorphenesin",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "chlorphenesin"
+   ],
+   "slug": "chlorphenesin",
+   "url": "https://acnesafecheck.com/ingredient/chlorphenesin.html"
+  },
+  {
+   "name": "Cica",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cica"
+   ],
+   "slug": "cica",
+   "url": "https://acnesafecheck.com/ingredient/cica.html"
+  },
+  {
+   "name": "Cilantro Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cilantro extract"
+   ],
+   "slug": "cilantro-extract",
+   "url": "https://acnesafecheck.com/ingredient/cilantro-extract.html"
+  },
+  {
+   "name": "Cinnamon Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cinnamon extract"
+   ],
+   "slug": "cinnamon-extract",
+   "url": "https://acnesafecheck.com/ingredient/cinnamon-extract.html"
+  },
+  {
+   "name": "Citric Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "citric acid"
+   ],
+   "slug": "citric-acid",
+   "url": "https://acnesafecheck.com/ingredient/citric-acid.html"
+  },
+  {
+   "name": "Citrus Limon Peel Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "citrus limon peel extract"
+   ],
+   "slug": "citrus-limon-peel-extract",
+   "url": "https://acnesafecheck.com/ingredient/citrus-limon-peel-extract.html"
+  },
+  {
+   "name": "Cleavers Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cleavers extract"
+   ],
+   "slug": "cleavers-extract",
+   "url": "https://acnesafecheck.com/ingredient/cleavers-extract.html"
+  },
+  {
+   "name": "Clove Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "clove extract"
+   ],
+   "slug": "clove-extract",
+   "url": "https://acnesafecheck.com/ingredient/clove-extract.html"
+  },
+  {
+   "name": "Cocamidopropyl Betaine",
+   "comedogenic_rating": 1,
+   "category": "Surfactant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cocamidopropyl betaine"
+   ],
+   "slug": "cocamidopropyl-betaine",
+   "url": "https://acnesafecheck.com/ingredient/cocamidopropyl-betaine.html"
+  },
+  {
+   "name": "Coco-Caprylate",
+   "comedogenic_rating": 1,
+   "category": "Ester",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "coco caprylate",
+    "coco-caprylate"
+   ],
+   "slug": "coco-caprylate",
+   "url": "https://acnesafecheck.com/ingredient/coco-caprylate.html"
+  },
+  {
+   "name": "Coco-Glucoside",
+   "comedogenic_rating": 0,
+   "category": "Surfactant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "coco glucoside",
+    "coco-glucoside"
+   ],
+   "slug": "coco-glucoside",
+   "url": "https://acnesafecheck.com/ingredient/coco-glucoside.html"
+  },
+  {
+   "name": "Cocoa Butter",
+   "comedogenic_rating": 4,
+   "category": "Butter",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "cocoa butter",
+    "theobroma cacao",
+    "theobroma cacao seed butter"
+   ],
+   "slug": "cocoa-butter",
+   "url": "https://acnesafecheck.com/ingredient/cocoa-butter.html"
+  },
+  {
+   "name": "Cocoa Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cocoa extract"
+   ],
+   "slug": "cocoa-extract",
+   "url": "https://acnesafecheck.com/ingredient/cocoa-extract.html"
+  },
+  {
+   "name": "Coconut Alkanes",
+   "comedogenic_rating": 3,
+   "category": "Oil",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "coconut alkanes"
+   ],
+   "slug": "coconut-alkanes",
+   "url": "https://acnesafecheck.com/ingredient/coconut-alkanes.html"
+  },
+  {
+   "name": "Coconut Butter",
+   "comedogenic_rating": 4,
+   "category": "Butter",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "coconut butter"
+   ],
+   "slug": "coconut-butter",
+   "url": "https://acnesafecheck.com/ingredient/coconut-butter.html"
+  },
+  {
+   "name": "Coconut Oil",
+   "comedogenic_rating": 4,
+   "category": "Oil",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "coconut oil",
+    "cocos nucifera oil"
+   ],
+   "slug": "coconut-oil",
+   "url": "https://acnesafecheck.com/ingredient/coconut-oil.html"
+  },
+  {
+   "name": "Coenzyme Q10",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "coenzyme q10"
+   ],
+   "slug": "coenzyme-q10",
+   "url": "https://acnesafecheck.com/ingredient/coenzyme-q10.html"
+  },
+  {
+   "name": "Coffea Arabica Seed Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "coffea arabica seed extract"
+   ],
+   "slug": "coffea-arabica-seed-extract",
+   "url": "https://acnesafecheck.com/ingredient/coffea-arabica-seed-extract.html"
+  },
+  {
+   "name": "Coffee Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "coffee extract"
+   ],
+   "slug": "coffee-extract",
+   "url": "https://acnesafecheck.com/ingredient/coffee-extract.html"
+  },
+  {
+   "name": "Collagen",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "collagen"
+   ],
+   "slug": "collagen",
+   "url": "https://acnesafecheck.com/ingredient/collagen.html"
+  },
+  {
+   "name": "Colloidal Oatmeal",
+   "comedogenic_rating": 0,
+   "category": "Soothing",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "colloidal oatmeal"
+   ],
+   "slug": "colloidal-oatmeal",
+   "url": "https://acnesafecheck.com/ingredient/colloidal-oatmeal.html"
+  },
+  {
+   "name": "Comfrey Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "comfrey extract"
+   ],
+   "slug": "comfrey-extract",
+   "url": "https://acnesafecheck.com/ingredient/comfrey-extract.html"
+  },
+  {
+   "name": "Copper PCA",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "copper pca"
+   ],
+   "slug": "copper-pca",
+   "url": "https://acnesafecheck.com/ingredient/copper-pca.html"
+  },
+  {
+   "name": "Copper Tripeptide-1",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "copper tripeptide-1"
+   ],
+   "slug": "copper-tripeptide-1",
+   "url": "https://acnesafecheck.com/ingredient/copper-tripeptide-1.html"
+  },
+  {
+   "name": "Corn Oil",
+   "comedogenic_rating": 3,
+   "category": "Oil",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "corn oil",
+    "zea mays oil"
+   ],
+   "slug": "corn-oil",
+   "url": "https://acnesafecheck.com/ingredient/corn-oil.html"
+  },
+  {
+   "name": "Corn Starch",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "corn starch"
+   ],
+   "slug": "corn-starch",
+   "url": "https://acnesafecheck.com/ingredient/corn-starch.html"
+  },
+  {
+   "name": "Cornflower Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cornflower extract"
+   ],
+   "slug": "cornflower-extract",
+   "url": "https://acnesafecheck.com/ingredient/cornflower-extract.html"
+  },
+  {
+   "name": "Cotton Seed Oil",
+   "comedogenic_rating": 3,
+   "category": "Oil",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "cotton seed oil",
+    "cottonseed oil",
+    "gossypium oil"
+   ],
+   "slug": "cotton-seed-oil",
+   "url": "https://acnesafecheck.com/ingredient/cotton-seed-oil.html"
+  },
+  {
+   "name": "Cranberry Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cranberry extract"
+   ],
+   "slug": "cranberry-extract",
+   "url": "https://acnesafecheck.com/ingredient/cranberry-extract.html"
+  },
+  {
+   "name": "Cucumber Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cucumber extract"
+   ],
+   "slug": "cucumber-extract",
+   "url": "https://acnesafecheck.com/ingredient/cucumber-extract.html"
+  },
+  {
+   "name": "Cucumis Sativus Fruit Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cucumis sativus fruit extract"
+   ],
+   "slug": "cucumis-sativus-fruit-extract",
+   "url": "https://acnesafecheck.com/ingredient/cucumis-sativus-fruit-extract.html"
+  },
+  {
+   "name": "Cucurbita Pepo Seed Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cucurbita pepo seed extract"
+   ],
+   "slug": "cucurbita-pepo-seed-extract",
+   "url": "https://acnesafecheck.com/ingredient/cucurbita-pepo-seed-extract.html"
+  },
+  {
+   "name": "Cupuacu Butter",
+   "comedogenic_rating": 1,
+   "category": "Butter",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "cupuacu butter",
+    "theobroma grandiflorum seed butter"
+   ],
+   "slug": "cupuacu-butter",
+   "url": "https://acnesafecheck.com/ingredient/cupuacu-butter.html"
+  },
+  {
+   "name": "Curcuma Longa Root Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "curcuma longa root extract"
+   ],
+   "slug": "curcuma-longa-root-extract",
+   "url": "https://acnesafecheck.com/ingredient/curcuma-longa-root-extract.html"
+  },
+  {
+   "name": "Cyanocobalamin",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cyanocobalamin"
+   ],
+   "slug": "cyanocobalamin",
+   "url": "https://acnesafecheck.com/ingredient/cyanocobalamin.html"
+  },
+  {
+   "name": "Cyclodextrin",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cyclodextrin"
+   ],
+   "slug": "cyclodextrin",
+   "url": "https://acnesafecheck.com/ingredient/cyclodextrin.html"
+  },
+  {
+   "name": "Cyclohexasiloxane",
+   "comedogenic_rating": 0,
+   "category": "Silicone",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cyclohexasiloxane"
+   ],
+   "slug": "cyclohexasiloxane",
+   "url": "https://acnesafecheck.com/ingredient/cyclohexasiloxane.html"
+  },
+  {
+   "name": "Cyclomethicone",
+   "comedogenic_rating": 0,
+   "category": "Silicone",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cyclomethicone"
+   ],
+   "slug": "cyclomethicone",
+   "url": "https://acnesafecheck.com/ingredient/cyclomethicone.html"
+  },
+  {
+   "name": "Cyclopentasiloxane",
+   "comedogenic_rating": 0,
+   "category": "Silicone",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "cyclopentasiloxane"
+   ],
+   "slug": "cyclopentasiloxane",
+   "url": "https://acnesafecheck.com/ingredient/cyclopentasiloxane.html"
+  },
+  {
+   "name": "D&C Red 17",
+   "comedogenic_rating": 3,
+   "category": "Colorant",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "d&c red 17",
+    "red 17"
+   ],
+   "slug": "d-c-red-17",
+   "url": "https://acnesafecheck.com/ingredient/d-c-red-17.html"
+  },
+  {
+   "name": "D&C Red 21",
+   "comedogenic_rating": 3,
+   "category": "Colorant",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "d&c red 21",
+    "red 21"
+   ],
+   "slug": "d-c-red-21",
+   "url": "https://acnesafecheck.com/ingredient/d-c-red-21.html"
+  },
+  {
+   "name": "D&C Red 27",
+   "comedogenic_rating": 2,
+   "category": "Colorant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "d&c red 27",
+    "red 27"
+   ],
+   "slug": "d-c-red-27",
+   "url": "https://acnesafecheck.com/ingredient/d-c-red-27.html"
+  },
+  {
+   "name": "D&C Red 30",
+   "comedogenic_rating": 3,
+   "category": "Colorant",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "d&c red 30",
+    "red 30"
+   ],
+   "slug": "d-c-red-30",
+   "url": "https://acnesafecheck.com/ingredient/d-c-red-30.html"
+  },
+  {
+   "name": "D&C Red 33",
+   "comedogenic_rating": 2,
+   "category": "Colorant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "d&c red 33",
+    "red 33"
+   ],
+   "slug": "d-c-red-33",
+   "url": "https://acnesafecheck.com/ingredient/d-c-red-33.html"
+  },
+  {
+   "name": "D&C Red 36",
+   "comedogenic_rating": 3,
+   "category": "Colorant",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "d&c red 36",
+    "red 36"
+   ],
+   "slug": "d-c-red-36",
+   "url": "https://acnesafecheck.com/ingredient/d-c-red-36.html"
+  },
+  {
+   "name": "D&C Red 6",
+   "comedogenic_rating": 3,
+   "category": "Colorant",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ci 15850",
+    "d&c red 6",
+    "red 6"
+   ],
+   "slug": "d-c-red-6",
+   "url": "https://acnesafecheck.com/ingredient/d-c-red-6.html"
+  },
+  {
+   "name": "D&C Red 7",
+   "comedogenic_rating": 3,
+   "category": "Colorant",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "d&c red 7",
+    "red 7"
+   ],
+   "slug": "d-c-red-7",
+   "url": "https://acnesafecheck.com/ingredient/d-c-red-7.html"
+  },
+  {
+   "name": "D&C Red 9",
+   "comedogenic_rating": 3,
+   "category": "Colorant",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "d&c red 9",
+    "red 9"
+   ],
+   "slug": "d-c-red-9",
+   "url": "https://acnesafecheck.com/ingredient/d-c-red-9.html"
+  },
+  {
+   "name": "Daisy Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "daisy extract"
+   ],
+   "slug": "daisy-extract",
+   "url": "https://acnesafecheck.com/ingredient/daisy-extract.html"
+  },
+  {
+   "name": "Dandelion Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "dandelion extract"
+   ],
+   "slug": "dandelion-extract",
+   "url": "https://acnesafecheck.com/ingredient/dandelion-extract.html"
+  },
+  {
+   "name": "Date Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "date extract"
+   ],
+   "slug": "date-extract",
+   "url": "https://acnesafecheck.com/ingredient/date-extract.html"
+  },
+  {
+   "name": "Daucus Carota Sativa Root Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "daucus carota sativa root extract"
+   ],
+   "slug": "daucus-carota-sativa-root-extract",
+   "url": "https://acnesafecheck.com/ingredient/daucus-carota-sativa-root-extract.html"
+  },
+  {
+   "name": "Decyl Glucoside",
+   "comedogenic_rating": 0,
+   "category": "Surfactant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "decyl glucoside"
+   ],
+   "slug": "decyl-glucoside",
+   "url": "https://acnesafecheck.com/ingredient/decyl-glucoside.html"
+  },
+  {
+   "name": "Decyl Oleate",
+   "comedogenic_rating": 3,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "decyl oleate"
+   ],
+   "slug": "decyl-oleate",
+   "url": "https://acnesafecheck.com/ingredient/decyl-oleate.html"
+  },
+  {
+   "name": "Dehydroacetic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "dehydroacetic acid"
+   ],
+   "slug": "dehydroacetic-acid",
+   "url": "https://acnesafecheck.com/ingredient/dehydroacetic-acid.html"
+  },
+  {
+   "name": "Diisopropyl Adipate",
+   "comedogenic_rating": 1,
+   "category": "Ester",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "diisopropyl adipate"
+   ],
+   "slug": "diisopropyl-adipate",
+   "url": "https://acnesafecheck.com/ingredient/diisopropyl-adipate.html"
+  },
+  {
+   "name": "Dill Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "dill extract"
+   ],
+   "slug": "dill-extract",
+   "url": "https://acnesafecheck.com/ingredient/dill-extract.html"
+  },
+  {
+   "name": "Dimethicone",
+   "comedogenic_rating": 1,
+   "category": "Silicone",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "dimethicone"
+   ],
+   "slug": "dimethicone",
+   "url": "https://acnesafecheck.com/ingredient/dimethicone.html"
+  },
+  {
+   "name": "Dimethicone Crosspolymer",
+   "comedogenic_rating": 1,
+   "category": "Silicone",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "dimethicone crosspolymer"
+   ],
+   "slug": "dimethicone-crosspolymer",
+   "url": "https://acnesafecheck.com/ingredient/dimethicone-crosspolymer.html"
+  },
+  {
+   "name": "Dipropylene Glycol",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "dipropylene glycol"
+   ],
+   "slug": "dipropylene-glycol",
+   "url": "https://acnesafecheck.com/ingredient/dipropylene-glycol.html"
+  },
+  {
+   "name": "Disodium Cocoamphodiacetate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "disodium cocoamphodiacetate"
+   ],
+   "slug": "disodium-cocoamphodiacetate",
+   "url": "https://acnesafecheck.com/ingredient/disodium-cocoamphodiacetate.html"
+  },
+  {
+   "name": "Disodium EDTA",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "disodium edta"
+   ],
+   "slug": "disodium-edta",
+   "url": "https://acnesafecheck.com/ingredient/disodium-edta.html"
+  },
+  {
+   "name": "Echinacea Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "echinacea extract"
+   ],
+   "slug": "echinacea-extract",
+   "url": "https://acnesafecheck.com/ingredient/echinacea-extract.html"
+  },
+  {
+   "name": "Ectoin",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ectoin"
+   ],
+   "slug": "ectoin",
+   "url": "https://acnesafecheck.com/ingredient/ectoin.html"
+  },
+  {
+   "name": "Edelweiss Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "edelweiss extract"
+   ],
+   "slug": "edelweiss-extract",
+   "url": "https://acnesafecheck.com/ingredient/edelweiss-extract.html"
+  },
+  {
+   "name": "Elastin",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "elastin"
+   ],
+   "slug": "elastin",
+   "url": "https://acnesafecheck.com/ingredient/elastin.html"
+  },
+  {
+   "name": "Elderflower Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "elderflower extract"
+   ],
+   "slug": "elderflower-extract",
+   "url": "https://acnesafecheck.com/ingredient/elderflower-extract.html"
+  },
+  {
+   "name": "Equisetum Arvense Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "equisetum arvense extract"
+   ],
+   "slug": "equisetum-arvense-extract",
+   "url": "https://acnesafecheck.com/ingredient/equisetum-arvense-extract.html"
+  },
+  {
+   "name": "Ergothioneine",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ergothioneine"
+   ],
+   "slug": "ergothioneine",
+   "url": "https://acnesafecheck.com/ingredient/ergothioneine.html"
+  },
+  {
+   "name": "Ethanol",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ethanol"
+   ],
+   "slug": "ethanol",
+   "url": "https://acnesafecheck.com/ingredient/ethanol.html"
+  },
+  {
+   "name": "Ethylhexylglycerin",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ethylhexylglycerin"
+   ],
+   "slug": "ethylhexylglycerin",
+   "url": "https://acnesafecheck.com/ingredient/ethylhexylglycerin.html"
+  },
+  {
+   "name": "Eucalyptus Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "eucalyptus extract"
+   ],
+   "slug": "eucalyptus-extract",
+   "url": "https://acnesafecheck.com/ingredient/eucalyptus-extract.html"
+  },
+  {
+   "name": "Evening Primrose Oil",
+   "comedogenic_rating": 2,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "evening primrose oil",
+    "oenothera biennis oil"
+   ],
+   "slug": "evening-primrose-oil",
+   "url": "https://acnesafecheck.com/ingredient/evening-primrose-oil.html"
+  },
+  {
+   "name": "Fennel Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "fennel extract"
+   ],
+   "slug": "fennel-extract",
+   "url": "https://acnesafecheck.com/ingredient/fennel-extract.html"
+  },
+  {
+   "name": "Fermented Rice Water",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "fermented rice water"
+   ],
+   "slug": "fermented-rice-water",
+   "url": "https://acnesafecheck.com/ingredient/fermented-rice-water.html"
+  },
+  {
+   "name": "Ferulate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ferulate"
+   ],
+   "slug": "ferulate",
+   "url": "https://acnesafecheck.com/ingredient/ferulate.html"
+  },
+  {
+   "name": "Ferulic Acid",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ferulic acid"
+   ],
+   "slug": "ferulic-acid",
+   "url": "https://acnesafecheck.com/ingredient/ferulic-acid.html"
+  },
+  {
+   "name": "Fig Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "fig extract"
+   ],
+   "slug": "fig-extract",
+   "url": "https://acnesafecheck.com/ingredient/fig-extract.html"
+  },
+  {
+   "name": "Folic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "folic acid"
+   ],
+   "slug": "folic-acid",
+   "url": "https://acnesafecheck.com/ingredient/folic-acid.html"
+  },
+  {
+   "name": "Fragrance",
+   "comedogenic_rating": 1,
+   "category": "Fragrance",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "fragrance",
+    "parfum"
+   ],
+   "slug": "fragrance",
+   "url": "https://acnesafecheck.com/ingredient/fragrance.html"
+  },
+  {
+   "name": "Frankincense Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "frankincense extract"
+   ],
+   "slug": "frankincense-extract",
+   "url": "https://acnesafecheck.com/ingredient/frankincense-extract.html"
+  },
+  {
+   "name": "Fructose",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "fructose"
+   ],
+   "slug": "fructose",
+   "url": "https://acnesafecheck.com/ingredient/fructose.html"
+  },
+  {
+   "name": "Galactomyces Ferment Filtrate",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "galactomyces ferment filtrate"
+   ],
+   "slug": "galactomyces-ferment-filtrate",
+   "url": "https://acnesafecheck.com/ingredient/galactomyces-ferment-filtrate.html"
+  },
+  {
+   "name": "Garlic Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "garlic extract"
+   ],
+   "slug": "garlic-extract",
+   "url": "https://acnesafecheck.com/ingredient/garlic-extract.html"
+  },
+  {
+   "name": "Gellan Gum",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "gellan gum"
+   ],
+   "slug": "gellan-gum",
+   "url": "https://acnesafecheck.com/ingredient/gellan-gum.html"
+  },
+  {
+   "name": "Ginger Root Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ginger root extract"
+   ],
+   "slug": "ginger-root-extract",
+   "url": "https://acnesafecheck.com/ingredient/ginger-root-extract.html"
+  },
+  {
+   "name": "Ginkgo Biloba Leaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ginkgo biloba leaf extract"
+   ],
+   "slug": "ginkgo-biloba-leaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/ginkgo-biloba-leaf-extract.html"
+  },
+  {
+   "name": "Ginseng Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ginseng extract"
+   ],
+   "slug": "ginseng-extract",
+   "url": "https://acnesafecheck.com/ingredient/ginseng-extract.html"
+  },
+  {
+   "name": "Gluconolactone",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "gluconolactone"
+   ],
+   "slug": "gluconolactone",
+   "url": "https://acnesafecheck.com/ingredient/gluconolactone.html"
+  },
+  {
+   "name": "Glucose",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "glucose"
+   ],
+   "slug": "glucose",
+   "url": "https://acnesafecheck.com/ingredient/glucose.html"
+  },
+  {
+   "name": "Glutathione",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "glutathione"
+   ],
+   "slug": "glutathione",
+   "url": "https://acnesafecheck.com/ingredient/glutathione.html"
+  },
+  {
+   "name": "Glycereth-26",
+   "comedogenic_rating": 0,
+   "category": "Humectant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "glycereth-26"
+   ],
+   "slug": "glycereth-26",
+   "url": "https://acnesafecheck.com/ingredient/glycereth-26.html"
+  },
+  {
+   "name": "Glycerin",
+   "comedogenic_rating": 0,
+   "category": "Humectant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "glycerin",
+    "glycerine",
+    "glycerol"
+   ],
+   "slug": "glycerin",
+   "url": "https://acnesafecheck.com/ingredient/glycerin.html"
+  },
+  {
+   "name": "Glyceryl Caprylate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "glyceryl caprylate"
+   ],
+   "slug": "glyceryl-caprylate",
+   "url": "https://acnesafecheck.com/ingredient/glyceryl-caprylate.html"
+  },
+  {
+   "name": "Glyceryl Oleate",
+   "comedogenic_rating": 2,
+   "category": "Ester",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "glyceryl oleate"
+   ],
+   "slug": "glyceryl-oleate",
+   "url": "https://acnesafecheck.com/ingredient/glyceryl-oleate.html"
+  },
+  {
+   "name": "Glyceryl Stearate",
+   "comedogenic_rating": 1,
+   "category": "Ester",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "glyceryl stearate"
+   ],
+   "slug": "glyceryl-stearate",
+   "url": "https://acnesafecheck.com/ingredient/glyceryl-stearate.html"
+  },
+  {
+   "name": "Glyceryl Stearate SE",
+   "comedogenic_rating": 3,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "glyceryl stearate se"
+   ],
+   "slug": "glyceryl-stearate-se",
+   "url": "https://acnesafecheck.com/ingredient/glyceryl-stearate-se.html"
+  },
+  {
+   "name": "Glyceryl Undecylenate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "glyceryl undecylenate"
+   ],
+   "slug": "glyceryl-undecylenate",
+   "url": "https://acnesafecheck.com/ingredient/glyceryl-undecylenate.html"
+  },
+  {
+   "name": "Glycine Soja Seed Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "glycine soja seed extract"
+   ],
+   "slug": "glycine-soja-seed-extract",
+   "url": "https://acnesafecheck.com/ingredient/glycine-soja-seed-extract.html"
+  },
+  {
+   "name": "Glycolic Acid",
+   "comedogenic_rating": 0,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "glycolic acid"
+   ],
+   "slug": "glycolic-acid",
+   "url": "https://acnesafecheck.com/ingredient/glycolic-acid.html"
+  },
+  {
+   "name": "Glycyrrhiza Glabra Root Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "glycyrrhiza glabra root extract"
+   ],
+   "slug": "glycyrrhiza-glabra-root-extract",
+   "url": "https://acnesafecheck.com/ingredient/glycyrrhiza-glabra-root-extract.html"
+  },
+  {
+   "name": "Goji Berry Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "goji berry extract"
+   ],
+   "slug": "goji-berry-extract",
+   "url": "https://acnesafecheck.com/ingredient/goji-berry-extract.html"
+  },
+  {
+   "name": "Gotu Kola Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "gotu kola extract"
+   ],
+   "slug": "gotu-kola-extract",
+   "url": "https://acnesafecheck.com/ingredient/gotu-kola-extract.html"
+  },
+  {
+   "name": "Grape Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "grape extract"
+   ],
+   "slug": "grape-extract",
+   "url": "https://acnesafecheck.com/ingredient/grape-extract.html"
+  },
+  {
+   "name": "Grapefruit Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "grapefruit extract"
+   ],
+   "slug": "grapefruit-extract",
+   "url": "https://acnesafecheck.com/ingredient/grapefruit-extract.html"
+  },
+  {
+   "name": "Grapeseed Oil",
+   "comedogenic_rating": 1,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "grape seed oil",
+    "grapeseed oil",
+    "vitis vinifera seed oil"
+   ],
+   "slug": "grapeseed-oil",
+   "url": "https://acnesafecheck.com/ingredient/grapeseed-oil.html"
+  },
+  {
+   "name": "Green Tea Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "green tea extract"
+   ],
+   "slug": "green-tea-extract",
+   "url": "https://acnesafecheck.com/ingredient/green-tea-extract.html"
+  },
+  {
+   "name": "Guar Hydroxypropyltrimonium Chloride",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "guar hydroxypropyltrimonium chloride"
+   ],
+   "slug": "guar-hydroxypropyltrimonium-chloride",
+   "url": "https://acnesafecheck.com/ingredient/guar-hydroxypropyltrimonium-chloride.html"
+  },
+  {
+   "name": "Guarana Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "guarana extract"
+   ],
+   "slug": "guarana-extract",
+   "url": "https://acnesafecheck.com/ingredient/guarana-extract.html"
+  },
+  {
+   "name": "Hamamelis Virginiana Water",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hamamelis virginiana water"
+   ],
+   "slug": "hamamelis-virginiana-water",
+   "url": "https://acnesafecheck.com/ingredient/hamamelis-virginiana-water.html"
+  },
+  {
+   "name": "Hawthorn Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hawthorn extract"
+   ],
+   "slug": "hawthorn-extract",
+   "url": "https://acnesafecheck.com/ingredient/hawthorn-extract.html"
+  },
+  {
+   "name": "HDI/Trimethylol Hexyllactone Crosspolymer",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hdi/trimethylol hexyllactone crosspolymer"
+   ],
+   "slug": "hdi-trimethylol-hexyllactone-crosspolymer",
+   "url": "https://acnesafecheck.com/ingredient/hdi-trimethylol-hexyllactone-crosspolymer.html"
+  },
+  {
+   "name": "Heartleaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "heartleaf extract"
+   ],
+   "slug": "heartleaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/heartleaf-extract.html"
+  },
+  {
+   "name": "Helichrysum Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "helichrysum extract"
+   ],
+   "slug": "helichrysum-extract",
+   "url": "https://acnesafecheck.com/ingredient/helichrysum-extract.html"
+  },
+  {
+   "name": "Hemp Seed Oil",
+   "comedogenic_rating": 0,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "cannabis sativa seed oil",
+    "hemp seed oil"
+   ],
+   "slug": "hemp-seed-oil",
+   "url": "https://acnesafecheck.com/ingredient/hemp-seed-oil.html"
+  },
+  {
+   "name": "Hexapeptide-9",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hexapeptide-9"
+   ],
+   "slug": "hexapeptide-9",
+   "url": "https://acnesafecheck.com/ingredient/hexapeptide-9.html"
+  },
+  {
+   "name": "Hexylene Glycol",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hexylene glycol"
+   ],
+   "slug": "hexylene-glycol",
+   "url": "https://acnesafecheck.com/ingredient/hexylene-glycol.html"
+  },
+  {
+   "name": "Hibiscus Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hibiscus extract"
+   ],
+   "slug": "hibiscus-extract",
+   "url": "https://acnesafecheck.com/ingredient/hibiscus-extract.html"
+  },
+  {
+   "name": "Hippophae Rhamnoides Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hippophae rhamnoides extract"
+   ],
+   "slug": "hippophae-rhamnoides-extract",
+   "url": "https://acnesafecheck.com/ingredient/hippophae-rhamnoides-extract.html"
+  },
+  {
+   "name": "Holy Basil Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "holy basil extract"
+   ],
+   "slug": "holy-basil-extract",
+   "url": "https://acnesafecheck.com/ingredient/holy-basil-extract.html"
+  },
+  {
+   "name": "Homosalate",
+   "comedogenic_rating": 1,
+   "category": "Sunscreen",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "homosalate"
+   ],
+   "slug": "homosalate",
+   "url": "https://acnesafecheck.com/ingredient/homosalate.html"
+  },
+  {
+   "name": "Honey Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "honey extract"
+   ],
+   "slug": "honey-extract",
+   "url": "https://acnesafecheck.com/ingredient/honey-extract.html"
+  },
+  {
+   "name": "Hops Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hops extract"
+   ],
+   "slug": "hops-extract",
+   "url": "https://acnesafecheck.com/ingredient/hops-extract.html"
+  },
+  {
+   "name": "Horsetail Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "horsetail extract"
+   ],
+   "slug": "horsetail-extract",
+   "url": "https://acnesafecheck.com/ingredient/horsetail-extract.html"
+  },
+  {
+   "name": "Houttuynia Cordata Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "houttuynia cordata extract"
+   ],
+   "slug": "houttuynia-cordata-extract",
+   "url": "https://acnesafecheck.com/ingredient/houttuynia-cordata-extract.html"
+  },
+  {
+   "name": "Hyaluronic Acid",
+   "comedogenic_rating": 0,
+   "category": "Humectant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hyaluronic acid",
+    "sodium hyaluronate"
+   ],
+   "slug": "hyaluronic-acid",
+   "url": "https://acnesafecheck.com/ingredient/hyaluronic-acid.html"
+  },
+  {
+   "name": "Hydrated Silica",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hydrated silica"
+   ],
+   "slug": "hydrated-silica",
+   "url": "https://acnesafecheck.com/ingredient/hydrated-silica.html"
+  },
+  {
+   "name": "Hydrogenated Castor Oil",
+   "comedogenic_rating": 1,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "hydrogenated castor oil"
+   ],
+   "slug": "hydrogenated-castor-oil",
+   "url": "https://acnesafecheck.com/ingredient/hydrogenated-castor-oil.html"
+  },
+  {
+   "name": "Hydrogenated Lecithin",
+   "comedogenic_rating": 1,
+   "category": "Emulsifier",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "hydrogenated lecithin"
+   ],
+   "slug": "hydrogenated-lecithin",
+   "url": "https://acnesafecheck.com/ingredient/hydrogenated-lecithin.html"
+  },
+  {
+   "name": "Hydrolyzed Collagen",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hydrolyzed collagen"
+   ],
+   "slug": "hydrolyzed-collagen",
+   "url": "https://acnesafecheck.com/ingredient/hydrolyzed-collagen.html"
+  },
+  {
+   "name": "Hydrolyzed Hyaluronic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hydrolyzed hyaluronic acid"
+   ],
+   "slug": "hydrolyzed-hyaluronic-acid",
+   "url": "https://acnesafecheck.com/ingredient/hydrolyzed-hyaluronic-acid.html"
+  },
+  {
+   "name": "Hydrolyzed Silk",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hydrolyzed silk"
+   ],
+   "slug": "hydrolyzed-silk",
+   "url": "https://acnesafecheck.com/ingredient/hydrolyzed-silk.html"
+  },
+  {
+   "name": "Hydrolyzed Wheat Protein",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hydrolyzed wheat protein"
+   ],
+   "slug": "hydrolyzed-wheat-protein",
+   "url": "https://acnesafecheck.com/ingredient/hydrolyzed-wheat-protein.html"
+  },
+  {
+   "name": "Hydroxyethylcellulose",
+   "comedogenic_rating": 0,
+   "category": "Thickener",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hydroxyethylcellulose"
+   ],
+   "slug": "hydroxyethylcellulose",
+   "url": "https://acnesafecheck.com/ingredient/hydroxyethylcellulose.html"
+  },
+  {
+   "name": "Hydroxypropyl Cyclodextrin",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hydroxypropyl cyclodextrin"
+   ],
+   "slug": "hydroxypropyl-cyclodextrin",
+   "url": "https://acnesafecheck.com/ingredient/hydroxypropyl-cyclodextrin.html"
+  },
+  {
+   "name": "Hydroxypropyl Guar",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "hydroxypropyl guar"
+   ],
+   "slug": "hydroxypropyl-guar",
+   "url": "https://acnesafecheck.com/ingredient/hydroxypropyl-guar.html"
+  },
+  {
+   "name": "Idebenone",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "idebenone"
+   ],
+   "slug": "idebenone",
+   "url": "https://acnesafecheck.com/ingredient/idebenone.html"
+  },
+  {
+   "name": "Inositol",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "inositol"
+   ],
+   "slug": "inositol",
+   "url": "https://acnesafecheck.com/ingredient/inositol.html"
+  },
+  {
+   "name": "Inulin",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "inulin"
+   ],
+   "slug": "inulin",
+   "url": "https://acnesafecheck.com/ingredient/inulin.html"
+  },
+  {
+   "name": "Iron Oxides",
+   "comedogenic_rating": 0,
+   "category": "Colorant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ci 77491",
+    "ci 77492",
+    "ci 77499",
+    "iron oxides"
+   ],
+   "slug": "iron-oxides",
+   "url": "https://acnesafecheck.com/ingredient/iron-oxides.html"
+  },
+  {
+   "name": "Isocetyl Stearate",
+   "comedogenic_rating": 5,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "isocetyl stearate"
+   ],
+   "slug": "isocetyl-stearate",
+   "url": "https://acnesafecheck.com/ingredient/isocetyl-stearate.html"
+  },
+  {
+   "name": "Isohexadecane",
+   "comedogenic_rating": 1,
+   "category": "Ester",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "isohexadecane"
+   ],
+   "slug": "isohexadecane",
+   "url": "https://acnesafecheck.com/ingredient/isohexadecane.html"
+  },
+  {
+   "name": "Isononyl Isononanoate",
+   "comedogenic_rating": 1,
+   "category": "Ester",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "isononyl isononanoate"
+   ],
+   "slug": "isononyl-isononanoate",
+   "url": "https://acnesafecheck.com/ingredient/isononyl-isononanoate.html"
+  },
+  {
+   "name": "Isopentyldiol",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "isopentyldiol"
+   ],
+   "slug": "isopentyldiol",
+   "url": "https://acnesafecheck.com/ingredient/isopentyldiol.html"
+  },
+  {
+   "name": "Isopropyl Alcohol",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "isopropyl alcohol"
+   ],
+   "slug": "isopropyl-alcohol",
+   "url": "https://acnesafecheck.com/ingredient/isopropyl-alcohol.html"
+  },
+  {
+   "name": "Isopropyl Isostearate",
+   "comedogenic_rating": 5,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "isopropyl isostearate"
+   ],
+   "slug": "isopropyl-isostearate",
+   "url": "https://acnesafecheck.com/ingredient/isopropyl-isostearate.html"
+  },
+  {
+   "name": "Isopropyl Linoleate",
+   "comedogenic_rating": 5,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "isopropyl linoleate"
+   ],
+   "slug": "isopropyl-linoleate",
+   "url": "https://acnesafecheck.com/ingredient/isopropyl-linoleate.html"
+  },
+  {
+   "name": "Isopropyl Myristate",
+   "comedogenic_rating": 5,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "isopropyl myristate"
+   ],
+   "slug": "isopropyl-myristate",
+   "url": "https://acnesafecheck.com/ingredient/isopropyl-myristate.html"
+  },
+  {
+   "name": "Isopropyl Palmitate",
+   "comedogenic_rating": 4,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "isopropyl palmitate"
+   ],
+   "slug": "isopropyl-palmitate",
+   "url": "https://acnesafecheck.com/ingredient/isopropyl-palmitate.html"
+  },
+  {
+   "name": "Isostearyl Isostearate",
+   "comedogenic_rating": 4,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "isostearyl isostearate"
+   ],
+   "slug": "isostearyl-isostearate",
+   "url": "https://acnesafecheck.com/ingredient/isostearyl-isostearate.html"
+  },
+  {
+   "name": "Isostearyl Neopentanoate",
+   "comedogenic_rating": 4,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "isostearyl neopentanoate"
+   ],
+   "slug": "isostearyl-neopentanoate",
+   "url": "https://acnesafecheck.com/ingredient/isostearyl-neopentanoate.html"
+  },
+  {
+   "name": "Jasmine Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "jasmine extract"
+   ],
+   "slug": "jasmine-extract",
+   "url": "https://acnesafecheck.com/ingredient/jasmine-extract.html"
+  },
+  {
+   "name": "Jojoba Oil",
+   "comedogenic_rating": 2,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "jojoba oil",
+    "simmondsia chinensis seed oil"
+   ],
+   "slug": "jojoba-oil",
+   "url": "https://acnesafecheck.com/ingredient/jojoba-oil.html"
+  },
+  {
+   "name": "Kale Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "kale extract"
+   ],
+   "slug": "kale-extract",
+   "url": "https://acnesafecheck.com/ingredient/kale-extract.html"
+  },
+  {
+   "name": "Kaolin",
+   "comedogenic_rating": 0,
+   "category": "Clay",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "kaolin"
+   ],
+   "slug": "kaolin",
+   "url": "https://acnesafecheck.com/ingredient/kaolin.html"
+  },
+  {
+   "name": "Keratin",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "keratin"
+   ],
+   "slug": "keratin",
+   "url": "https://acnesafecheck.com/ingredient/keratin.html"
+  },
+  {
+   "name": "Kojic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "kojic acid"
+   ],
+   "slug": "kojic-acid",
+   "url": "https://acnesafecheck.com/ingredient/kojic-acid.html"
+  },
+  {
+   "name": "Kokum Butter",
+   "comedogenic_rating": 1,
+   "category": "Butter",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "garcinia indica seed butter",
+    "kokum butter"
+   ],
+   "slug": "kokum-butter",
+   "url": "https://acnesafecheck.com/ingredient/kokum-butter.html"
+  },
+  {
+   "name": "Lactic Acid",
+   "comedogenic_rating": 0,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "lactic acid"
+   ],
+   "slug": "lactic-acid",
+   "url": "https://acnesafecheck.com/ingredient/lactic-acid.html"
+  },
+  {
+   "name": "Lactic Acid Bacteria",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "lactic acid bacteria"
+   ],
+   "slug": "lactic-acid-bacteria",
+   "url": "https://acnesafecheck.com/ingredient/lactic-acid-bacteria.html"
+  },
+  {
+   "name": "Lactobacillus Ferment",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "lactobacillus ferment"
+   ],
+   "slug": "lactobacillus-ferment",
+   "url": "https://acnesafecheck.com/ingredient/lactobacillus-ferment.html"
+  },
+  {
+   "name": "Lactobionic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "lactobionic acid"
+   ],
+   "slug": "lactobionic-acid",
+   "url": "https://acnesafecheck.com/ingredient/lactobionic-acid.html"
+  },
+  {
+   "name": "Laminaria Digitata Extract",
+   "comedogenic_rating": 4,
+   "category": "Marine",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "laminaria digitata extract"
+   ],
+   "slug": "laminaria-digitata-extract",
+   "url": "https://acnesafecheck.com/ingredient/laminaria-digitata-extract.html"
+  },
+  {
+   "name": "Lanolin",
+   "comedogenic_rating": 2,
+   "category": "Occlusive",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "lanolin"
+   ],
+   "slug": "lanolin",
+   "url": "https://acnesafecheck.com/ingredient/lanolin.html"
+  },
+  {
+   "name": "Lanolin Alcohol",
+   "comedogenic_rating": 2,
+   "category": "Occlusive",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "lanolin alcohol"
+   ],
+   "slug": "lanolin-alcohol",
+   "url": "https://acnesafecheck.com/ingredient/lanolin-alcohol.html"
+  },
+  {
+   "name": "Laureth-23",
+   "comedogenic_rating": 3,
+   "category": "Emulsifier",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "laureth-23"
+   ],
+   "slug": "laureth-23",
+   "url": "https://acnesafecheck.com/ingredient/laureth-23.html"
+  },
+  {
+   "name": "Laureth-4",
+   "comedogenic_rating": 5,
+   "category": "Emulsifier",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "laureth 4",
+    "laureth-4"
+   ],
+   "slug": "laureth-4",
+   "url": "https://acnesafecheck.com/ingredient/laureth-4.html"
+  },
+  {
+   "name": "Lauric Acid",
+   "comedogenic_rating": 4,
+   "category": "Fatty acid",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "lauric acid"
+   ],
+   "slug": "lauric-acid",
+   "url": "https://acnesafecheck.com/ingredient/lauric-acid.html"
+  },
+  {
+   "name": "Lauryl Glucoside",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "lauryl glucoside"
+   ],
+   "slug": "lauryl-glucoside",
+   "url": "https://acnesafecheck.com/ingredient/lauryl-glucoside.html"
+  },
+  {
+   "name": "Lavandula Angustifolia Flower Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "lavandula angustifolia flower extract"
+   ],
+   "slug": "lavandula-angustifolia-flower-extract",
+   "url": "https://acnesafecheck.com/ingredient/lavandula-angustifolia-flower-extract.html"
+  },
+  {
+   "name": "Lavender Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "lavender extract"
+   ],
+   "slug": "lavender-extract",
+   "url": "https://acnesafecheck.com/ingredient/lavender-extract.html"
+  },
+  {
+   "name": "Lavender Oil",
+   "comedogenic_rating": 1,
+   "category": "Essential oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "lavandula angustifolia oil",
+    "lavender oil"
+   ],
+   "slug": "lavender-oil",
+   "url": "https://acnesafecheck.com/ingredient/lavender-oil.html"
+  },
+  {
+   "name": "Lecithin",
+   "comedogenic_rating": 4,
+   "category": "Emulsifier",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "lecithin"
+   ],
+   "slug": "lecithin",
+   "url": "https://acnesafecheck.com/ingredient/lecithin.html"
+  },
+  {
+   "name": "Lemon Balm Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "lemon balm extract"
+   ],
+   "slug": "lemon-balm-extract",
+   "url": "https://acnesafecheck.com/ingredient/lemon-balm-extract.html"
+  },
+  {
+   "name": "Lemon Peel Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "lemon peel extract"
+   ],
+   "slug": "lemon-peel-extract",
+   "url": "https://acnesafecheck.com/ingredient/lemon-peel-extract.html"
+  },
+  {
+   "name": "Leontopodium Alpinum Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "leontopodium alpinum extract"
+   ],
+   "slug": "leontopodium-alpinum-extract",
+   "url": "https://acnesafecheck.com/ingredient/leontopodium-alpinum-extract.html"
+  },
+  {
+   "name": "Lettuce Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "lettuce extract"
+   ],
+   "slug": "lettuce-extract",
+   "url": "https://acnesafecheck.com/ingredient/lettuce-extract.html"
+  },
+  {
+   "name": "Levulinic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "levulinic acid"
+   ],
+   "slug": "levulinic-acid",
+   "url": "https://acnesafecheck.com/ingredient/levulinic-acid.html"
+  },
+  {
+   "name": "Licorice Root Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "licorice root extract"
+   ],
+   "slug": "licorice-root-extract",
+   "url": "https://acnesafecheck.com/ingredient/licorice-root-extract.html"
+  },
+  {
+   "name": "Limonene",
+   "comedogenic_rating": 1,
+   "category": "Fragrance",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "limonene"
+   ],
+   "slug": "limonene",
+   "url": "https://acnesafecheck.com/ingredient/limonene.html"
+  },
+  {
+   "name": "Linalool",
+   "comedogenic_rating": 1,
+   "category": "Fragrance",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "linalool"
+   ],
+   "slug": "linalool",
+   "url": "https://acnesafecheck.com/ingredient/linalool.html"
+  },
+  {
+   "name": "Linden Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "linden extract"
+   ],
+   "slug": "linden-extract",
+   "url": "https://acnesafecheck.com/ingredient/linden-extract.html"
+  },
+  {
+   "name": "Linoleic Acid",
+   "comedogenic_rating": 0,
+   "category": "Fatty acid",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "linoleic acid"
+   ],
+   "slug": "linoleic-acid",
+   "url": "https://acnesafecheck.com/ingredient/linoleic-acid.html"
+  },
+  {
+   "name": "Linseed / Flaxseed Oil",
+   "comedogenic_rating": 4,
+   "category": "Oil",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "flaxseed oil",
+    "linseed oil",
+    "linum usitatissimum seed oil"
+   ],
+   "slug": "linseed-flaxseed-oil",
+   "url": "https://acnesafecheck.com/ingredient/linseed-flaxseed-oil.html"
+  },
+  {
+   "name": "Lotus Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "lotus extract"
+   ],
+   "slug": "lotus-extract",
+   "url": "https://acnesafecheck.com/ingredient/lotus-extract.html"
+  },
+  {
+   "name": "Macadamia Oil",
+   "comedogenic_rating": 2,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "macadamia integrifolia seed oil",
+    "macadamia oil"
+   ],
+   "slug": "macadamia-oil",
+   "url": "https://acnesafecheck.com/ingredient/macadamia-oil.html"
+  },
+  {
+   "name": "Madecassoside",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "madecassoside"
+   ],
+   "slug": "madecassoside",
+   "url": "https://acnesafecheck.com/ingredient/madecassoside.html"
+  },
+  {
+   "name": "Magnesium Ascorbyl Phosphate",
+   "comedogenic_rating": 0,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "magnesium ascorbyl phosphate"
+   ],
+   "slug": "magnesium-ascorbyl-phosphate",
+   "url": "https://acnesafecheck.com/ingredient/magnesium-ascorbyl-phosphate.html"
+  },
+  {
+   "name": "Magnesium Chloride",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "magnesium chloride"
+   ],
+   "slug": "magnesium-chloride",
+   "url": "https://acnesafecheck.com/ingredient/magnesium-chloride.html"
+  },
+  {
+   "name": "Magnesium Stearate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "magnesium stearate"
+   ],
+   "slug": "magnesium-stearate",
+   "url": "https://acnesafecheck.com/ingredient/magnesium-stearate.html"
+  },
+  {
+   "name": "Magnesium Sulfate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "magnesium sulfate"
+   ],
+   "slug": "magnesium-sulfate",
+   "url": "https://acnesafecheck.com/ingredient/magnesium-sulfate.html"
+  },
+  {
+   "name": "Malic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "malic acid"
+   ],
+   "slug": "malic-acid",
+   "url": "https://acnesafecheck.com/ingredient/malic-acid.html"
+  },
+  {
+   "name": "Mallow Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "mallow extract"
+   ],
+   "slug": "mallow-extract",
+   "url": "https://acnesafecheck.com/ingredient/mallow-extract.html"
+  },
+  {
+   "name": "Maltodextrin",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "maltodextrin"
+   ],
+   "slug": "maltodextrin",
+   "url": "https://acnesafecheck.com/ingredient/maltodextrin.html"
+  },
+  {
+   "name": "Mandarin Orange Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "mandarin orange extract"
+   ],
+   "slug": "mandarin-orange-extract",
+   "url": "https://acnesafecheck.com/ingredient/mandarin-orange-extract.html"
+  },
+  {
+   "name": "Mandelic Acid",
+   "comedogenic_rating": 0,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "mandelic acid"
+   ],
+   "slug": "mandelic-acid",
+   "url": "https://acnesafecheck.com/ingredient/mandelic-acid.html"
+  },
+  {
+   "name": "Manganese PCA",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "manganese pca"
+   ],
+   "slug": "manganese-pca",
+   "url": "https://acnesafecheck.com/ingredient/manganese-pca.html"
+  },
+  {
+   "name": "Mango Butter",
+   "comedogenic_rating": 0,
+   "category": "Butter",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "mangifera indica seed butter",
+    "mango butter"
+   ],
+   "slug": "mango-butter",
+   "url": "https://acnesafecheck.com/ingredient/mango-butter.html"
+  },
+  {
+   "name": "Mango Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "mango extract"
+   ],
+   "slug": "mango-extract",
+   "url": "https://acnesafecheck.com/ingredient/mango-extract.html"
+  },
+  {
+   "name": "Manuka Honey",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "manuka honey"
+   ],
+   "slug": "manuka-honey",
+   "url": "https://acnesafecheck.com/ingredient/manuka-honey.html"
+  },
+  {
+   "name": "Marigold Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "marigold extract"
+   ],
+   "slug": "marigold-extract",
+   "url": "https://acnesafecheck.com/ingredient/marigold-extract.html"
+  },
+  {
+   "name": "Maritime Pine Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "maritime pine extract"
+   ],
+   "slug": "maritime-pine-extract",
+   "url": "https://acnesafecheck.com/ingredient/maritime-pine-extract.html"
+  },
+  {
+   "name": "Marshmallow Root Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "marshmallow root extract"
+   ],
+   "slug": "marshmallow-root-extract",
+   "url": "https://acnesafecheck.com/ingredient/marshmallow-root-extract.html"
+  },
+  {
+   "name": "Marula Oil",
+   "comedogenic_rating": 1,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "marula oil",
+    "sclerocarya birrea seed oil"
+   ],
+   "slug": "marula-oil",
+   "url": "https://acnesafecheck.com/ingredient/marula-oil.html"
+  },
+  {
+   "name": "Matcha Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "matcha extract"
+   ],
+   "slug": "matcha-extract",
+   "url": "https://acnesafecheck.com/ingredient/matcha-extract.html"
+  },
+  {
+   "name": "Mate Leaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "mate leaf extract"
+   ],
+   "slug": "mate-leaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/mate-leaf-extract.html"
+  },
+  {
+   "name": "Matrixyl",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "matrixyl"
+   ],
+   "slug": "matrixyl",
+   "url": "https://acnesafecheck.com/ingredient/matrixyl.html"
+  },
+  {
+   "name": "Meadowfoam Seed Oil",
+   "comedogenic_rating": 1,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "limnanthes alba seed oil",
+    "meadowfoam seed oil"
+   ],
+   "slug": "meadowfoam-seed-oil",
+   "url": "https://acnesafecheck.com/ingredient/meadowfoam-seed-oil.html"
+  },
+  {
+   "name": "Melissa Officinalis Leaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "melissa officinalis leaf extract"
+   ],
+   "slug": "melissa-officinalis-leaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/melissa-officinalis-leaf-extract.html"
+  },
+  {
+   "name": "Methylparaben",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "methylparaben"
+   ],
+   "slug": "methylparaben",
+   "url": "https://acnesafecheck.com/ingredient/methylparaben.html"
+  },
+  {
+   "name": "Methylpropanediol",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "methylpropanediol"
+   ],
+   "slug": "methylpropanediol",
+   "url": "https://acnesafecheck.com/ingredient/methylpropanediol.html"
+  },
+  {
+   "name": "Mica",
+   "comedogenic_rating": 0,
+   "category": "Colorant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ci 77019",
+    "mica"
+   ],
+   "slug": "mica",
+   "url": "https://acnesafecheck.com/ingredient/mica.html"
+  },
+  {
+   "name": "Mineral Oil",
+   "comedogenic_rating": 1,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "mineral oil",
+    "paraffinum liquidum"
+   ],
+   "slug": "mineral-oil",
+   "url": "https://acnesafecheck.com/ingredient/mineral-oil.html"
+  },
+  {
+   "name": "Mink Oil",
+   "comedogenic_rating": 3,
+   "category": "Oil",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "mink oil"
+   ],
+   "slug": "mink-oil",
+   "url": "https://acnesafecheck.com/ingredient/mink-oil.html"
+  },
+  {
+   "name": "Moringa Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "moringa extract"
+   ],
+   "slug": "moringa-extract",
+   "url": "https://acnesafecheck.com/ingredient/moringa-extract.html"
+  },
+  {
+   "name": "Mugwort Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "mugwort extract"
+   ],
+   "slug": "mugwort-extract",
+   "url": "https://acnesafecheck.com/ingredient/mugwort-extract.html"
+  },
+  {
+   "name": "Mushroom Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "mushroom extract"
+   ],
+   "slug": "mushroom-extract",
+   "url": "https://acnesafecheck.com/ingredient/mushroom-extract.html"
+  },
+  {
+   "name": "Myristic Acid",
+   "comedogenic_rating": 3,
+   "category": "Fatty acid",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "myristic acid"
+   ],
+   "slug": "myristic-acid",
+   "url": "https://acnesafecheck.com/ingredient/myristic-acid.html"
+  },
+  {
+   "name": "Myristyl Lactate",
+   "comedogenic_rating": 4,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "myristyl lactate"
+   ],
+   "slug": "myristyl-lactate",
+   "url": "https://acnesafecheck.com/ingredient/myristyl-lactate.html"
+  },
+  {
+   "name": "Myristyl Myristate",
+   "comedogenic_rating": 5,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "myristyl myristate"
+   ],
+   "slug": "myristyl-myristate",
+   "url": "https://acnesafecheck.com/ingredient/myristyl-myristate.html"
+  },
+  {
+   "name": "Myrrh Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "myrrh extract"
+   ],
+   "slug": "myrrh-extract",
+   "url": "https://acnesafecheck.com/ingredient/myrrh-extract.html"
+  },
+  {
+   "name": "N-Acetyl Glucosamine",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "n-acetyl glucosamine"
+   ],
+   "slug": "n-acetyl-glucosamine",
+   "url": "https://acnesafecheck.com/ingredient/n-acetyl-glucosamine.html"
+  },
+  {
+   "name": "Neem Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "neem extract"
+   ],
+   "slug": "neem-extract",
+   "url": "https://acnesafecheck.com/ingredient/neem-extract.html"
+  },
+  {
+   "name": "Nelumbo Nucifera Flower Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "nelumbo nucifera flower extract"
+   ],
+   "slug": "nelumbo-nucifera-flower-extract",
+   "url": "https://acnesafecheck.com/ingredient/nelumbo-nucifera-flower-extract.html"
+  },
+  {
+   "name": "Neroli Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "neroli extract"
+   ],
+   "slug": "neroli-extract",
+   "url": "https://acnesafecheck.com/ingredient/neroli-extract.html"
+  },
+  {
+   "name": "Nettle Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "nettle extract"
+   ],
+   "slug": "nettle-extract",
+   "url": "https://acnesafecheck.com/ingredient/nettle-extract.html"
+  },
+  {
+   "name": "Niacinamide",
+   "comedogenic_rating": 0,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "niacinamide",
+    "nicotinamide",
+    "vitamin b3"
+   ],
+   "slug": "niacinamide",
+   "url": "https://acnesafecheck.com/ingredient/niacinamide.html"
+  },
+  {
+   "name": "Nylon-12",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "nylon-12"
+   ],
+   "slug": "nylon-12",
+   "url": "https://acnesafecheck.com/ingredient/nylon-12.html"
+  },
+  {
+   "name": "Oak Bark Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "oak bark extract"
+   ],
+   "slug": "oak-bark-extract",
+   "url": "https://acnesafecheck.com/ingredient/oak-bark-extract.html"
+  },
+  {
+   "name": "Oat Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "oat extract"
+   ],
+   "slug": "oat-extract",
+   "url": "https://acnesafecheck.com/ingredient/oat-extract.html"
+  },
+  {
+   "name": "Octinoxate",
+   "comedogenic_rating": 1,
+   "category": "Sunscreen",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ethylhexyl methoxycinnamate",
+    "octinoxate"
+   ],
+   "slug": "octinoxate",
+   "url": "https://acnesafecheck.com/ingredient/octinoxate.html"
+  },
+  {
+   "name": "Octocrylene",
+   "comedogenic_rating": 1,
+   "category": "Sunscreen",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "octocrylene"
+   ],
+   "slug": "octocrylene",
+   "url": "https://acnesafecheck.com/ingredient/octocrylene.html"
+  },
+  {
+   "name": "Octyl Palmitate",
+   "comedogenic_rating": 4,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "ethylhexyl palmitate",
+    "octyl palmitate"
+   ],
+   "slug": "octyl-palmitate",
+   "url": "https://acnesafecheck.com/ingredient/octyl-palmitate.html"
+  },
+  {
+   "name": "Octyl Stearate",
+   "comedogenic_rating": 5,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "ethylhexyl stearate",
+    "octyl stearate"
+   ],
+   "slug": "octyl-stearate",
+   "url": "https://acnesafecheck.com/ingredient/octyl-stearate.html"
+  },
+  {
+   "name": "Olea Europaea Leaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "olea europaea leaf extract"
+   ],
+   "slug": "olea-europaea-leaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/olea-europaea-leaf-extract.html"
+  },
+  {
+   "name": "Oleic Acid",
+   "comedogenic_rating": 2,
+   "category": "Fatty acid",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "oleic acid"
+   ],
+   "slug": "oleic-acid",
+   "url": "https://acnesafecheck.com/ingredient/oleic-acid.html"
+  },
+  {
+   "name": "Oligopeptide-1",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "oligopeptide-1"
+   ],
+   "slug": "oligopeptide-1",
+   "url": "https://acnesafecheck.com/ingredient/oligopeptide-1.html"
+  },
+  {
+   "name": "Olive Leaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "olive leaf extract"
+   ],
+   "slug": "olive-leaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/olive-leaf-extract.html"
+  },
+  {
+   "name": "Olive Oil",
+   "comedogenic_rating": 2,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "olea europaea fruit oil",
+    "olive oil"
+   ],
+   "slug": "olive-oil",
+   "url": "https://acnesafecheck.com/ingredient/olive-oil.html"
+  },
+  {
+   "name": "Opuntia Ficus-Indica Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "opuntia ficus-indica extract"
+   ],
+   "slug": "opuntia-ficus-indica-extract",
+   "url": "https://acnesafecheck.com/ingredient/opuntia-ficus-indica-extract.html"
+  },
+  {
+   "name": "Orange Blossom Water",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "orange blossom water"
+   ],
+   "slug": "orange-blossom-water",
+   "url": "https://acnesafecheck.com/ingredient/orange-blossom-water.html"
+  },
+  {
+   "name": "Oregano Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "oregano extract"
+   ],
+   "slug": "oregano-extract",
+   "url": "https://acnesafecheck.com/ingredient/oregano-extract.html"
+  },
+  {
+   "name": "Oryza Sativa Bran Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "oryza sativa bran extract"
+   ],
+   "slug": "oryza-sativa-bran-extract",
+   "url": "https://acnesafecheck.com/ingredient/oryza-sativa-bran-extract.html"
+  },
+  {
+   "name": "p-Anisic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "p-anisic acid"
+   ],
+   "slug": "p-anisic-acid",
+   "url": "https://acnesafecheck.com/ingredient/p-anisic-acid.html"
+  },
+  {
+   "name": "Palmitic Acid",
+   "comedogenic_rating": 2,
+   "category": "Fatty acid",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "palmitic acid"
+   ],
+   "slug": "palmitic-acid",
+   "url": "https://acnesafecheck.com/ingredient/palmitic-acid.html"
+  },
+  {
+   "name": "Palmitoyl Hexapeptide-12",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "palmitoyl hexapeptide-12"
+   ],
+   "slug": "palmitoyl-hexapeptide-12",
+   "url": "https://acnesafecheck.com/ingredient/palmitoyl-hexapeptide-12.html"
+  },
+  {
+   "name": "Palmitoyl Pentapeptide-4",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "palmitoyl pentapeptide-4"
+   ],
+   "slug": "palmitoyl-pentapeptide-4",
+   "url": "https://acnesafecheck.com/ingredient/palmitoyl-pentapeptide-4.html"
+  },
+  {
+   "name": "Palmitoyl Tripeptide-1",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "palmitoyl tripeptide-1"
+   ],
+   "slug": "palmitoyl-tripeptide-1",
+   "url": "https://acnesafecheck.com/ingredient/palmitoyl-tripeptide-1.html"
+  },
+  {
+   "name": "Palmitoyl Tripeptide-5",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "palmitoyl tripeptide-5"
+   ],
+   "slug": "palmitoyl-tripeptide-5",
+   "url": "https://acnesafecheck.com/ingredient/palmitoyl-tripeptide-5.html"
+  },
+  {
+   "name": "Panax Ginseng Root Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "panax ginseng root extract"
+   ],
+   "slug": "panax-ginseng-root-extract",
+   "url": "https://acnesafecheck.com/ingredient/panax-ginseng-root-extract.html"
+  },
+  {
+   "name": "Panthenol",
+   "comedogenic_rating": 0,
+   "category": "Soothing",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "panthenol",
+    "provitamin b5"
+   ],
+   "slug": "panthenol",
+   "url": "https://acnesafecheck.com/ingredient/panthenol.html"
+  },
+  {
+   "name": "Papaya Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "papaya extract"
+   ],
+   "slug": "papaya-extract",
+   "url": "https://acnesafecheck.com/ingredient/papaya-extract.html"
+  },
+  {
+   "name": "Parsley Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "parsley extract"
+   ],
+   "slug": "parsley-extract",
+   "url": "https://acnesafecheck.com/ingredient/parsley-extract.html"
+  },
+  {
+   "name": "PCA",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "pca"
+   ],
+   "slug": "pca",
+   "url": "https://acnesafecheck.com/ingredient/pca.html"
+  },
+  {
+   "name": "Peach Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "peach extract"
+   ],
+   "slug": "peach-extract",
+   "url": "https://acnesafecheck.com/ingredient/peach-extract.html"
+  },
+  {
+   "name": "Peanut Oil",
+   "comedogenic_rating": 2,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "arachis hypogaea oil",
+    "peanut oil"
+   ],
+   "slug": "peanut-oil",
+   "url": "https://acnesafecheck.com/ingredient/peanut-oil.html"
+  },
+  {
+   "name": "Pear Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "pear extract"
+   ],
+   "slug": "pear-extract",
+   "url": "https://acnesafecheck.com/ingredient/pear-extract.html"
+  },
+  {
+   "name": "PEG-100 Stearate",
+   "comedogenic_rating": 1,
+   "category": "Emulsifier",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "peg-100 stearate"
+   ],
+   "slug": "peg-100-stearate",
+   "url": "https://acnesafecheck.com/ingredient/peg-100-stearate.html"
+  },
+  {
+   "name": "PEG-150 Distearate",
+   "comedogenic_rating": 1,
+   "category": "Emulsifier",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "peg-150 distearate"
+   ],
+   "slug": "peg-150-distearate",
+   "url": "https://acnesafecheck.com/ingredient/peg-150-distearate.html"
+  },
+  {
+   "name": "PEG-16 Lanolin",
+   "comedogenic_rating": 4,
+   "category": "Emulsifier",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "peg 16 lanolin",
+    "peg-16 lanolin"
+   ],
+   "slug": "peg-16-lanolin",
+   "url": "https://acnesafecheck.com/ingredient/peg-16-lanolin.html"
+  },
+  {
+   "name": "PEG-40 Stearate",
+   "comedogenic_rating": 1,
+   "category": "Emulsifier",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "peg-40 stearate"
+   ],
+   "slug": "peg-40-stearate",
+   "url": "https://acnesafecheck.com/ingredient/peg-40-stearate.html"
+  },
+  {
+   "name": "PEG-8 Stearate",
+   "comedogenic_rating": 3,
+   "category": "Emulsifier",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "peg 8 stearate",
+    "peg-8 stearate"
+   ],
+   "slug": "peg-8-stearate",
+   "url": "https://acnesafecheck.com/ingredient/peg-8-stearate.html"
+  },
+  {
+   "name": "Pentylene Glycol",
+   "comedogenic_rating": 0,
+   "category": "Humectant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "pentylene glycol"
+   ],
+   "slug": "pentylene-glycol",
+   "url": "https://acnesafecheck.com/ingredient/pentylene-glycol.html"
+  },
+  {
+   "name": "Peppermint Leaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "peppermint leaf extract"
+   ],
+   "slug": "peppermint-leaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/peppermint-leaf-extract.html"
+  },
+  {
+   "name": "Peppermint Oil",
+   "comedogenic_rating": 2,
+   "category": "Essential oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "mentha piperita oil",
+    "peppermint oil"
+   ],
+   "slug": "peppermint-oil",
+   "url": "https://acnesafecheck.com/ingredient/peppermint-oil.html"
+  },
+  {
+   "name": "Perlite",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "perlite"
+   ],
+   "slug": "perlite",
+   "url": "https://acnesafecheck.com/ingredient/perlite.html"
+  },
+  {
+   "name": "Petrolatum",
+   "comedogenic_rating": 0,
+   "category": "Occlusive",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "petrolatum",
+    "petroleum jelly"
+   ],
+   "slug": "petrolatum",
+   "url": "https://acnesafecheck.com/ingredient/petrolatum.html"
+  },
+  {
+   "name": "Phenoxyethanol",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "phenoxyethanol"
+   ],
+   "slug": "phenoxyethanol",
+   "url": "https://acnesafecheck.com/ingredient/phenoxyethanol.html"
+  },
+  {
+   "name": "Phenyl Trimethicone",
+   "comedogenic_rating": 1,
+   "category": "Silicone",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "phenyl trimethicone"
+   ],
+   "slug": "phenyl-trimethicone",
+   "url": "https://acnesafecheck.com/ingredient/phenyl-trimethicone.html"
+  },
+  {
+   "name": "Phytic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "phytic acid"
+   ],
+   "slug": "phytic-acid",
+   "url": "https://acnesafecheck.com/ingredient/phytic-acid.html"
+  },
+  {
+   "name": "Phytic Acid Complex",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "phytic acid complex"
+   ],
+   "slug": "phytic-acid-complex",
+   "url": "https://acnesafecheck.com/ingredient/phytic-acid-complex.html"
+  },
+  {
+   "name": "Pine Bark Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "pine bark extract"
+   ],
+   "slug": "pine-bark-extract",
+   "url": "https://acnesafecheck.com/ingredient/pine-bark-extract.html"
+  },
+  {
+   "name": "Pineapple Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "pineapple extract"
+   ],
+   "slug": "pineapple-extract",
+   "url": "https://acnesafecheck.com/ingredient/pineapple-extract.html"
+  },
+  {
+   "name": "Pinus Pinaster Bark Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "pinus pinaster bark extract"
+   ],
+   "slug": "pinus-pinaster-bark-extract",
+   "url": "https://acnesafecheck.com/ingredient/pinus-pinaster-bark-extract.html"
+  },
+  {
+   "name": "Plantain Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "plantain extract"
+   ],
+   "slug": "plantain-extract",
+   "url": "https://acnesafecheck.com/ingredient/plantain-extract.html"
+  },
+  {
+   "name": "Polyacrylate Crosspolymer-6",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "polyacrylate crosspolymer-6"
+   ],
+   "slug": "polyacrylate-crosspolymer-6",
+   "url": "https://acnesafecheck.com/ingredient/polyacrylate-crosspolymer-6.html"
+  },
+  {
+   "name": "Polyethylene",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "polyethylene"
+   ],
+   "slug": "polyethylene",
+   "url": "https://acnesafecheck.com/ingredient/polyethylene.html"
+  },
+  {
+   "name": "Polyglutamic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "polyglutamic acid"
+   ],
+   "slug": "polyglutamic-acid",
+   "url": "https://acnesafecheck.com/ingredient/polyglutamic-acid.html"
+  },
+  {
+   "name": "Polyglyceryl-3 Diisostearate",
+   "comedogenic_rating": 4,
+   "category": "Emulsifier",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "polyglyceryl-3 diisostearate"
+   ],
+   "slug": "polyglyceryl-3-diisostearate",
+   "url": "https://acnesafecheck.com/ingredient/polyglyceryl-3-diisostearate.html"
+  },
+  {
+   "name": "Polyhydroxy Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "polyhydroxy acid"
+   ],
+   "slug": "polyhydroxy-acid",
+   "url": "https://acnesafecheck.com/ingredient/polyhydroxy-acid.html"
+  },
+  {
+   "name": "Polymethylsilsesquioxane",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "polymethylsilsesquioxane"
+   ],
+   "slug": "polymethylsilsesquioxane",
+   "url": "https://acnesafecheck.com/ingredient/polymethylsilsesquioxane.html"
+  },
+  {
+   "name": "Polyquaternium-10",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "polyquaternium-10"
+   ],
+   "slug": "polyquaternium-10",
+   "url": "https://acnesafecheck.com/ingredient/polyquaternium-10.html"
+  },
+  {
+   "name": "Polysorbate 20",
+   "comedogenic_rating": 0,
+   "category": "Emulsifier",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "polysorbate 20"
+   ],
+   "slug": "polysorbate-20",
+   "url": "https://acnesafecheck.com/ingredient/polysorbate-20.html"
+  },
+  {
+   "name": "Polysorbate 80",
+   "comedogenic_rating": 1,
+   "category": "Emulsifier",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "polysorbate 80"
+   ],
+   "slug": "polysorbate-80",
+   "url": "https://acnesafecheck.com/ingredient/polysorbate-80.html"
+  },
+  {
+   "name": "Pomegranate Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "pomegranate extract"
+   ],
+   "slug": "pomegranate-extract",
+   "url": "https://acnesafecheck.com/ingredient/pomegranate-extract.html"
+  },
+  {
+   "name": "Pomegranate Seed Oil",
+   "comedogenic_rating": 1,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "pomegranate seed oil",
+    "punica granatum seed oil"
+   ],
+   "slug": "pomegranate-seed-oil",
+   "url": "https://acnesafecheck.com/ingredient/pomegranate-seed-oil.html"
+  },
+  {
+   "name": "Potassium Chloride",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "potassium chloride"
+   ],
+   "slug": "potassium-chloride",
+   "url": "https://acnesafecheck.com/ingredient/potassium-chloride.html"
+  },
+  {
+   "name": "Potassium Sorbate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "potassium sorbate"
+   ],
+   "slug": "potassium-sorbate",
+   "url": "https://acnesafecheck.com/ingredient/potassium-sorbate.html"
+  },
+  {
+   "name": "PPG-2 Myristyl Ether Propionate",
+   "comedogenic_rating": 3,
+   "category": "Ester",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "ppg-2 myristyl ether propionate"
+   ],
+   "slug": "ppg-2-myristyl-ether-propionate",
+   "url": "https://acnesafecheck.com/ingredient/ppg-2-myristyl-ether-propionate.html"
+  },
+  {
+   "name": "Propanediol",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "propanediol"
+   ],
+   "slug": "propanediol",
+   "url": "https://acnesafecheck.com/ingredient/propanediol.html"
+  },
+  {
+   "name": "Propolis Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "propolis extract"
+   ],
+   "slug": "propolis-extract",
+   "url": "https://acnesafecheck.com/ingredient/propolis-extract.html"
+  },
+  {
+   "name": "Propylene Glycol",
+   "comedogenic_rating": 0,
+   "category": "Humectant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "propylene glycol"
+   ],
+   "slug": "propylene-glycol",
+   "url": "https://acnesafecheck.com/ingredient/propylene-glycol.html"
+  },
+  {
+   "name": "Propylparaben",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "propylparaben"
+   ],
+   "slug": "propylparaben",
+   "url": "https://acnesafecheck.com/ingredient/propylparaben.html"
+  },
+  {
+   "name": "Pullulan",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "pullulan"
+   ],
+   "slug": "pullulan",
+   "url": "https://acnesafecheck.com/ingredient/pullulan.html"
+  },
+  {
+   "name": "Pumpkin Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "pumpkin extract"
+   ],
+   "slug": "pumpkin-extract",
+   "url": "https://acnesafecheck.com/ingredient/pumpkin-extract.html"
+  },
+  {
+   "name": "Punica Granatum Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "punica granatum extract"
+   ],
+   "slug": "punica-granatum-extract",
+   "url": "https://acnesafecheck.com/ingredient/punica-granatum-extract.html"
+  },
+  {
+   "name": "Pyridoxine",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "pyridoxine"
+   ],
+   "slug": "pyridoxine",
+   "url": "https://acnesafecheck.com/ingredient/pyridoxine.html"
+  },
+  {
+   "name": "Pyrus Malus Fruit Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "pyrus malus fruit extract"
+   ],
+   "slug": "pyrus-malus-fruit-extract",
+   "url": "https://acnesafecheck.com/ingredient/pyrus-malus-fruit-extract.html"
+  },
+  {
+   "name": "Raspberry Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "raspberry extract"
+   ],
+   "slug": "raspberry-extract",
+   "url": "https://acnesafecheck.com/ingredient/raspberry-extract.html"
+  },
+  {
+   "name": "Red Algae",
+   "comedogenic_rating": 5,
+   "category": "Marine",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "red algae"
+   ],
+   "slug": "red-algae",
+   "url": "https://acnesafecheck.com/ingredient/red-algae.html"
+  },
+  {
+   "name": "Red Clover Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "red clover extract"
+   ],
+   "slug": "red-clover-extract",
+   "url": "https://acnesafecheck.com/ingredient/red-clover-extract.html"
+  },
+  {
+   "name": "Reishi Mushroom Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "reishi mushroom extract"
+   ],
+   "slug": "reishi-mushroom-extract",
+   "url": "https://acnesafecheck.com/ingredient/reishi-mushroom-extract.html"
+  },
+  {
+   "name": "Resveratrol",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "resveratrol"
+   ],
+   "slug": "resveratrol",
+   "url": "https://acnesafecheck.com/ingredient/resveratrol.html"
+  },
+  {
+   "name": "Retinol",
+   "comedogenic_rating": 1,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "retinol"
+   ],
+   "slug": "retinol",
+   "url": "https://acnesafecheck.com/ingredient/retinol.html"
+  },
+  {
+   "name": "Retinyl Palmitate",
+   "comedogenic_rating": 2,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "retinyl palmitate"
+   ],
+   "slug": "retinyl-palmitate",
+   "url": "https://acnesafecheck.com/ingredient/retinyl-palmitate.html"
+  },
+  {
+   "name": "Riboflavin",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "riboflavin"
+   ],
+   "slug": "riboflavin",
+   "url": "https://acnesafecheck.com/ingredient/riboflavin.html"
+  },
+  {
+   "name": "Rice Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "rice extract"
+   ],
+   "slug": "rice-extract",
+   "url": "https://acnesafecheck.com/ingredient/rice-extract.html"
+  },
+  {
+   "name": "Rooibos Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "rooibos extract"
+   ],
+   "slug": "rooibos-extract",
+   "url": "https://acnesafecheck.com/ingredient/rooibos-extract.html"
+  },
+  {
+   "name": "Rosa Damascena Flower Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "rosa damascena flower extract"
+   ],
+   "slug": "rosa-damascena-flower-extract",
+   "url": "https://acnesafecheck.com/ingredient/rosa-damascena-flower-extract.html"
+  },
+  {
+   "name": "Rose Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "rose extract"
+   ],
+   "slug": "rose-extract",
+   "url": "https://acnesafecheck.com/ingredient/rose-extract.html"
+  },
+  {
+   "name": "Rose Water",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "rose water"
+   ],
+   "slug": "rose-water",
+   "url": "https://acnesafecheck.com/ingredient/rose-water.html"
+  },
+  {
+   "name": "Rosehip Oil",
+   "comedogenic_rating": 1,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "rosa canina fruit oil",
+    "rosehip oil",
+    "rosehip seed oil"
+   ],
+   "slug": "rosehip-oil",
+   "url": "https://acnesafecheck.com/ingredient/rosehip-oil.html"
+  },
+  {
+   "name": "Rosemary Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "rosemary extract"
+   ],
+   "slug": "rosemary-extract",
+   "url": "https://acnesafecheck.com/ingredient/rosemary-extract.html"
+  },
+  {
+   "name": "Rosmarinus Officinalis Leaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "rosmarinus officinalis leaf extract"
+   ],
+   "slug": "rosmarinus-officinalis-leaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/rosmarinus-officinalis-leaf-extract.html"
+  },
+  {
+   "name": "Royal Jelly Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "royal jelly extract"
+   ],
+   "slug": "royal-jelly-extract",
+   "url": "https://acnesafecheck.com/ingredient/royal-jelly-extract.html"
+  },
+  {
+   "name": "Saccharomyces Ferment",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "saccharomyces ferment"
+   ],
+   "slug": "saccharomyces-ferment",
+   "url": "https://acnesafecheck.com/ingredient/saccharomyces-ferment.html"
+  },
+  {
+   "name": "Safflower Oil",
+   "comedogenic_rating": 0,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "carthamus tinctorius seed oil",
+    "safflower oil"
+   ],
+   "slug": "safflower-oil",
+   "url": "https://acnesafecheck.com/ingredient/safflower-oil.html"
+  },
+  {
+   "name": "Sage Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sage extract"
+   ],
+   "slug": "sage-extract",
+   "url": "https://acnesafecheck.com/ingredient/sage-extract.html"
+  },
+  {
+   "name": "Salicylic Acid",
+   "comedogenic_rating": 0,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "bha",
+    "salicylic acid"
+   ],
+   "slug": "salicylic-acid",
+   "url": "https://acnesafecheck.com/ingredient/salicylic-acid.html"
+  },
+  {
+   "name": "Salix Alba Bark Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "salix alba bark extract"
+   ],
+   "slug": "salix-alba-bark-extract",
+   "url": "https://acnesafecheck.com/ingredient/salix-alba-bark-extract.html"
+  },
+  {
+   "name": "Salvia Officinalis Leaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "salvia officinalis leaf extract"
+   ],
+   "slug": "salvia-officinalis-leaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/salvia-officinalis-leaf-extract.html"
+  },
+  {
+   "name": "Sambucus Nigra Flower Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sambucus nigra flower extract"
+   ],
+   "slug": "sambucus-nigra-flower-extract",
+   "url": "https://acnesafecheck.com/ingredient/sambucus-nigra-flower-extract.html"
+  },
+  {
+   "name": "Sandalwood Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sandalwood extract"
+   ],
+   "slug": "sandalwood-extract",
+   "url": "https://acnesafecheck.com/ingredient/sandalwood-extract.html"
+  },
+  {
+   "name": "Sclerotium Gum",
+   "comedogenic_rating": 0,
+   "category": "Thickener",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sclerotium gum"
+   ],
+   "slug": "sclerotium-gum",
+   "url": "https://acnesafecheck.com/ingredient/sclerotium-gum.html"
+  },
+  {
+   "name": "Sea Buckthorn Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sea buckthorn extract"
+   ],
+   "slug": "sea-buckthorn-extract",
+   "url": "https://acnesafecheck.com/ingredient/sea-buckthorn-extract.html"
+  },
+  {
+   "name": "Sea Kelp Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sea kelp extract"
+   ],
+   "slug": "sea-kelp-extract",
+   "url": "https://acnesafecheck.com/ingredient/sea-kelp-extract.html"
+  },
+  {
+   "name": "Sea Salt Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sea salt extract"
+   ],
+   "slug": "sea-salt-extract",
+   "url": "https://acnesafecheck.com/ingredient/sea-salt-extract.html"
+  },
+  {
+   "name": "Seawater",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "seawater"
+   ],
+   "slug": "seawater",
+   "url": "https://acnesafecheck.com/ingredient/seawater.html"
+  },
+  {
+   "name": "Sesame Oil",
+   "comedogenic_rating": 3,
+   "category": "Oil",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "sesame oil",
+    "sesamum indicum seed oil"
+   ],
+   "slug": "sesame-oil",
+   "url": "https://acnesafecheck.com/ingredient/sesame-oil.html"
+  },
+  {
+   "name": "Shark Liver Oil",
+   "comedogenic_rating": 3,
+   "category": "Oil",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "shark liver oil"
+   ],
+   "slug": "shark-liver-oil",
+   "url": "https://acnesafecheck.com/ingredient/shark-liver-oil.html"
+  },
+  {
+   "name": "Shea Butter",
+   "comedogenic_rating": 0,
+   "category": "Butter",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "butyrospermum parkii butter",
+    "shea butter"
+   ],
+   "slug": "shea-butter",
+   "url": "https://acnesafecheck.com/ingredient/shea-butter.html"
+  },
+  {
+   "name": "Shiitake Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "shiitake extract"
+   ],
+   "slug": "shiitake-extract",
+   "url": "https://acnesafecheck.com/ingredient/shiitake-extract.html"
+  },
+  {
+   "name": "Shikakai Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "shikakai extract"
+   ],
+   "slug": "shikakai-extract",
+   "url": "https://acnesafecheck.com/ingredient/shikakai-extract.html"
+  },
+  {
+   "name": "Silica",
+   "comedogenic_rating": 0,
+   "category": "Mineral",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "silica"
+   ],
+   "slug": "silica",
+   "url": "https://acnesafecheck.com/ingredient/silica.html"
+  },
+  {
+   "name": "Silk Protein",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "silk protein"
+   ],
+   "slug": "silk-protein",
+   "url": "https://acnesafecheck.com/ingredient/silk-protein.html"
+  },
+  {
+   "name": "Snail Secretion Filtrate",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "snail secretion filtrate"
+   ],
+   "slug": "snail-secretion-filtrate",
+   "url": "https://acnesafecheck.com/ingredient/snail-secretion-filtrate.html"
+  },
+  {
+   "name": "Snow Mushroom Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "snow mushroom extract"
+   ],
+   "slug": "snow-mushroom-extract",
+   "url": "https://acnesafecheck.com/ingredient/snow-mushroom-extract.html"
+  },
+  {
+   "name": "Sodium Acetylated Hyaluronate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium acetylated hyaluronate"
+   ],
+   "slug": "sodium-acetylated-hyaluronate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-acetylated-hyaluronate.html"
+  },
+  {
+   "name": "Sodium Anisate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium anisate"
+   ],
+   "slug": "sodium-anisate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-anisate.html"
+  },
+  {
+   "name": "Sodium Ascorbyl Phosphate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium ascorbyl phosphate"
+   ],
+   "slug": "sodium-ascorbyl-phosphate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-ascorbyl-phosphate.html"
+  },
+  {
+   "name": "Sodium Benzoate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium benzoate"
+   ],
+   "slug": "sodium-benzoate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-benzoate.html"
+  },
+  {
+   "name": "Sodium Chloride",
+   "comedogenic_rating": 0,
+   "category": "Misc",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sea salt",
+    "sodium chloride"
+   ],
+   "slug": "sodium-chloride",
+   "url": "https://acnesafecheck.com/ingredient/sodium-chloride.html"
+  },
+  {
+   "name": "Sodium Citrate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium citrate"
+   ],
+   "slug": "sodium-citrate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-citrate.html"
+  },
+  {
+   "name": "Sodium Cocoyl Glycinate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium cocoyl glycinate"
+   ],
+   "slug": "sodium-cocoyl-glycinate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-cocoyl-glycinate.html"
+  },
+  {
+   "name": "Sodium Cocoyl Isethionate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium cocoyl isethionate"
+   ],
+   "slug": "sodium-cocoyl-isethionate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-cocoyl-isethionate.html"
+  },
+  {
+   "name": "Sodium Gluconate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium gluconate"
+   ],
+   "slug": "sodium-gluconate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-gluconate.html"
+  },
+  {
+   "name": "Sodium Hyaluronate Crosspolymer",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium hyaluronate crosspolymer"
+   ],
+   "slug": "sodium-hyaluronate-crosspolymer",
+   "url": "https://acnesafecheck.com/ingredient/sodium-hyaluronate-crosspolymer.html"
+  },
+  {
+   "name": "Sodium Hydroxide",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium hydroxide"
+   ],
+   "slug": "sodium-hydroxide",
+   "url": "https://acnesafecheck.com/ingredient/sodium-hydroxide.html"
+  },
+  {
+   "name": "Sodium Lactate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium lactate"
+   ],
+   "slug": "sodium-lactate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-lactate.html"
+  },
+  {
+   "name": "Sodium Laureth Sulfate",
+   "comedogenic_rating": 3,
+   "category": "Surfactant",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "sles",
+    "sodium laureth sulfate"
+   ],
+   "slug": "sodium-laureth-sulfate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-laureth-sulfate.html"
+  },
+  {
+   "name": "Sodium Lauroyl Lactylate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium lauroyl lactylate"
+   ],
+   "slug": "sodium-lauroyl-lactylate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-lauroyl-lactylate.html"
+  },
+  {
+   "name": "Sodium Lauroyl Sarcosinate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium lauroyl sarcosinate"
+   ],
+   "slug": "sodium-lauroyl-sarcosinate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-lauroyl-sarcosinate.html"
+  },
+  {
+   "name": "Sodium Lauryl Sulfate",
+   "comedogenic_rating": 5,
+   "category": "Surfactant",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sls",
+    "sodium lauryl sulfate"
+   ],
+   "slug": "sodium-lauryl-sulfate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-lauryl-sulfate.html"
+  },
+  {
+   "name": "Sodium Levulinate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium levulinate"
+   ],
+   "slug": "sodium-levulinate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-levulinate.html"
+  },
+  {
+   "name": "Sodium Metabisulfite",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium metabisulfite"
+   ],
+   "slug": "sodium-metabisulfite",
+   "url": "https://acnesafecheck.com/ingredient/sodium-metabisulfite.html"
+  },
+  {
+   "name": "Sodium Methyl Cocoyl Taurate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium methyl cocoyl taurate"
+   ],
+   "slug": "sodium-methyl-cocoyl-taurate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-methyl-cocoyl-taurate.html"
+  },
+  {
+   "name": "Sodium PCA",
+   "comedogenic_rating": 0,
+   "category": "Humectant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium pca"
+   ],
+   "slug": "sodium-pca",
+   "url": "https://acnesafecheck.com/ingredient/sodium-pca.html"
+  },
+  {
+   "name": "Sodium Phytate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium phytate"
+   ],
+   "slug": "sodium-phytate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-phytate.html"
+  },
+  {
+   "name": "Sodium Polyglutamate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium polyglutamate"
+   ],
+   "slug": "sodium-polyglutamate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-polyglutamate.html"
+  },
+  {
+   "name": "Sodium Silicate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium silicate"
+   ],
+   "slug": "sodium-silicate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-silicate.html"
+  },
+  {
+   "name": "Sodium Starch Octenylsuccinate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium starch octenylsuccinate"
+   ],
+   "slug": "sodium-starch-octenylsuccinate",
+   "url": "https://acnesafecheck.com/ingredient/sodium-starch-octenylsuccinate.html"
+  },
+  {
+   "name": "Sodium Sulfite",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sodium sulfite"
+   ],
+   "slug": "sodium-sulfite",
+   "url": "https://acnesafecheck.com/ingredient/sodium-sulfite.html"
+  },
+  {
+   "name": "Solanum Lycopersicum Fruit Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "solanum lycopersicum fruit extract"
+   ],
+   "slug": "solanum-lycopersicum-fruit-extract",
+   "url": "https://acnesafecheck.com/ingredient/solanum-lycopersicum-fruit-extract.html"
+  },
+  {
+   "name": "Sorbic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sorbic acid"
+   ],
+   "slug": "sorbic-acid",
+   "url": "https://acnesafecheck.com/ingredient/sorbic-acid.html"
+  },
+  {
+   "name": "Sorbitan Oleate",
+   "comedogenic_rating": 3,
+   "category": "Emulsifier",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "sorbitan oleate"
+   ],
+   "slug": "sorbitan-oleate",
+   "url": "https://acnesafecheck.com/ingredient/sorbitan-oleate.html"
+  },
+  {
+   "name": "Sorbitan Sesquioleate",
+   "comedogenic_rating": 3,
+   "category": "Emulsifier",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "sorbitan sesquioleate"
+   ],
+   "slug": "sorbitan-sesquioleate",
+   "url": "https://acnesafecheck.com/ingredient/sorbitan-sesquioleate.html"
+  },
+  {
+   "name": "Sorbitan Stearate",
+   "comedogenic_rating": 1,
+   "category": "Emulsifier",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "sorbitan stearate"
+   ],
+   "slug": "sorbitan-stearate",
+   "url": "https://acnesafecheck.com/ingredient/sorbitan-stearate.html"
+  },
+  {
+   "name": "Sorbitol",
+   "comedogenic_rating": 0,
+   "category": "Humectant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sorbitol"
+   ],
+   "slug": "sorbitol",
+   "url": "https://acnesafecheck.com/ingredient/sorbitol.html"
+  },
+  {
+   "name": "Soy Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "soy extract"
+   ],
+   "slug": "soy-extract",
+   "url": "https://acnesafecheck.com/ingredient/soy-extract.html"
+  },
+  {
+   "name": "Soybean Oil",
+   "comedogenic_rating": 3,
+   "category": "Oil",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "glycine soja oil",
+    "soybean oil"
+   ],
+   "slug": "soybean-oil",
+   "url": "https://acnesafecheck.com/ingredient/soybean-oil.html"
+  },
+  {
+   "name": "Spearmint Leaf Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "spearmint leaf extract"
+   ],
+   "slug": "spearmint-leaf-extract",
+   "url": "https://acnesafecheck.com/ingredient/spearmint-leaf-extract.html"
+  },
+  {
+   "name": "Spearmint Oil",
+   "comedogenic_rating": 3,
+   "category": "Essential oil",
+   "pore_clogging": true,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "mentha viridis leaf oil",
+    "spearmint oil"
+   ],
+   "slug": "spearmint-oil",
+   "url": "https://acnesafecheck.com/ingredient/spearmint-oil.html"
+  },
+  {
+   "name": "Spinach Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "spinach extract"
+   ],
+   "slug": "spinach-extract",
+   "url": "https://acnesafecheck.com/ingredient/spinach-extract.html"
+  },
+  {
+   "name": "Spirulina Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "spirulina extract"
+   ],
+   "slug": "spirulina-extract",
+   "url": "https://acnesafecheck.com/ingredient/spirulina-extract.html"
+  },
+  {
+   "name": "Squalane",
+   "comedogenic_rating": 1,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "squalane"
+   ],
+   "slug": "squalane",
+   "url": "https://acnesafecheck.com/ingredient/squalane.html"
+  },
+  {
+   "name": "Squalene",
+   "comedogenic_rating": 1,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "squalene"
+   ],
+   "slug": "squalene",
+   "url": "https://acnesafecheck.com/ingredient/squalene.html"
+  },
+  {
+   "name": "St. Johns Wort Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "st johns wort extract"
+   ],
+   "slug": "st-johns-wort-extract",
+   "url": "https://acnesafecheck.com/ingredient/st-johns-wort-extract.html"
+  },
+  {
+   "name": "Steareth-10",
+   "comedogenic_rating": 4,
+   "category": "Emulsifier",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "steareth-10"
+   ],
+   "slug": "steareth-10",
+   "url": "https://acnesafecheck.com/ingredient/steareth-10.html"
+  },
+  {
+   "name": "Steareth-2",
+   "comedogenic_rating": 2,
+   "category": "Emulsifier",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "steareth-2"
+   ],
+   "slug": "steareth-2",
+   "url": "https://acnesafecheck.com/ingredient/steareth-2.html"
+  },
+  {
+   "name": "Steareth-20",
+   "comedogenic_rating": 2,
+   "category": "Emulsifier",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "steareth-20"
+   ],
+   "slug": "steareth-20",
+   "url": "https://acnesafecheck.com/ingredient/steareth-20.html"
+  },
+  {
+   "name": "Stearic Acid",
+   "comedogenic_rating": 2,
+   "category": "Fatty acid",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "stearic acid"
+   ],
+   "slug": "stearic-acid",
+   "url": "https://acnesafecheck.com/ingredient/stearic-acid.html"
+  },
+  {
+   "name": "Stearyl Alcohol",
+   "comedogenic_rating": 2,
+   "category": "Fatty alcohol",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "stearyl alcohol"
+   ],
+   "slug": "stearyl-alcohol",
+   "url": "https://acnesafecheck.com/ingredient/stearyl-alcohol.html"
+  },
+  {
+   "name": "Strawberry Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "strawberry extract"
+   ],
+   "slug": "strawberry-extract",
+   "url": "https://acnesafecheck.com/ingredient/strawberry-extract.html"
+  },
+  {
+   "name": "Sucrose",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "sucrose"
+   ],
+   "slug": "sucrose",
+   "url": "https://acnesafecheck.com/ingredient/sucrose.html"
+  },
+  {
+   "name": "Sunflower Oil",
+   "comedogenic_rating": 0,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "helianthus annuus seed oil",
+    "sunflower oil"
+   ],
+   "slug": "sunflower-oil",
+   "url": "https://acnesafecheck.com/ingredient/sunflower-oil.html"
+  },
+  {
+   "name": "Sweet Almond Oil",
+   "comedogenic_rating": 2,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "almond oil",
+    "prunus amygdalus dulcis oil",
+    "sweet almond oil"
+   ],
+   "slug": "sweet-almond-oil",
+   "url": "https://acnesafecheck.com/ingredient/sweet-almond-oil.html"
+  },
+  {
+   "name": "Talc",
+   "comedogenic_rating": 1,
+   "category": "Mineral",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "talc"
+   ],
+   "slug": "talc",
+   "url": "https://acnesafecheck.com/ingredient/talc.html"
+  },
+  {
+   "name": "Tamanu Oil",
+   "comedogenic_rating": 2,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "calophyllum inophyllum seed oil",
+    "tamanu oil"
+   ],
+   "slug": "tamanu-oil",
+   "url": "https://acnesafecheck.com/ingredient/tamanu-oil.html"
+  },
+  {
+   "name": "Tapioca Starch",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "tapioca starch"
+   ],
+   "slug": "tapioca-starch",
+   "url": "https://acnesafecheck.com/ingredient/tapioca-starch.html"
+  },
+  {
+   "name": "Taraxacum Officinale Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "taraxacum officinale extract"
+   ],
+   "slug": "taraxacum-officinale-extract",
+   "url": "https://acnesafecheck.com/ingredient/taraxacum-officinale-extract.html"
+  },
+  {
+   "name": "Tartaric Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "tartaric acid"
+   ],
+   "slug": "tartaric-acid",
+   "url": "https://acnesafecheck.com/ingredient/tartaric-acid.html"
+  },
+  {
+   "name": "Tea Tree Oil",
+   "comedogenic_rating": 1,
+   "category": "Essential oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "melaleuca alternifolia leaf oil",
+    "tea tree oil"
+   ],
+   "slug": "tea-tree-oil",
+   "url": "https://acnesafecheck.com/ingredient/tea-tree-oil.html"
+  },
+  {
+   "name": "Tetrahexyldecyl Ascorbate",
+   "comedogenic_rating": 2,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "tetrahexyldecyl ascorbate"
+   ],
+   "slug": "tetrahexyldecyl-ascorbate",
+   "url": "https://acnesafecheck.com/ingredient/tetrahexyldecyl-ascorbate.html"
+  },
+  {
+   "name": "Tetrasodium EDTA",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "tetrasodium edta"
+   ],
+   "slug": "tetrasodium-edta",
+   "url": "https://acnesafecheck.com/ingredient/tetrasodium-edta.html"
+  },
+  {
+   "name": "Tetrasodium Glutamate Diacetate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "tetrasodium glutamate diacetate"
+   ],
+   "slug": "tetrasodium-glutamate-diacetate",
+   "url": "https://acnesafecheck.com/ingredient/tetrasodium-glutamate-diacetate.html"
+  },
+  {
+   "name": "Thiamine",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "thiamine"
+   ],
+   "slug": "thiamine",
+   "url": "https://acnesafecheck.com/ingredient/thiamine.html"
+  },
+  {
+   "name": "Thyme Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "thyme extract"
+   ],
+   "slug": "thyme-extract",
+   "url": "https://acnesafecheck.com/ingredient/thyme-extract.html"
+  },
+  {
+   "name": "Tiger Grass Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "tiger grass extract"
+   ],
+   "slug": "tiger-grass-extract",
+   "url": "https://acnesafecheck.com/ingredient/tiger-grass-extract.html"
+  },
+  {
+   "name": "Titanium Dioxide",
+   "comedogenic_rating": 1,
+   "category": "Sunscreen",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ci 77891",
+    "titanium dioxide"
+   ],
+   "slug": "titanium-dioxide",
+   "url": "https://acnesafecheck.com/ingredient/titanium-dioxide.html"
+  },
+  {
+   "name": "Tocopherol",
+   "comedogenic_rating": 2,
+   "category": "Active",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "tocopherol",
+    "vitamin e"
+   ],
+   "slug": "tocopherol",
+   "url": "https://acnesafecheck.com/ingredient/tocopherol.html"
+  },
+  {
+   "name": "Tocopheryl Acetate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "tocopheryl acetate"
+   ],
+   "slug": "tocopheryl-acetate",
+   "url": "https://acnesafecheck.com/ingredient/tocopheryl-acetate.html"
+  },
+  {
+   "name": "Tomato Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "tomato extract"
+   ],
+   "slug": "tomato-extract",
+   "url": "https://acnesafecheck.com/ingredient/tomato-extract.html"
+  },
+  {
+   "name": "Tranexamic Acid",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "tranexamic acid"
+   ],
+   "slug": "tranexamic-acid",
+   "url": "https://acnesafecheck.com/ingredient/tranexamic-acid.html"
+  },
+  {
+   "name": "Trehalose",
+   "comedogenic_rating": 0,
+   "category": "Humectant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "trehalose"
+   ],
+   "slug": "trehalose",
+   "url": "https://acnesafecheck.com/ingredient/trehalose.html"
+  },
+  {
+   "name": "Tremella Fuciformis Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "tremella fuciformis extract"
+   ],
+   "slug": "tremella-fuciformis-extract",
+   "url": "https://acnesafecheck.com/ingredient/tremella-fuciformis-extract.html"
+  },
+  {
+   "name": "Triethanolamine",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "triethanolamine"
+   ],
+   "slug": "triethanolamine",
+   "url": "https://acnesafecheck.com/ingredient/triethanolamine.html"
+  },
+  {
+   "name": "Tripeptide-1",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "tripeptide-1"
+   ],
+   "slug": "tripeptide-1",
+   "url": "https://acnesafecheck.com/ingredient/tripeptide-1.html"
+  },
+  {
+   "name": "Trisodium Ethylenediamine Disuccinate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "trisodium ethylenediamine disuccinate"
+   ],
+   "slug": "trisodium-ethylenediamine-disuccinate",
+   "url": "https://acnesafecheck.com/ingredient/trisodium-ethylenediamine-disuccinate.html"
+  },
+  {
+   "name": "Turmeric Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "turmeric extract"
+   ],
+   "slug": "turmeric-extract",
+   "url": "https://acnesafecheck.com/ingredient/turmeric-extract.html"
+  },
+  {
+   "name": "Ubiquinone",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "ubiquinone"
+   ],
+   "slug": "ubiquinone",
+   "url": "https://acnesafecheck.com/ingredient/ubiquinone.html"
+  },
+  {
+   "name": "Urea",
+   "comedogenic_rating": 0,
+   "category": "Humectant",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "urea"
+   ],
+   "slug": "urea",
+   "url": "https://acnesafecheck.com/ingredient/urea.html"
+  },
+  {
+   "name": "Urtica Dioica Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "urtica dioica extract"
+   ],
+   "slug": "urtica-dioica-extract",
+   "url": "https://acnesafecheck.com/ingredient/urtica-dioica-extract.html"
+  },
+  {
+   "name": "Vaccinium Myrtillus Fruit Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "vaccinium myrtillus fruit extract"
+   ],
+   "slug": "vaccinium-myrtillus-fruit-extract",
+   "url": "https://acnesafecheck.com/ingredient/vaccinium-myrtillus-fruit-extract.html"
+  },
+  {
+   "name": "Vanilla Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "vanilla extract"
+   ],
+   "slug": "vanilla-extract",
+   "url": "https://acnesafecheck.com/ingredient/vanilla-extract.html"
+  },
+  {
+   "name": "Vitis Vinifera Fruit Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "vitis vinifera fruit extract"
+   ],
+   "slug": "vitis-vinifera-fruit-extract",
+   "url": "https://acnesafecheck.com/ingredient/vitis-vinifera-fruit-extract.html"
+  },
+  {
+   "name": "Water",
+   "comedogenic_rating": 0,
+   "category": "Solvent",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "aqua",
+    "eau",
+    "water"
+   ],
+   "slug": "water",
+   "url": "https://acnesafecheck.com/ingredient/water.html"
+  },
+  {
+   "name": "Watermelon Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "watermelon extract"
+   ],
+   "slug": "watermelon-extract",
+   "url": "https://acnesafecheck.com/ingredient/watermelon-extract.html"
+  },
+  {
+   "name": "Wheat Bran Lipids",
+   "comedogenic_rating": 2,
+   "category": "Oil",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "wheat bran lipids"
+   ],
+   "slug": "wheat-bran-lipids",
+   "url": "https://acnesafecheck.com/ingredient/wheat-bran-lipids.html"
+  },
+  {
+   "name": "Wheat Germ Glyceride",
+   "comedogenic_rating": 3,
+   "category": "Oil",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "wheat germ glyceride"
+   ],
+   "slug": "wheat-germ-glyceride",
+   "url": "https://acnesafecheck.com/ingredient/wheat-germ-glyceride.html"
+  },
+  {
+   "name": "Wheat Germ Oil",
+   "comedogenic_rating": 5,
+   "category": "Oil",
+   "pore_clogging": true,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "triticum vulgare germ oil",
+    "wheat germ oil"
+   ],
+   "slug": "wheat-germ-oil",
+   "url": "https://acnesafecheck.com/ingredient/wheat-germ-oil.html"
+  },
+  {
+   "name": "Wheat Protein",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "wheat protein"
+   ],
+   "slug": "wheat-protein",
+   "url": "https://acnesafecheck.com/ingredient/wheat-protein.html"
+  },
+  {
+   "name": "White Tea Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "white tea extract"
+   ],
+   "slug": "white-tea-extract",
+   "url": "https://acnesafecheck.com/ingredient/white-tea-extract.html"
+  },
+  {
+   "name": "Willow Bark Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "willow bark extract"
+   ],
+   "slug": "willow-bark-extract",
+   "url": "https://acnesafecheck.com/ingredient/willow-bark-extract.html"
+  },
+  {
+   "name": "Witch Hazel",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "witch hazel"
+   ],
+   "slug": "witch-hazel",
+   "url": "https://acnesafecheck.com/ingredient/witch-hazel.html"
+  },
+  {
+   "name": "Xanthan Gum",
+   "comedogenic_rating": 0,
+   "category": "Thickener",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "xanthan gum"
+   ],
+   "slug": "xanthan-gum",
+   "url": "https://acnesafecheck.com/ingredient/xanthan-gum.html"
+  },
+  {
+   "name": "Yarrow Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "yarrow extract"
+   ],
+   "slug": "yarrow-extract",
+   "url": "https://acnesafecheck.com/ingredient/yarrow-extract.html"
+  },
+  {
+   "name": "Yeast Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "yeast extract"
+   ],
+   "slug": "yeast-extract",
+   "url": "https://acnesafecheck.com/ingredient/yeast-extract.html"
+  },
+  {
+   "name": "Yerba Mate Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "yerba mate extract"
+   ],
+   "slug": "yerba-mate-extract",
+   "url": "https://acnesafecheck.com/ingredient/yerba-mate-extract.html"
+  },
+  {
+   "name": "Zinc Gluconate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "zinc gluconate"
+   ],
+   "slug": "zinc-gluconate",
+   "url": "https://acnesafecheck.com/ingredient/zinc-gluconate.html"
+  },
+  {
+   "name": "Zinc Oxide",
+   "comedogenic_rating": 1,
+   "category": "Sunscreen",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "zinc oxide"
+   ],
+   "slug": "zinc-oxide",
+   "url": "https://acnesafecheck.com/ingredient/zinc-oxide.html"
+  },
+  {
+   "name": "Zinc PCA",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "zinc pca"
+   ],
+   "slug": "zinc-pca",
+   "url": "https://acnesafecheck.com/ingredient/zinc-pca.html"
+  },
+  {
+   "name": "Zinc Stearate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": true,
+   "aliases": [
+    "zinc stearate"
+   ],
+   "slug": "zinc-stearate",
+   "url": "https://acnesafecheck.com/ingredient/zinc-stearate.html"
+  },
+  {
+   "name": "Zinc Sulfate",
+   "comedogenic_rating": 0,
+   "category": "Functional",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "zinc sulfate"
+   ],
+   "slug": "zinc-sulfate",
+   "url": "https://acnesafecheck.com/ingredient/zinc-sulfate.html"
+  },
+  {
+   "name": "Zingiber Officinale Root Extract",
+   "comedogenic_rating": 0,
+   "category": "Botanical extract",
+   "pore_clogging": false,
+   "fungal_acne_trigger": false,
+   "aliases": [
+    "zingiber officinale root extract"
+   ],
+   "slug": "zingiber-officinale-root-extract",
+   "url": "https://acnesafecheck.com/ingredient/zingiber-officinale-root-extract.html"
+  }
+ ]
+}

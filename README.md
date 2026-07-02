@@ -17,6 +17,8 @@ Free acne-safe / comedogenic ingredient checker. Static site (HTML + CSS + vanil
 
 ## Generators — run in this order
     python3 gen_db.py           # db.json + checker.js + static table in comedogenic-ingredients-list.html
+    python3 gen_data.py         # data.html + data/*.csv|json + llms-full.txt (open dataset)
+    python3 gen_vs.py           # vs/*.html ingredient comparison pages + hub
     python3 gen_ingredients.py  # ingredient/*.html (from db.json)
     python3 gen_index_page.py   # ingredients.html (from db.json)
     python3 gen_articles.py     # article/*.html

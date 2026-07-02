@@ -70,7 +70,7 @@ def pill(x,y,txt,col,bgc):
     d.text((x+22,y+11),txt,font=f,fill=col)
     return x+w+44+18
 x=92
-x=pill(x,532,"560+ ingredients",(196,77,56),(253,232,227))
+x=pill(x,532,"550+ ingredients",(196,77,56),(253,232,227))
 x=pill(x,532,"100% free",(47,158,111),(231,246,238))
 x=pill(x,532,"No signup",(217,154,0),(251,242,216))
 og.save("og.png","PNG")

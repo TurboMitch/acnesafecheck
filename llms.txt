@@ -1,6 +1,6 @@
 # AcneSafeCheck
 
-> AcneSafeCheck is a free web tool that checks any skincare or makeup ingredient list (INCI) for comedogenic (pore-clogging) ingredients. Paste a product's ingredients and it flags each one on the 0–5 comedogenicity scale, separating pore-clogging risks from acne-safe ingredients. It runs against a database of 560+ ingredients, requires no signup, and works entirely in the browser. Ratings are based on published comedogenicity references (e.g. Fulton et al. 1984) and are informational, not medical advice.
+> AcneSafeCheck is a free web tool that checks any skincare or makeup ingredient list (INCI) for comedogenic (pore-clogging) ingredients. Paste a product's ingredients and it flags each one on the 0–5 comedogenicity scale, separating pore-clogging risks from acne-safe ingredients. It runs against a database of 550+ ingredients, requires no signup, and works entirely in the browser. Ratings are based on published comedogenicity references (e.g. Fulton et al. 1984) and are informational, not medical advice.
 
 ## What it answers
 - "Is this product acne safe?" — paste the ingredient list to find out.
@@ -23,7 +23,7 @@ Note: a comedogenic rating is general guidance compiled from widely-used referen
 - Product checker (search a product by name): https://acnesafecheck.com/product-checker.html
 
 ## Ingredient database
-- Searchable comedogenic ingredients list (560+): https://acnesafecheck.com/comedogenic-ingredients-list.html
+- Searchable comedogenic ingredients list (550+): https://acnesafecheck.com/comedogenic-ingredients-list.html
 - Full A–Z ingredient index: https://acnesafecheck.com/ingredients.html
 - Individual ingredient pages live at https://acnesafecheck.com/ingredient/<slug>.html (e.g. /ingredient/coconut-oil.html), each with the 0–5 rating, what the ingredient is, fungal-acne status, and acne-safe alternatives.
 
@@ -53,6 +53,17 @@ Note: a comedogenic rating is general guidance compiled from widely-used referen
 - Primers: https://acnesafecheck.com/non-comedogenic/non-comedogenic-primer.html
 - Face oils: https://acnesafecheck.com/non-comedogenic/non-comedogenic-oils.html
 - Hair products: https://acnesafecheck.com/non-comedogenic/non-comedogenic-hair-products.html
+
+## Open dataset & API (machine-readable)
+- Full database, one line per ingredient (LLM-friendly): https://acnesafecheck.com/llms-full.txt
+- Dataset page (CC BY 4.0, cite acnesafecheck.com): https://acnesafecheck.com/data.html
+- CSV: https://acnesafecheck.com/data/acnesafecheck-ingredients.csv
+- JSON: https://acnesafecheck.com/data/acnesafecheck-ingredients.json
+- Free JSON API (rate/size-capped): https://acnesafecheck.com/api.html — GET /api/check?ingredient=coconut%20oil
+
+## Ingredient comparisons ("X vs Y for acne")
+- Hub: https://acnesafecheck.com/vs/index.html
+- Pages live at https://acnesafecheck.com/vs/<a>-vs-<b>.html (e.g. /vs/coconut-oil-vs-jojoba-oil.html), each with both 0-5 ratings, fungal-acne status and a verdict.
 
 ## About
 AcneSafeCheck is an independent, free informational tool built by Mitchell Zandwijken for people with acne-prone or breakout-prone skin who want to vet skincare and makeup products before buying. Methodology and references: https://acnesafecheck.com/about.html · Contact: hello@acnesafecheck.com
