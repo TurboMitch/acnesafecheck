@@ -73,8 +73,8 @@ PAGE = f"""<!DOCTYPE html>
 <header><div class="wrap bar">
   <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
   <nav>
-    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
-    <a href="/pore-clogging-ingredient-checker.html">Pore-clogging</a>
+    <a href="/">Checker</a>
+    <a href="/fungal-acne-safe-checker.html">Fungal acne</a>
     <a href="/ingredients.html">All ingredients</a>
     <a href="/about.html">About</a>
   </nav>
@@ -83,7 +83,7 @@ PAGE = f"""<!DOCTYPE html>
 <main class="wrap">
   <section class="hero">
     <h1>All comedogenic ingredients (A–Z)</h1>
-    <p>Every one of the <strong>{links_total} ingredients</strong> in our database, with its comedogenicity rating from 0 (acne safe) to 5 (high pore-clogging risk). Looking for one product? Use the <a href="/comedogenic-ingredient-checker.html">ingredient checker</a> or the <a href="/comedogenic-ingredients-list.html">searchable list</a>.</p>
+    <p>Every one of the <strong>{links_total} ingredients</strong> in our database, with its comedogenicity rating from 0 (acne safe) to 5 (high pore-clogging risk). Looking for one product? Use the <a href="/">ingredient checker</a> or the <a href="/comedogenic-ingredients-list.html">searchable list</a>.</p>
   </section>
   <div class="azbar wrap" style="padding-left:0">{nav}</div>
   {sections_html}
@@ -91,7 +91,7 @@ PAGE = f"""<!DOCTYPE html>
 </main>
 
 <footer><div class="wrap">
-  AcneSafeCheck · <a href="/comedogenic-ingredients-list.html">Searchable database</a> · <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a> · <a href="/about.html">About</a><br>
+  AcneSafeCheck · <a href="/comedogenic-ingredients-list.html">Searchable database</a> · <a href="/">Comedogenic checker</a> · <a href="/about.html">About</a><br>
   Informational only, not medical advice.
 </div></footer>
 </body>

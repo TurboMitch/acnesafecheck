@@ -402,12 +402,40 @@ function checkIngredients(){
   if(bad.length){ cls='bad'; headline=bad.length+' pore-clogging ingredient'+(bad.length>1?'s':'')+' found'; sub='These have a comedogenicity rating of 3 or higher.'; }
   else if(low.length){ cls='warn'; headline='Mostly fine — '+low.length+' low-risk ingredient'+(low.length>1?'s':''); sub='Nothing high-risk, but a few mild ones to watch.'; }
   let html = '<div class="score '+cls+'"><div class="big">'+(bad.length||low.length||'✓')+'</div><div><div class="lbl"><strong>'+headline+'</strong></div><div class="muted" style="font-size:13px">'+sub+'</div></div></div>';
+  const faTag = m => m.fa ? ' <span title="Common fungal-acne (Malassezia) trigger" style="font-size:12px">🍄</span>' : '';
   const section = (title, arr) => { if(!arr.length) return ''; let s = '<h3 style="margin:18px 0 4px;font-size:15px">'+title+'</h3>';
-    arr.sort((a,b)=>b.r-a.r).forEach(m=>{ s += '<div class="flag"><div><div class="name">'+m.n+'</div><div class="why">'+riskText(m.r)+'</div></div>'+pill(m.r)+'</div>'; }); return s; };
+    arr.sort((a,b)=>b.r-a.r).forEach(m=>{ s += '<div class="flag"><div><div class="name"><a href="/ingredient/'+m.s+'.html" style="color:inherit">'+m.n+'</a>'+faTag(m)+'</div><div class="why">'+riskText(m.r)+(m.fa?' Also a common fungal-acne (Malassezia) trigger.':'')+'</div></div>'+pill(m.r)+'</div>'; }); return s; };
   html += section('🔴 Pore-clogging risk', bad); html += section('🟡 Low risk', low); html += section('🟢 Acne safe', safe);
+  const faCount = bad.concat(low, safe).filter(m=>m.fa).length;
+  if(faCount){ html += '<p class="muted" style="font-size:13px;margin:12px 0 0">🍄 '+faCount+' ingredient'+(faCount>1?'s':'')+' in this list '+(faCount>1?'are':'is a')+' common <a href="/fungal-acne.html">fungal-acne (Malassezia) trigger'+(faCount>1?'s':'')+'</a> — relevant if your breakouts are small, itchy and uniform. <a href="/fungal-acne-safe-checker.html">Run the dedicated fungal-acne check →</a></p>'; }
   if(unknown.length){ html += '<h3 style="margin:18px 0 4px;font-size:15px">⚪ Not in database ('+unknown.length+')</h3>';
     html += '<p class="muted" style="font-size:13px">Not on common pore-clogging lists — not necessarily safe or unsafe: '+unknown.map(u=>escapeHtml(u)).join(', ')+'</p>'; }
   res.innerHTML = html; res.classList.remove('hidden'); res.scrollIntoView({behavior:'smooth', block:'start'});
+}
+function acsOcrPick(){ const f=document.getElementById('ocrfile'); if(f) f.click(); }
+async function acsOcr(input){
+  const file = input.files && input.files[0]; if(!file) return;
+  const st = document.getElementById('ocrstatus');
+  const say = t => { if(st) st.textContent = t; };
+  say('Reading the photo — this can take ~10 seconds…');
+  try{
+    if(!window.Tesseract){
+      await new Promise((ok,err)=>{ const s=document.createElement('script');
+        s.src='https://cdn.jsdelivr.net/npm/tesseract.js@5.1.1/dist/tesseract.min.js';
+        s.onload=ok; s.onerror=()=>err(new Error('load')); document.head.appendChild(s); });
+    }
+    const { data } = await Tesseract.recognize(file, 'eng');
+    let text = (data && data.text || '').replace(/\s+/g,' ').trim();
+    const m = text.match(/ingredients?\s*[:\-]?/i);
+    if(m) text = text.slice(m.index + m[0].length).trim();
+    if(text.length > 3){
+      const ta = document.getElementById('ingredients');
+      if(ta){ ta.value = text; say('Text extracted — please fix any misreads, then results update below.'); checkIngredients(); }
+    } else {
+      say('Couldn’t read text from that photo — try a sharper, closer shot of the ingredient list, or paste it manually.');
+    }
+  }catch(e){ say('Photo scan couldn’t load — you can still paste the ingredient list manually.'); }
+  input.value='';
 }
 function clearAll(){const ta=document.getElementById('ingredients');if(ta)ta.value='';const r=document.getElementById('results');if(r)r.classList.add('hidden');}
 function loadSample(){ const ta=document.getElementById('ingredients'); if(!ta) return;

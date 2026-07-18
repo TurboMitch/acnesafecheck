@@ -52,8 +52,6 @@ for path in glob.glob("*.html") + glob.glob("ingredient/*.html") + glob.glob("no
     if rel == "index.html":
         loc = f"{BASE}/"
         pri = "1.0"
-    elif rel in ("comedogenic-ingredient-checker.html","pore-clogging-ingredient-checker.html"):
-        pri = "0.9"
     elif rel in ("comedogenic-ingredients-list.html","comedogenic.html"):
         pri = "0.8"
     elif rel.startswith("ingredient/"):

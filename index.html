@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Acne Safe Ingredient Checker — Find Pore-Clogging Ingredients | AcneSafeCheck</title>
-<meta name="description" content="Free acne safe ingredient checker. Paste any skincare or makeup ingredient list and instantly see which ingredients are comedogenic (pore-clogging) and which are acne safe. 550+ ingredient database.">
+<title>Acne Safe Ingredient Checker — Comedogenic & Pore-Clogging Scan | AcneSafeCheck</title>
+<meta name="description" content="Free comedogenic & pore-clogging ingredient checker. Paste any skincare or makeup INCI list — or scan a photo — and instantly rate every ingredient 0–5 on the comedogenic scale, with fungal-acne triggers flagged. 550+ ingredients.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#e0654f">
 <meta name="ahrefs-site-verification" content="29b2213b058b3dbbe63b2ad069034fd4e718ab8b42f4f8d54431f17296323eb9">
@@ -33,11 +33,12 @@
 {"@type":"Organization","@id":"https://acnesafecheck.com/#org","name":"AcneSafeCheck","url":"https://acnesafecheck.com/","logo":{"@type":"ImageObject","url":"https://acnesafecheck.com/icon-512.png"},"founder":{"@id":"https://acnesafecheck.com/#mitchell"}},
 {"@type":"Person","@id":"https://acnesafecheck.com/#mitchell","name":"Mitchell Zandwijken","url":"https://acnesafecheck.com/about.html","jobTitle":"Founder"},
 {"@type":"WebSite","@id":"https://acnesafecheck.com/#site","url":"https://acnesafecheck.com/","name":"AcneSafeCheck","publisher":{"@id":"https://acnesafecheck.com/#org"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://acnesafecheck.com/comedogenic-ingredients-list.html?q={search_term_string}"},"query-input":"required name=search_term_string"}},
-{"@type":"WebApplication","@id":"https://acnesafecheck.com/#app","name":"Acne Safe Ingredient Checker","url":"https://acnesafecheck.com/","applicationCategory":"HealthApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript. Runs entirely in the browser.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"https://acnesafecheck.com/#org"},"description":"Check any skincare ingredient list for comedogenic, pore-clogging ingredients against a 550+ ingredient database."},
+{"@type":"WebApplication","@id":"https://acnesafecheck.com/#app","name":"Acne Safe Ingredient Checker","url":"https://acnesafecheck.com/","applicationCategory":"HealthApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript. Runs entirely in the browser.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"https://acnesafecheck.com/#org"},"description":"Combined acne-safe, comedogenic and pore-clogging ingredient checker: paste any skincare INCI list or scan a photo, rate every ingredient 0–5 on the comedogenicity scale, and flag fungal-acne (Malassezia) triggers against a 550+ ingredient database."},
 {"@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"What does comedogenic mean?","acceptedAnswer":{"@type":"Answer","text":"Comedogenic ingredients tend to block pores, which can lead to comedones (blackheads and whiteheads) and breakouts. Ratings run from 0 (won't clog pores) to 5 (very likely to clog pores)."}},
 {"@type":"Question","name":"Is a high-rated ingredient always bad for me?","acceptedAnswer":{"@type":"Answer","text":"No. Many people use coconut oil or cocoa butter with no problems. Ratings are a starting point — concentration and your own skin matter a lot."}},
-{"@type":"Question","name":"Where do the comedogenic ratings come from?","acceptedAnswer":{"@type":"Answer","text":"From comedogenicity scales widely cited in the skincare community and dermatology references. They are estimates, not lab results for every formula."}}
+{"@type":"Question","name":"Where do the comedogenic ratings come from?","acceptedAnswer":{"@type":"Answer","text":"From published comedogenicity research and dermatology references, primarily Fulton et al. 1984 and Draelos & DiNardo 2006, plus widely-used esthetician reference lists. They are estimates, not lab results for every formula."}},
+{"@type":"Question","name":"Is this the same as a comedogenic or pore-clogging ingredient checker?","acceptedAnswer":{"@type":"Answer","text":"Yes. Acne safe checker, comedogenic ingredient checker and pore-clogging ingredient checker all describe this one tool: it rates every recognised ingredient 0-5 on the comedogenicity scale and flags fungal-acne (Malassezia) triggers in the same scan."}}
 ]}]}
 </script>
 </head>
@@ -45,9 +46,9 @@
 <header><div class="wrap bar">
   <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
   <nav>
-    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
-    <a href="/pore-clogging-ingredient-checker.html">Pore-clogging</a>
     <a href="/comedogenic-ingredients-list.html">Ingredient list</a>
+    <a href="/fungal-acne-safe-checker.html">Fungal acne</a>
+    <a href="/product-checker.html">Product search</a>
     <a href="/about.html">About</a>
   </nav>
 </div></header>
@@ -55,7 +56,7 @@
 <main class="wrap">
   <section class="hero">
     <h1>Acne Safe Ingredient Checker</h1>
-    <p>Paste the ingredient list from any skincare or makeup product and instantly see which ingredients are <strong>pore-clogging (comedogenic)</strong> — and which are acne safe. Free, no signup, 550+ ingredients.</p>
+    <p>Paste the ingredient list from any skincare or makeup product — or scan a photo of the label — and instantly see which ingredients are <strong>pore-clogging (comedogenic)</strong>, which may trigger <strong>fungal acne</strong>, and which are acne safe. Every recognised ingredient is rated 0–5 on the comedogenic scale. Free, no signup, 550+ ingredients.</p>
   </section>
 
   <section class="card">
@@ -63,13 +64,17 @@
     <textarea id="ingredients" placeholder="e.g. Water, Glycerin, Coconut Oil, Niacinamide, Isopropyl Myristate, Cocoa Butter..."></textarea>
     <div class="row">
       <button class="btn-primary" onclick="checkIngredients()">Check ingredients</button>
+      <button class="btn-ghost" onclick="acsOcrPick()">📷 Scan a photo</button>
       <button class="btn-ghost" onclick="clearAll()">Clear</button>
       <span class="sample" onclick="loadSample()">Try a sample list</span>
     </div>
+    <input type="file" id="ocrfile" accept="image/*" style="display:none" onchange="acsOcr(this)">
+    <p id="ocrstatus" class="muted" style="font-size:13px;margin:8px 0 0"></p>
     <div class="legend">
       <span>🔴 High pore-clogging risk (rating 3–5)</span>
       <span>🟡 Low risk (1–2)</span>
       <span>🟢 Acne safe (0)</span>
+      <span>🍄 Fungal-acne trigger</span>
     </div>
   </section>
 
@@ -80,12 +85,19 @@
   </div>
 
   <h2>How the acne safe ingredient checker works</h2>
-  <p class="muted">It scans your ingredient list against a database of 550+ ingredients known to be comedogenic or pore-clogging, each scored 0–5 on the standard comedogenicity scale. Higher means a greater chance of clogging pores and triggering breakouts. Ingredients not in the database are shown separately as "not rated" — they are not necessarily safe or unsafe, just not on common pore-clogging lists.</p>
+  <p class="muted">This is one combined <strong>comedogenic ingredient checker</strong> and <strong>pore-clogging ingredient checker</strong>: it scans your ingredient list against a database of 550+ ingredients known to be comedogenic or pore-clogging, each scored 0–5 on the standard comedogenicity scale. Higher means a greater chance of clogging pores and triggering breakouts. Ingredients that commonly feed <a href="/fungal-acne.html">fungal acne (Malassezia)</a> get a 🍄 flag too. Ingredients not in the database are shown separately as "not rated" — they are not necessarily safe or unsafe, just not on common pore-clogging lists.</p>
+
+  <section class="prose">
+    <h2>What is the comedogenic scale?</h2>
+    <p>The comedogenic scale rates how likely an ingredient is to clog pores, from <strong>0 (non-comedogenic)</strong> to <strong>5 (highly comedogenic)</strong>. It originated from dermatology research that applied ingredients to skin and observed comedone (clogged-pore) formation (Fulton et al., 1984). A higher number means a greater chance of blackheads, whiteheads and breakouts for acne-prone skin — read more on <a href="/comedogenic.html">what comedogenic means</a>.</p>
+    <h3>How to read your results</h3>
+    <p>Ingredients near the top of an INCI list are present in the highest concentration, so a comedogenic ingredient listed first matters more than one near the end. And a single ingredient's score doesn't guarantee how a finished formula behaves (Draelos &amp; DiNardo, 2006) — use ratings as a risk signal, and patch test anything new.</p>
+    <h3>Common high-comedogenic ingredients</h3>
+    <p>Frequent offenders include <a href="/ingredient/isopropyl-myristate.html">isopropyl myristate</a>, <a href="/ingredient/coconut-oil.html">coconut oil</a>, <a href="/ingredient/cocoa-butter.html">cocoa butter</a>, <a href="/ingredient/algae-extract.html">algae extract</a>, <a href="/ingredient/lauric-acid.html">lauric acid</a> and <a href="/ingredient/wheat-germ-oil.html">wheat germ oil</a>. Browse the full <a href="/comedogenic-ingredients-list.html">comedogenic ingredients list</a> for all 550+ ratings.</p>
+  </section>
 
   <h2>Explore more</h2>
   <div class="cards">
-    <a class="tile" href="/comedogenic-ingredient-checker.html"><b>Comedogenic ingredient checker</b><span>Scan a full INCI list and rank every ingredient 0–5 on the comedogenicity scale.</span></a>
-    <a class="tile" href="/pore-clogging-ingredient-checker.html"><b>Pore-clogging ingredient checker</b><span>Find the exact ingredients most likely to clog pores and trigger breakouts.</span></a>
     <a class="tile" href="/comedogenic-ingredients-list.html"><b>Comedogenic ingredients list</b><span>Searchable database of 550+ pore-clogging and acne-safe ingredients with ratings.</span></a>
     <a class="tile" href="/ingredients.html"><b>All ingredients A–Z</b><span>Browse the full 550+ ingredient index alphabetically, each with its 0–5 rating.</span></a>
     <a class="tile" href="/comedogenic.html"><b>What is the comedogenic scale?</b><span>Understand what "comedogenic" means and how to use the 0–5 ratings.</span></a>
@@ -112,7 +124,9 @@
     <h3>Is a high-rated ingredient always bad for me?</h3>
     <p class="muted">No. Many people use coconut oil or cocoa butter with no problems. Ratings are a starting point — concentration and your own skin matter a lot.</p>
     <h3>Where do the ratings come from?</h3>
-    <p class="muted">From comedogenicity scales widely cited in the skincare community and dermatology references. We're transparent that these are estimates, not lab results for every formula.</p>
+    <p class="muted">From published comedogenicity research and dermatology references — primarily <a href="https://pubmed.ncbi.nlm.nih.gov/6229554/" rel="nofollow noopener" target="_blank">Fulton et al. (1984)</a> and the re-evaluation by <a href="https://pubmed.ncbi.nlm.nih.gov/16488305/" rel="nofollow noopener" target="_blank">Draelos &amp; DiNardo (2006)</a>, plus widely-used esthetician reference lists. We're transparent that these are estimates, not lab results for every formula — full methodology on the <a href="/about.html">about page</a>.</p>
+    <h3>Is this the same as a comedogenic or pore-clogging checker?</h3>
+    <p class="muted">Yes — "acne safe checker", "comedogenic ingredient checker" and "pore-clogging ingredient checker" all describe this one tool. It rates every recognised ingredient 0–5 on the comedogenicity scale and flags fungal-acne triggers in the same scan.</p>
   </section>
 </main>
 

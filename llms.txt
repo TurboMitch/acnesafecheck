@@ -16,9 +16,7 @@
 Note: a comedogenic rating is general guidance compiled from widely-used reference lists, not a lab result for every formula. Actual effects depend on concentration, the full formulation and the individual's skin. The tool is informational and not medical advice.
 
 ## Tools
-- Home / acne safe ingredient checker: https://acnesafecheck.com/
-- Comedogenic ingredient checker (rate a full INCI list 0–5): https://acnesafecheck.com/comedogenic-ingredient-checker.html
-- Pore-clogging ingredient checker (flag breakout triggers): https://acnesafecheck.com/pore-clogging-ingredient-checker.html
+- Home / acne safe, comedogenic & pore-clogging ingredient checker (one tool, rates a full INCI list 0–5, flags fungal-acne triggers, supports photo scan): https://acnesafecheck.com/
 - Fungal-acne (Malassezia) safe checker: https://acnesafecheck.com/fungal-acne-safe-checker.html
 - Product checker (search a product by name): https://acnesafecheck.com/product-checker.html
 

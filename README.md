@@ -3,9 +3,12 @@
 Free acne-safe / comedogenic ingredient checker. Static site (HTML + CSS + vanilla JS) with two Vercel serverless functions.
 
 ## Pages
-- index.html — Acne safe ingredient checker (home)
-- comedogenic-ingredient-checker.html / pore-clogging-ingredient-checker.html
-- fungal-acne-safe-checker.html, product-checker.html (Open Beauty Facts search)
+- index.html — THE checker (acne safe + comedogenic + pore-clogging, one consolidated tool
+  with fungal-acne flags and photo OCR via Tesseract.js from jsdelivr; CSP allows it).
+  The old /comedogenic-ingredient-checker.html and /pore-clogging-ingredient-checker.html
+  301 to / via vercel.json — do not recreate them (they cannibalized rankings).
+- fungal-acne-safe-checker.html, product-checker.html (Open Beauty Facts search; supports
+  ?q=Product+Name deep links used by the roundup pages)
 - comedogenic-ingredients-list.html — searchable 560-ingredient database
 - ingredients.html — A–Z index; ingredient/*.html — 560 generated ingredient pages
 - non-comedogenic/*.html — product roundups; article/*.html — guides

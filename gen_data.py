@@ -164,7 +164,7 @@ PAGE = f"""<!DOCTYPE html>
 <header><div class="wrap bar">
   <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
   <nav>
-    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
+    <a href="/">Comedogenic checker</a>
     <a href="/comedogenic-ingredients-list.html">Ingredient list</a>
     <a href="/api.html">API</a>
     <a href="/about.html">About</a>

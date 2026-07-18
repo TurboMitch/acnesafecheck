@@ -16,7 +16,7 @@ ARTICLES = [
    "Where creatine does get blamed unfairly is the company it keeps: heavy training, sweaty skin left unwashed, and whey protein taken alongside it. Those factors are far more likely culprits than the creatine molecule itself."],
   ["Shower and cleanse soon after training, before sweat dries on the skin.",
    "If you also use whey protein, trial cutting it for 4–6 weeks to see if your skin changes.",
-   "Keep the rest of your routine non-comedogenic — paste your products into our <a href=\"/comedogenic-ingredient-checker.html\">checker</a>."]),
+   "Keep the rest of your routine non-comedogenic — paste your products into our <a href=\"/\">checker</a>."]),
 
  ("does-dairy-cause-acne","dairy","Does dairy cause acne?","Possibly — especially skim milk",
   ["Of all the diet–acne links, dairy has the most evidence behind it. Several large observational studies have found an association between milk intake — <strong>particularly skim milk</strong> — and acne. The leading explanation is that milk contains hormones and raises IGF-1, a growth factor that increases oil production and skin-cell turnover.",
@@ -202,7 +202,7 @@ TPL = """<!DOCTYPE html>
 <header><div class="wrap bar">
   <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
   <nav>
-    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
+    <a href="/">Comedogenic checker</a>
     <a href="/fungal-acne-safe-checker.html">Fungal acne</a>
     <a href="/comedogenic-ingredients-list.html">Ingredient list</a>
     <a href="/about.html">About</a>
@@ -223,7 +223,7 @@ TPL = """<!DOCTYPE html>
     <h2>Bottom line</h2>
     <p>{bottom}</p>
     <h2>Vet your skincare too</h2>
-    <p>Diet is only one piece. Many breakouts are driven by what you put <em>on</em> your skin. Paste your products into our <a href="/comedogenic-ingredient-checker.html">comedogenic ingredient checker</a> to rule out pore-clogging ingredients, and check for <a href="/fungal-acne-safe-checker.html">fungal-acne triggers</a> if your bumps are small and itchy.</p>
+    <p>Diet is only one piece. Many breakouts are driven by what you put <em>on</em> your skin. Paste your products into our <a href="/">comedogenic ingredient checker</a> to rule out pore-clogging ingredients, and check for <a href="/fungal-acne-safe-checker.html">fungal-acne triggers</a> if your bumps are small and itchy.</p>
     {sources}
     <p class="muted" style="font-size:13px">By <a href="/about.html">Mitchell Zandwijken</a> · Last updated {mod_human}. See our <a href="/about.html">sources &amp; methodology</a>.</p>
   </section>
@@ -231,7 +231,7 @@ TPL = """<!DOCTYPE html>
 </main>
 
 <footer><div class="wrap">
-  AcneSafeCheck · <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a> · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/about.html">About</a><br>
+  AcneSafeCheck · <a href="/">Comedogenic checker</a> · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/about.html">About</a><br>
   Informational only, not medical advice.
 </div></footer>
 </body>
@@ -327,7 +327,7 @@ HUB = f"""<!DOCTYPE html>
 <header><div class="wrap bar">
   <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
   <nav>
-    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
+    <a href="/">Comedogenic checker</a>
     <a href="/fungal-acne-safe-checker.html">Fungal acne</a>
     <a href="/comedogenic-ingredients-list.html">Ingredient list</a>
     <a href="/about.html">About</a>
@@ -342,7 +342,7 @@ HUB = f"""<!DOCTYPE html>
   <div class="disclaimer" style="margin-top:24px"><strong>Note:</strong> General educational information, not medical advice. For persistent or severe acne, see a dermatologist.</div>
 </main>
 <footer><div class="wrap">
-  AcneSafeCheck · <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a> · <a href="/about.html">About</a><br>
+  AcneSafeCheck · <a href="/">Comedogenic checker</a> · <a href="/about.html">About</a><br>
   Informational only, not medical advice.
 </div></footer>
 </body>

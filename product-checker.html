@@ -35,7 +35,7 @@
 <header><div class="wrap bar">
   <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
   <nav>
-    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
+    <a href="/">Comedogenic checker</a>
     <a href="/fungal-acne-safe-checker.html">Fungal acne</a>
     <a href="/comedogenic-ingredients-list.html">Ingredient list</a>
     <a href="/about.html">About</a>
@@ -86,7 +86,7 @@
 </main>
 
 <footer><div class="wrap">
-  AcneSafeCheck · <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a> · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/about.html">About</a><br>
+  AcneSafeCheck · <a href="/">Comedogenic checker</a> · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/about.html">About</a><br>
   Product data: Open Beauty Facts (ODbL). Informational only, not medical advice.
 </div></footer>
 
@@ -139,6 +139,12 @@ function runCheck(){
   if(res && /Pore-clogging risk/.test(res.innerHTML)) alt.classList.remove('hidden');
   else alt.classList.add('hidden');
 }
+// Deep links: /product-checker.html?q=Product+Name pre-fills and searches immediately
+// (used by the non-comedogenic roundups so readers can analyze the CURRENT formula).
+(function(){
+  const q = new URLSearchParams(location.search).get('q');
+  if(q){ const i = document.getElementById('q'); if(i){ i.value = q; searchProducts(); } }
+})();
 </script>
 </body>
 </html>

@@ -130,7 +130,7 @@ TPL = """<!DOCTYPE html>
 <header><div class="wrap bar">
   <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
   <nav>
-    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
+    <a href="/">Comedogenic checker</a>
     <a href="/comedogenic-ingredients-list.html">Ingredient list</a>
     <a href="/vs/index.html">Comparisons</a>
     <a href="/about.html">About</a>
@@ -163,7 +163,7 @@ TPL = """<!DOCTYPE html>
     <h2>{b}: {rb}/5</h2>
     <p>{para_b} Full breakdown: <a href="/ingredient/{sb}.html">is {b} comedogenic?</a></p>
     <h2>Checking a real product?</h2>
-    <p>Single-ingredient ratings are guidance, not a lab test of a finished formula — concentration and the rest of the ingredient list matter (Draelos &amp; DiNardo, 2006). Paste the full list into the <a href="/comedogenic-ingredient-checker.html">comedogenic ingredient checker</a> to screen everything at once, or the <a href="/fungal-acne-safe-checker.html">fungal-acne checker</a> if Malassezia is your problem.</p>
+    <p>Single-ingredient ratings are guidance, not a lab test of a finished formula — concentration and the rest of the ingredient list matter (Draelos &amp; DiNardo, 2006). Paste the full list into the <a href="/">comedogenic ingredient checker</a> to screen everything at once, or the <a href="/fungal-acne-safe-checker.html">fungal-acne checker</a> if Malassezia is your problem.</p>
     <p class="muted" style="font-size:13px">By <a href="/about.html">Mitchell Zandwijken</a> · Rated against published comedogenicity references (Fulton 1984; Draelos &amp; DiNardo 2006) · Last updated {mod_human}.</p>
   </section>
 
@@ -171,7 +171,7 @@ TPL = """<!DOCTYPE html>
 </main>
 
 <footer><div class="wrap">
-  AcneSafeCheck · <a href="/vs/index.html">All comparisons</a> · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a> · <a href="/about.html">About</a><br>
+  AcneSafeCheck · <a href="/vs/index.html">All comparisons</a> · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/">Comedogenic checker</a> · <a href="/about.html">About</a><br>
   Informational only, not medical advice.
 </div></footer>
 </body>
@@ -293,7 +293,7 @@ hub = f"""<!DOCTYPE html>
 <header><div class="wrap bar">
   <a class="logo" href="/"><span class="dot"></span> AcneSafeCheck</a>
   <nav>
-    <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a>
+    <a href="/">Comedogenic checker</a>
     <a href="/comedogenic-ingredients-list.html">Ingredient list</a>
     <a href="/ingredients.html">All ingredients</a>
     <a href="/about.html">About</a>
@@ -311,14 +311,14 @@ hub = f"""<!DOCTYPE html>
   </div>
 
   <section class="prose">
-    <p>Don't see your pair? Look both ingredients up in the <a href="/ingredients.html">A–Z index</a>, or paste a full product into the <a href="/comedogenic-ingredient-checker.html">comedogenic checker</a>.</p>
+    <p>Don't see your pair? Look both ingredients up in the <a href="/ingredients.html">A–Z index</a>, or paste a full product into the <a href="/">comedogenic checker</a>.</p>
   </section>
 
   <div class="disclaimer"><strong>Note:</strong> Informational only, not medical advice.</div>
 </main>
 
 <footer><div class="wrap">
-  AcneSafeCheck · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/comedogenic-ingredient-checker.html">Comedogenic checker</a> · <a href="/about.html">About</a><br>
+  AcneSafeCheck · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/">Comedogenic checker</a> · <a href="/about.html">About</a><br>
   Informational only, not medical advice.
 </div></footer>
 </body>
