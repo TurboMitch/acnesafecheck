@@ -1,11 +1,18 @@
-// AcneSafeCheck newsletter/waitlist signup — adds a contact to a Resend Audience.
-// Requires env vars (set in Vercel → Project → Settings → Environment Variables):
-//   RESEND_API_KEY        — your Resend API key (server-side only, never exposed to the browser)
-//   RESEND_AUDIENCE_ID    — the Audience to add contacts to (create one in the Resend dashboard)
-// Optional: RESEND_PREMIUM_AUDIENCE_ID for the premium waitlist.
+// AcneSafeCheck newsletter/waitlist signup — creates a contact via Resend's
+// Contacts API (the old Audiences API was replaced by contacts + segments).
+// Requires env var (Vercel → Project → Settings → Environment Variables):
+//   RESEND_API_KEY  — full-access Resend API key (server-side only)
+// Contacts are tagged with properties {source: 'acnesafecheck', list} and added
+// to a per-list segment so they stay separated from other lists in the team.
 //
-// NOTE: for real list-bombing protection also enable double opt-in on the Resend
-// Audience — the in-memory limiter below is per-instance (Vercel may run several).
+// NOTE: for real list-bombing protection also enable double opt-in / verified
+// signups on the Resend side — the in-memory limiter below is per-instance.
+
+// Segment IDs are not secrets; overridable via env if they're ever recreated.
+const SEGMENTS = {
+  'newsletter': process.env.RESEND_SEGMENT_NEWSLETTER || 'd3ad400d-84ce-4bde-8d0b-da46e58e296b',
+  'premium-waitlist': process.env.RESEND_SEGMENT_WAITLIST || '8598885b-4cb2-4766-9d88-29cf0c084da3',
+};
 
 const MAX_BODY_BYTES = 4096;
 
@@ -57,28 +64,30 @@ module.exports = async (req, res) => {
   let body = req.body;
   if (!body || typeof body !== 'object') { try { body = JSON.parse(await readRaw(req)); } catch (e) { body = {}; } }
   const email = String((body && body.email) || '').trim().slice(0, 254);
-  const list = String((body && body.list) || 'newsletter');
+  const list = SEGMENTS[String((body && body.list) || 'newsletter')] ? String(body.list || 'newsletter') : 'newsletter';
   if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
     res.statusCode = 400; return res.end(JSON.stringify({ ok: false, error: 'Invalid email' }));
   }
 
   const KEY = process.env.RESEND_API_KEY;
-  const AUD = list === 'premium-waitlist'
-    ? (process.env.RESEND_PREMIUM_AUDIENCE_ID || process.env.RESEND_AUDIENCE_ID)
-    : process.env.RESEND_AUDIENCE_ID;
-  if (!KEY || !AUD) {
-    // Log so signups attempted before configuration are at least recoverable from logs.
+  if (!KEY) {
     console.warn('subscribe: provider not configured; dropping signup for list=' + list);
     res.statusCode = 200;
     return res.end(JSON.stringify({ ok: false, configured: false, message: 'Email provider not configured yet.' }));
   }
 
   try {
-    const r = await fetch(`https://api.resend.com/audiences/${AUD}/contacts`, {
+    const r = await fetch('https://api.resend.com/contacts', {
       method: 'POST',
       headers: { Authorization: `Bearer ${KEY}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email, unsubscribed: false })
+      body: JSON.stringify({
+        email,
+        unsubscribed: false,
+        properties: { source: 'acnesafecheck', list },
+        segments: [{ id: SEGMENTS[list] }]
+      })
     });
+    // 409 = contact already exists — treat as success for the subscriber.
     if (r.ok || r.status === 409) { res.statusCode = 200; return res.end(JSON.stringify({ ok: true })); }
     // Log provider detail server-side; never echo it to the client.
     console.error('subscribe: provider error', r.status, (await r.text()).slice(0, 500));
