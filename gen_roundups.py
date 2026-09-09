@@ -280,22 +280,23 @@ def slug_for_ing(n, fatal=True):
 
 NEWSLETTER = """
   <section class="card" style="background:#fff7f4;border-color:#f3d8cf">
-    <h2 style="margin-top:0">Get the acne-safe product cheat sheet</h2>
-    <p class="muted">Join the free newsletter for vetted non-comedogenic picks and new ingredient guides. No spam.</p>
+    <h2 style="margin-top:0">Get the free Acne-Safe Cheat Sheet (PDF)</h2>
+    <p class="muted">All red-flag ingredients rated 4–5, safe swaps per category and the fungal-acne quick list — plus occasional new ingredient guides by email. No spam.</p>
     <form class="row" onsubmit="return acsSubscribe(event)">
       <input class="search" style="flex:1;min-width:220px" type="email" name="email" placeholder="you@email.com" required>
-      <button class="btn-primary" type="submit">Subscribe</button>
+      <button class="btn-primary" type="submit">Send me the cheat sheet</button>
     </form>
     <p id="acsMsg" class="muted" style="font-size:13px;margin:8px 0 0"></p>
   </section>
   <script>
-  function acsSubscribe(e){e.preventDefault();var f=e.target,email=f.email.value,m=document.getElementById('acsMsg');m.textContent="Subscribing…";
+  function acsTrack(n){try{if(navigator.sendBeacon)navigator.sendBeacon('/api/event?e='+encodeURIComponent(n));else fetch('/api/event?e='+n,{keepalive:true});}catch(_){}}
+  function acsSubscribe(e){e.preventDefault();var f=e.target,email=f.email.value,m=document.getElementById('acsMsg');m.textContent="Subscribing…";acsTrack('subscribe_attempt');
     fetch("/api/subscribe",{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,list:'newsletter'})})
       .then(r=>r.json()).then(d=>{
-        if(d.ok){m.textContent="You're in — thanks for subscribing!";f.reset();}
-        else if(d.configured===false){m.textContent="Signups aren't live just yet — please check back soon.";}
-        else{m.textContent="Hmm, that didn't work — please try again.";}})
-      .catch(()=>{m.textContent="Something went wrong, please try again.";});
+        if(d.ok){acsTrack('subscribe_ok');f.reset();m.innerHTML="You're in — thanks! Here's your <a href=\\"/downloads/acne-safe-cheat-sheet.pdf\\" onclick=\\"acsTrack('cheatsheet_download')\\"><strong>Acne-Safe Cheat Sheet (PDF)</strong></a>.";}
+        else if(d.configured===false){acsTrack('subscribe_fail');m.textContent="Signups aren't live just yet — please check back soon.";}
+        else{acsTrack('subscribe_fail');m.textContent="Hmm, that didn't work — please try again.";}})
+      .catch(()=>{acsTrack('subscribe_fail');m.textContent="Something went wrong, please try again.";});
     return false;}
   </script>
 """

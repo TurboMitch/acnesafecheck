@@ -6,6 +6,12 @@ from content_date import CONTENT_UPDATED, CONTENT_UPDATED_HUMAN
 DB = json.load(open("db.json", encoding="utf-8"))
 os.makedirs("ingredient", exist_ok=True)
 
+# Comparison pages (written by gen_vs.py) — used to cross-link ingredient pages.
+try:
+    VS_PAIRS = json.load(open("vs/pairs.json", encoding="utf-8"))
+except FileNotFoundError:
+    VS_PAIRS = {}
+
 VER = '29b2213b058b3dbbe63b2ad069034fd4e718ab8b42f4f8d54431f17296323eb9'
 ANALYTICS = 'dTgyD+bV2xvop4os/0GghQ'
 PUBLISHED = "2026-06-18"
@@ -211,6 +217,7 @@ TPL = """<!DOCTYPE html>
     <h2>{alt_heading}</h2>
     <p>{alt_intro}</p>
     {alt_list}
+    {vs_links}
     <h2>How we rate comedogenicity — and its limits</h2>
     <p>The 0–5 comedogenicity scale comes from dermatology research that measured how much individual ingredients clogged pores, originally using the rabbit-ear assay (Fulton et al., 1984). A rating reflects an ingredient's <em>potential</em> to clog pores at high concentration — not a guarantee that any finished product will break you out.</p>
     <p>That distinction matters. A later review (Draelos &amp; DiNardo, 2006) found that a single ingredient's comedogenic score does not reliably predict how a complete formula behaves on real skin: concentration, the rest of the formula, and your own skin all change the result. So read {name_h}'s {r}/5 as a risk signal — most useful when the ingredient sits near the top of the list — rather than a verdict on one specific product.</p>
@@ -284,6 +291,15 @@ for e in DB:
 
     clog_para = clog_sentence(name, r)
 
+    vs = VS_PAIRS.get(slug, [])
+    if vs:
+        links = ", ".join(
+            f'<a href="/vs/{p["vs"]}.html">{esc(name)} vs {esc(p["other"])}</a>' for p in vs)
+        vs_links = (f'<h2>Compared side-by-side</h2><p>See how {esc(name)} stacks up against '
+                    f'popular alternatives: {links}.</p>')
+    else:
+        vs_links = ""
+
     page = TPL.format(
         name_h=esc(name), name_j=jp(name), slug=slug, r=r,
         verdict=verdict(r), verdict_cap=verdict(r).capitalize(),
@@ -292,7 +308,7 @@ for e in DB:
         catblurb=cat_blurb(e["c"]), found_in=found_in(e["c"]),
         alias_sentence=alias_sentence, also=also_json, cls=cls,
         scale=scale_svg(r),
-        alt_heading=alt_heading, alt_intro=alt_intro, alt_list=alt_list,
+        alt_heading=alt_heading, alt_intro=alt_intro, alt_list=alt_list, vs_links=vs_links,
         fa_text=fa_text, fa_short=fa_short, fa_j=jp(fa_answer),
         pub=PUBLISHED, mod=MODIFIED, mod_human=CONTENT_UPDATED_HUMAN,
         ver=VER, an=ANALYTICS)

@@ -66,13 +66,14 @@
   Informational only, not medical advice.
 </div></footer>
 <script>
-function acsWait(e){e.preventDefault();var f=e.target,email=f.email.value,m=document.getElementById('acsMsg');m.textContent="Joining…";
+function acsTrack(n){try{if(navigator.sendBeacon)navigator.sendBeacon('/api/event?e='+encodeURIComponent(n));else fetch('/api/event?e='+n,{keepalive:true});}catch(_){}}
+function acsWait(e){e.preventDefault();var f=e.target,email=f.email.value,m=document.getElementById('acsMsg');m.textContent="Joining…";acsTrack('subscribe_attempt');
   fetch("/api/subscribe",{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,list:'premium-waitlist'})})
     .then(r=>r.json()).then(d=>{
-      if(d.ok){m.textContent="You're on the waitlist — thanks!";f.reset();}
-      else if(d.configured===false){m.textContent="The waitlist isn't live just yet — please check back soon.";}
-      else{m.textContent="Hmm, that didn't work — please try again.";}})
-    .catch(()=>{m.textContent="Something went wrong, please try again.";});
+      if(d.ok){acsTrack('subscribe_ok');f.reset();m.innerHTML="You're on the waitlist — thanks! Meanwhile, here's the free <a href=\"/downloads/acne-safe-cheat-sheet.pdf\" onclick=\"acsTrack('cheatsheet_download')\"><strong>Acne-Safe Cheat Sheet (PDF)</strong></a>.";}
+      else if(d.configured===false){acsTrack('subscribe_fail');m.textContent="The waitlist isn't live just yet — please check back soon.";}
+      else{acsTrack('subscribe_fail');m.textContent="Hmm, that didn't work — please try again.";}})
+    .catch(()=>{acsTrack('subscribe_fail');m.textContent="Something went wrong, please try again.";});
   return false;}
 </script>
 </body>

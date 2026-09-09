@@ -325,4 +325,12 @@ hub = f"""<!DOCTYPE html>
 </html>
 """
 open("vs/index.html", "w", encoding="utf-8").write(hub)
-print(f"Generated {len(made)} vs pages + hub")
+
+# Export pairs so gen_ingredients.py can link ingredient pages to their comparisons.
+_pairs_by_slug = {}
+for a, b, slug, win, ra, rb in made:
+    ea, eb = by_name[a], by_name[b]
+    _pairs_by_slug.setdefault(ea["s"], []).append({"other": b, "vs": slug})
+    _pairs_by_slug.setdefault(eb["s"], []).append({"other": a, "vs": slug})
+json.dump(_pairs_by_slug, open("vs/pairs.json", "w", encoding="utf-8"), ensure_ascii=False)
+print(f"Generated {len(made)} vs pages + hub + pairs.json ({len(_pairs_by_slug)} ingredients)")

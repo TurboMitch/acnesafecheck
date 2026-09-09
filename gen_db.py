@@ -390,10 +390,27 @@ function riskText(r){
   return 'Considered non-comedogenic.';
 }
 function escapeHtml(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+// First-party, cookieless funnel beacon (see /api/event.js). Never throws.
+function acsTrack(n){try{if(navigator.sendBeacon)navigator.sendBeacon('/api/event?e='+encodeURIComponent(n));else fetch('/api/event?e='+encodeURIComponent(n),{method:'GET',keepalive:true});}catch(_){}}
+// Shared newsletter/waitlist signup with cheat-sheet reward on success.
+function acsSubscribe(e, list){
+  e.preventDefault(); const f=e.target, email=f.email.value, m=document.getElementById(f.getAttribute('data-msg')||'acsMsg');
+  const say=t=>{ if(m) m.innerHTML=t; };
+  say('Subscribing…'); acsTrack('subscribe_attempt');
+  fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,list:list||'newsletter'})})
+    .then(r=>r.json()).then(d=>{
+      if(d.ok){ acsTrack('subscribe_ok'); f.reset();
+        say('You\'re in — thanks! Here\'s your <a href="/downloads/acne-safe-cheat-sheet.pdf" onclick="acsTrack(\'cheatsheet_download\')"><strong>Acne-Safe Cheat Sheet (PDF)</strong></a>.'); }
+      else if(d.configured===false){ acsTrack('subscribe_fail'); say('Signups aren\'t live just yet — please check back soon.'); }
+      else { acsTrack('subscribe_fail'); say('Hmm, that didn\'t work — please try again.'); }})
+    .catch(()=>{ acsTrack('subscribe_fail'); say('Something went wrong, please try again.'); });
+  return false;
+}
 function checkIngredients(){
   const ta = document.getElementById('ingredients'); const res = document.getElementById('results');
   if(!ta || !res) return; const raw = ta.value;
   if(!raw.trim()){ res.classList.add('hidden'); return; }
+  acsTrack('check_run');
   const tokens = parseList(raw); const bad=[], low=[], safe=[], unknown=[]; const seen = new Set();
   tokens.forEach(t=>{ const m = match(t);
     if(m){ if(seen.has(m.n)) return; seen.add(m.n); if(m.r>=3) bad.push(m); else if(m.r>=1) low.push(m); else safe.push(m); }
@@ -415,6 +432,7 @@ function checkIngredients(){
 function acsOcrPick(){ const f=document.getElementById('ocrfile'); if(f) f.click(); }
 async function acsOcr(input){
   const file = input.files && input.files[0]; if(!file) return;
+  acsTrack('scan_run');
   const st = document.getElementById('ocrstatus');
   const say = t => { if(st) st.textContent = t; };
   say('Reading the photo — this can take ~10 seconds…');
@@ -443,6 +461,7 @@ function loadSample(){ const ta=document.getElementById('ingredients'); if(!ta) 
 function checkFungal(){
   const ta = document.getElementById('ingredients'); const res = document.getElementById('results');
   if(!ta || !res) return; const raw = ta.value; if(!raw.trim()){ res.classList.add('hidden'); return; }
+  acsTrack('fungal_run');
   const tokens = parseList(raw); const bad=[], safe=[], unknown=[]; const seen=new Set();
   tokens.forEach(t=>{ const m=match(t);
     if(m){ if(seen.has(m.n)) return; seen.add(m.n); if(m.fa) bad.push(m); else safe.push(m); }

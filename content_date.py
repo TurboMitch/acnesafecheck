@@ -8,6 +8,6 @@ pages (a freshness-inflation / credibility problem for a YMYL site).
 """
 import datetime
 
-CONTENT_UPDATED = "2026-07-02"  # matcher rework, alias de-dup, escaping fixes
+CONTENT_UPDATED = "2026-09-09"  # cheat-sheet lead magnet, vs cross-links, funnel events
 
 CONTENT_UPDATED_HUMAN = datetime.date.fromisoformat(CONTENT_UPDATED).strftime("%B %Y")
