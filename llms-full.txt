@@ -7,7 +7,7 @@
 > an ingredient's potential at high concentration, not a verdict on any finished formula.
 > Licence: CC BY 4.0 — cite acnesafecheck.com. Machine-readable: https://acnesafecheck.com/data/acnesafecheck-ingredients.json and .csv. Docs: https://acnesafecheck.com/data.html
 
-Last updated: 2026-09-09
+Last updated: 2026-09-10
 
 Format: Name | rating/5 | category | fungal-acne trigger yes/no | detail page
 

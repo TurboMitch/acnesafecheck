@@ -147,8 +147,8 @@ TPL = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Does {name_h} Clog Pores? Comedogenic Rating {r}/5 | AcneSafeCheck</title>
-<meta name="description" content="Does {name_h} clog pores? It rates {r}/5 on the comedogenic scale — {verdict}. See whether {name_h} is acne safe, fungal-acne status, and safer alternatives.">
+<title>{name_h} Comedogenic Rating: {r}/5 — Does It Clog Pores? | AcneSafeCheck</title>
+<meta name="description" content="{name_h} comedogenic rating: {r}/5 — {verdict}. Does {name_h} clog pores, is it fungal-acne safe, and what are acne-safe alternatives?">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#e0654f">
 <meta name="ahrefs-site-verification" content="{ver}">
@@ -158,7 +158,7 @@ TPL = """<!DOCTYPE html>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
-<meta property="og:title" content="Does {name_h} Clog Pores? Comedogenic Rating {r}/5">
+<meta property="og:title" content="{name_h} Comedogenic Rating: {r}/5 — Does It Clog Pores?">
 <meta property="og:description" content="{name_h}: comedogenicity {r}/5 — {verdict}. Find acne-safe alternatives.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://acnesafecheck.com/ingredient/{slug}.html">
@@ -168,8 +168,9 @@ TPL = """<!DOCTYPE html>
 <link rel="stylesheet" href="/styles.css">
 <script type="application/ld+json">
 {{"@context":"https://schema.org","@graph":[
-{{"@type":"Article","@id":"https://acnesafecheck.com/ingredient/{slug}.html#article","headline":"Does {name_j} Clog Pores? Comedogenic Rating {r}/5","description":"{name_j} has a comedogenicity rating of {r}/5 — {verdict}.","url":"https://acnesafecheck.com/ingredient/{slug}.html","datePublished":"{pub}","dateModified":"{mod}","inLanguage":"en","author":{{"@type":"Person","@id":"https://acnesafecheck.com/#mitchell","name":"Mitchell Zandwijken","url":"https://acnesafecheck.com/about.html"}},"publisher":{{"@type":"Organization","@id":"https://acnesafecheck.com/#org","name":"AcneSafeCheck","logo":{{"@type":"ImageObject","url":"https://acnesafecheck.com/icon-512.png"}}}},"image":{{"@type":"ImageObject","url":"https://acnesafecheck.com/og.png","width":1200,"height":630}},"mainEntityOfPage":{{"@type":"WebPage","@id":"https://acnesafecheck.com/ingredient/{slug}.html"}},"about":{{"@type":"Thing","name":"{name_j}"{also}}},"additionalProperty":{{"@type":"PropertyValue","name":"Comedogenicity rating","value":"{r}","minValue":"0","maxValue":"5","description":"0 = non-comedogenic (won't clog pores), 5 = highly pore-clogging"}},"citation":[{{"@type":"CreativeWork","name":"Comedogenicity of current therapeutic products, cosmetics, and ingredients in the rabbit ear (Fulton JE Jr, Pay SR, Fulton JE III, 1984)","url":"https://pubmed.ncbi.nlm.nih.gov/6229554/"}},{{"@type":"CreativeWork","name":"A re-evaluation of the comedogenicity concept (Draelos ZD, DiNardo JC, 2006)","url":"https://pubmed.ncbi.nlm.nih.gov/16488305/"}}]}},
+{{"@type":"Article","@id":"https://acnesafecheck.com/ingredient/{slug}.html#article","headline":"{name_j} Comedogenic Rating: {r}/5 — Does It Clog Pores?","description":"{name_j} has a comedogenicity rating of {r}/5 — {verdict}.","url":"https://acnesafecheck.com/ingredient/{slug}.html","datePublished":"{pub}","dateModified":"{mod}","inLanguage":"en","author":{{"@type":"Person","@id":"https://acnesafecheck.com/#mitchell","name":"Mitchell Zandwijken","url":"https://acnesafecheck.com/about.html"}},"publisher":{{"@type":"Organization","@id":"https://acnesafecheck.com/#org","name":"AcneSafeCheck","logo":{{"@type":"ImageObject","url":"https://acnesafecheck.com/icon-512.png"}}}},"image":{{"@type":"ImageObject","url":"https://acnesafecheck.com/og.png","width":1200,"height":630}},"mainEntityOfPage":{{"@type":"WebPage","@id":"https://acnesafecheck.com/ingredient/{slug}.html"}},"about":{{"@type":"Thing","name":"{name_j}"{also}}},"additionalProperty":{{"@type":"PropertyValue","name":"Comedogenicity rating","value":"{r}","minValue":"0","maxValue":"5","description":"0 = non-comedogenic (won't clog pores), 5 = highly pore-clogging"}},"citation":[{{"@type":"CreativeWork","name":"Comedogenicity of current therapeutic products, cosmetics, and ingredients in the rabbit ear (Fulton JE Jr, Pay SR, Fulton JE III, 1984)","url":"https://pubmed.ncbi.nlm.nih.gov/6229554/"}},{{"@type":"CreativeWork","name":"A re-evaluation of the comedogenicity concept (Draelos ZD, DiNardo JC, 2006)","url":"https://pubmed.ncbi.nlm.nih.gov/16488305/"}}]}},
 {{"@type":"FAQPage","@id":"https://acnesafecheck.com/ingredient/{slug}.html#faq","mainEntity":[
+{{"@type":"Question","name":"What is the comedogenic rating of {name_j}?","acceptedAnswer":{{"@type":"Answer","text":"The comedogenic rating of {name_j} is {r} out of 5 — {verdict}."}}}},
 {{"@type":"Question","name":"Does {name_j} clog pores?","acceptedAnswer":{{"@type":"Answer","text":"{clog_j}"}}}},
 {{"@type":"Question","name":"Is {name_j} comedogenic?","acceptedAnswer":{{"@type":"Answer","text":"{name_j} has a comedogenicity rating of {r} out of 5, which is {verdict}. {answer_j}"}}}},
 {{"@type":"Question","name":"Is {name_j} safe for fungal acne (Malassezia)?","acceptedAnswer":{{"@type":"Answer","text":"{fa_j}"}}}}]}},
@@ -193,7 +194,7 @@ TPL = """<!DOCTYPE html>
 <main class="wrap">
   <p class="muted" style="font-size:13px;margin:14px 0 0"><a href="/comedogenic-ingredients-list.html">Ingredient list</a> › {name_h}</p>
   <section class="hero" style="padding-top:18px">
-    <h1>Does {name_h} clog pores?</h1>
+    <h1>{name_h} comedogenic rating: {r}/5 — does it clog pores?</h1>
     <p><strong>Quick answer:</strong> {clog_para} {fa_short}</p>
   </section>
 
