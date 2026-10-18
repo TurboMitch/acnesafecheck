@@ -103,8 +103,8 @@ TPL = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{a} vs {b} for Acne: Which Clogs Pores? | AcneSafeCheck</title>
-<meta name="description" content="{a} ({ra}/5) vs {b} ({rb}/5) on the comedogenic scale — which is safer for acne-prone skin, plus fungal-acne status and acne-safe alternatives.">
+<title>{a} vs {b} for Acne: Which Clogs Pores?</title>
+<meta name="description" content="{a} ({ra}/5) vs {b} ({rb}/5) on the comedogenic scale: which is safer for acne-prone skin, plus fungal-acne status and alternatives.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#e0654f">
 <meta name="ahrefs-site-verification" content="{ver}">
@@ -266,7 +266,7 @@ hub = f"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ingredient Comparisons for Acne-Prone Skin — X vs Y, Which Clogs Pores? | AcneSafeCheck</title>
+<title>Ingredient Comparisons: Which Clogs Pores? | AcneSafeCheck</title>
 <meta name="description" content="Side-by-side comedogenicity comparisons of commonly confused skincare ingredients: coconut oil vs jojoba, shea vs cocoa butter, squalane vs jojoba and more.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#e0654f">

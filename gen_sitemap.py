@@ -58,7 +58,7 @@ for path in glob.glob("*.html") + glob.glob("ingredient/*.html") + glob.glob("no
         pri = "0.6"
     elif rel.startswith("non-comedogenic/"):
         pri = "0.7"
-    elif rel == "data.html":
+    elif rel in ("data.html", "embed.html"):
         pri = "0.8"
     elif rel.startswith("article/") or rel.startswith("vs/"):
         pri = "0.6"

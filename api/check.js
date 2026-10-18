@@ -36,7 +36,7 @@ function fmt(m) {
   return {
     name: it.n, rating: it.r, category: it.c,
     poreClogging: it.r >= 3, fungalAcneTrigger: !!it.fa,
-    match: m.matchType,
+    match: m.matchType, ratingBasis: it.b || 'compiled',
     slug: it.s, url: `https://acnesafecheck.com/ingredient/${it.s}.html`
   };
 }

@@ -12,7 +12,7 @@ Free acne-safe / comedogenic ingredient checker. Static site (HTML + CSS + vanil
 - comedogenic-ingredients-list.html — searchable 560-ingredient database
 - ingredients.html — A–Z index; ingredient/*.html — 560 generated ingredient pages
 - non-comedogenic/*.html — product roundups; article/*.html — guides
-- api.html — public API docs; premium.html — waitlist
+- api.html — public API docs; embed.html + embed.js — embeddable checker widget; premium.html — waitlist
 
 ## API (api/)
 - api/check.js — GET /api/check?ingredient=… or ?ingredients=… (public, rate/size-capped)

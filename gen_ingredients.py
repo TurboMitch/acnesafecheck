@@ -109,6 +109,30 @@ def found_in(c):
         "Misc":"a range of cosmetic formulas",
     }.get(c, "a range of skincare and makeup products")
 
+BASIS_TEXT = {
+    "compiled": ("Compiled from the published comedogenicity literature (Fulton et al. 1984 "
+                 "rabbit-ear assay) and widely used esthetician reference lists."),
+    "no-reports": ("Rated 0 because {name} does not appear on any comedogenic reference list we "
+                   "track. That is an absence of reports, not a positive clinical test — treat it "
+                   "as 'no known concern' rather than 'proven safe'."),
+}
+def basis_text(e):
+    return BASIS_TEXT.get(e.get("b", "compiled"), BASIS_TEXT["compiled"]).format(name=e["n"])
+
+# Same-category neighbours via a rotating window over the category list, so every
+# ingredient receives ~6 inbound links from its own category (fixes thin internal
+# linking that left ~75 pages "crawled, not indexed").
+by_cat = {}
+for _e in DB:
+    by_cat.setdefault(_e["c"], []).append(_e)
+for _c in by_cat:
+    by_cat[_c].sort(key=lambda x: x["n"].lower())
+def related(e, n=6):
+    pool = by_cat.get(e["c"], [])
+    if len(pool) <= 1: return []
+    i = next(k for k, x in enumerate(pool) if x["n"] == e["n"])
+    return [pool[(i + j) % len(pool)] for j in range(1, min(n, len(pool) - 1) + 1)]
+
 def alternatives(e):
     """Lower-risk, same-category options. The window rotates per-ingredient so
     different pages in a large category surface different (not identical) picks."""
@@ -147,8 +171,8 @@ TPL = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{name_h} Comedogenic Rating: {r}/5 — Does It Clog Pores? | AcneSafeCheck</title>
-<meta name="description" content="{name_h} comedogenic rating: {r}/5 — {verdict}. Does {name_h} clog pores, is it fungal-acne safe, and what are acne-safe alternatives?">
+<title>{name_h} Comedogenic Rating: {r}/5 — Does It Clog Pores?</title>
+<meta name="description" content="{name_h} comedogenic rating: {r}/5 ({verdict}). Does it clog pores, is it fungal-acne safe, and what are safer alternatives?">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#e0654f">
 <meta name="ahrefs-site-verification" content="{ver}">
@@ -206,6 +230,7 @@ TPL = """<!DOCTYPE html>
     </div>
     {scale}
     <p>{risk_long}</p>
+    <p class="muted" style="font-size:13px"><strong>Basis for this rating:</strong> {basis}</p>
     <p style="margin-top:14px"><a class="btn-primary" style="display:inline-block;text-decoration:none" href="/">Check a full ingredient list →</a></p>
   </section>
 
@@ -218,6 +243,7 @@ TPL = """<!DOCTYPE html>
     <h2>{alt_heading}</h2>
     <p>{alt_intro}</p>
     {alt_list}
+    {related_block}
     {vs_links}
     <h2>How we rate comedogenicity — and its limits</h2>
     <p>The 0–5 comedogenicity scale comes from dermatology research that measured how much individual ingredients clogged pores, originally using the rabbit-ear assay (Fulton et al., 1984). A rating reflects an ingredient's <em>potential</em> to clog pores at high concentration — not a guarantee that any finished product will break you out.</p>
@@ -292,6 +318,14 @@ for e in DB:
 
     clog_para = clog_sentence(name, r)
 
+    rel = related(e)
+    if rel:
+        related_block = (f'<h2>More {esc(e["c"].lower())} ingredients</h2><p>Other ingredients in the same category, '
+                         f'with their comedogenic rating: ' +
+                         ", ".join(f'<a href="/ingredient/{x["s"]}.html">{esc(x["n"])}</a> ({x["r"]}/5)' for x in rel) + '.</p>')
+    else:
+        related_block = ""
+
     vs = VS_PAIRS.get(slug, [])
     if vs:
         links = ", ".join(
@@ -310,6 +344,7 @@ for e in DB:
         alias_sentence=alias_sentence, also=also_json, cls=cls,
         scale=scale_svg(r),
         alt_heading=alt_heading, alt_intro=alt_intro, alt_list=alt_list, vs_links=vs_links,
+        basis=esc(basis_text(e)), related_block=related_block,
         fa_text=fa_text, fa_short=fa_short, fa_j=jp(fa_answer),
         pub=PUBLISHED, mod=MODIFIED, mod_human=CONTENT_UPDATED_HUMAN,
         ver=VER, an=ANALYTICS)

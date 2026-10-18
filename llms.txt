@@ -58,6 +58,8 @@ Note: a comedogenic rating is general guidance compiled from widely-used referen
 - CSV: https://acnesafecheck.com/data/acnesafecheck-ingredients.csv
 - JSON: https://acnesafecheck.com/data/acnesafecheck-ingredients.json
 - Free JSON API (rate/size-capped): https://acnesafecheck.com/api.html — GET /api/check?ingredient=coconut%20oil
+- Embeddable checker widget for any website: https://acnesafecheck.com/embed.html
+- Every rating carries a basis field: "compiled" (Fulton 1984 + reference lists) or "no-reports" (rated 0 for absence of comedogenic reports).
 
 ## Ingredient comparisons ("X vs Y for acne")
 - Hub: https://acnesafecheck.com/vs/index.html

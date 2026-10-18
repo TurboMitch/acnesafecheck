@@ -1,6 +1,6 @@
 {
  "dataset": "AcneSafeCheck Comedogenic Ingredients Database",
- "version": "2026-09-10",
+ "version": "2026-10-18",
  "license": "CC BY 4.0 — free to use with attribution to acnesafecheck.com",
  "homepage": "https://acnesafecheck.com/data.html",
  "api": "https://acnesafecheck.com/api.html",
@@ -13,6 +13,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "acai extract"
    ],
@@ -25,6 +26,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "acetyl glucosamine"
    ],
@@ -37,6 +39,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "acetyl hexapeptide-8"
    ],
@@ -49,6 +52,7 @@
    "category": "Occlusive",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "acetylated lanolin"
    ],
@@ -61,6 +65,7 @@
    "category": "Occlusive",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "acetylated lanolin alcohol"
    ],
@@ -73,6 +78,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "acrylates/c10-30 alkyl acrylate crosspolymer"
    ],
@@ -85,6 +91,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "adansonia digitata extract"
    ],
@@ -97,6 +104,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "adapalene"
    ],
@@ -109,6 +117,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "adenosine"
    ],
@@ -121,6 +130,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "agar"
    ],
@@ -133,6 +143,7 @@
    "category": "Solvent",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "alcohol denat",
     "denatured alcohol"
@@ -146,6 +157,7 @@
    "category": "Marine",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "algae",
     "algae extract"
@@ -159,6 +171,7 @@
    "category": "Thickener",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "algin"
    ],
@@ -171,6 +184,7 @@
    "category": "Soothing",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "allantoin"
    ],
@@ -183,6 +197,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "allantoin extract"
    ],
@@ -195,6 +210,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "allium cepa extract"
    ],
@@ -207,6 +223,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "aloe barbadensis leaf juice"
    ],
@@ -219,6 +236,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "aloe extract"
    ],
@@ -231,6 +249,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "aloe ferox leaf extract"
    ],
@@ -243,6 +262,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "aloe juice powder"
    ],
@@ -255,6 +275,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "aloe powder"
    ],
@@ -267,6 +288,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "aloe vera"
    ],
@@ -279,6 +301,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "alpha lipoic acid"
    ],
@@ -291,6 +314,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "alpha-arbutin"
    ],
@@ -303,6 +327,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "aluminum starch octenylsuccinate"
    ],
@@ -315,6 +340,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "aminomethyl propanol"
    ],
@@ -327,6 +353,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "amla extract"
    ],
@@ -339,6 +366,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "ammonium lactate"
    ],
@@ -351,6 +379,7 @@
    "category": "Silicone",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "amodimethicone"
    ],
@@ -363,6 +392,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "anisic acid"
    ],
@@ -375,6 +405,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "apple extract"
    ],
@@ -387,6 +418,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "apricot extract"
    ],
@@ -399,6 +431,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "apricot kernel oil",
     "prunus armeniaca kernel oil"
@@ -412,6 +445,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "arbutin"
    ],
@@ -424,6 +458,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "argan oil",
     "argania spinosa kernel oil"
@@ -437,6 +472,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "argireline"
    ],
@@ -449,6 +485,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "arnica extract"
    ],
@@ -461,6 +498,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "arnica montana flower extract"
    ],
@@ -473,6 +511,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "artemisia vulgaris extract"
    ],
@@ -485,6 +524,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "artichoke leaf extract"
    ],
@@ -497,6 +537,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "ascorbic acid",
     "vitamin c"
@@ -510,6 +551,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "ascorbyl glucoside"
    ],
@@ -522,6 +564,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "no-reports",
    "aliases": [
     "ascorbyl palmitate"
    ],
@@ -534,6 +577,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "ashwagandha extract"
    ],
@@ -546,6 +590,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "asiaticoside"
    ],
@@ -558,6 +603,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "asparagus extract"
    ],
@@ -570,6 +616,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "avena sativa kernel extract"
    ],
@@ -582,6 +629,7 @@
    "category": "Sunscreen",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "avobenzone",
     "butyl methoxydibenzoylmethane"
@@ -595,6 +643,7 @@
    "category": "Oil",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "avocado oil",
     "persea gratissima oil"
@@ -608,6 +657,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "azadirachta indica extract"
    ],
@@ -620,6 +670,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "azelaic acid"
    ],
@@ -632,6 +683,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "bakuchiol"
    ],
@@ -644,6 +696,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "bamboo extract"
    ],
@@ -656,6 +709,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "bambusa vulgaris extract"
    ],
@@ -668,6 +722,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "banana extract"
    ],
@@ -680,6 +735,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "baobab extract"
    ],
@@ -692,6 +748,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "barley extract"
    ],
@@ -704,6 +761,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "basil extract"
    ],
@@ -716,6 +774,7 @@
    "category": "Wax",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "beeswax",
     "cera alba"
@@ -729,6 +788,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "beetroot extract"
    ],
@@ -741,6 +801,7 @@
    "category": "Fatty alcohol",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "behenyl alcohol"
    ],
@@ -753,6 +814,7 @@
    "category": "Clay",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "bentonite"
    ],
@@ -765,6 +827,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "benzoyl peroxide"
    ],
@@ -777,6 +840,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "benzyl alcohol"
    ],
@@ -789,6 +853,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "bergamot extract"
    ],
@@ -801,6 +866,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "beta-glucan"
    ],
@@ -813,6 +879,7 @@
    "category": "Humectant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "betaine"
    ],
@@ -825,6 +892,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "bha preservative"
    ],
@@ -837,6 +905,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "bht"
    ],
@@ -849,6 +918,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "no-reports",
    "aliases": [
     "bifida ferment lysate"
    ],
@@ -861,6 +931,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "bilberry extract"
    ],
@@ -873,6 +944,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "biotin"
    ],
@@ -885,6 +957,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "birch extract"
    ],
@@ -897,6 +970,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "black tea extract"
    ],
@@ -909,6 +983,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "blackberry extract"
    ],
@@ -921,6 +996,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "blueberry extract"
    ],
@@ -933,6 +1009,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "borage oil",
     "borago officinalis seed oil"
@@ -946,6 +1023,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "boron nitride"
    ],
@@ -958,6 +1036,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "boswellia serrata extract"
    ],
@@ -970,6 +1049,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "brahmi extract"
    ],
@@ -982,6 +1062,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "broccoli extract"
    ],
@@ -994,6 +1075,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "burdock root extract"
    ],
@@ -1006,6 +1088,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "butyl stearate"
    ],
@@ -1018,6 +1101,7 @@
    "category": "Humectant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "butylene glycol"
    ],
@@ -1030,6 +1114,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cabbage extract"
    ],
@@ -1042,6 +1127,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cactus extract"
    ],
@@ -1054,6 +1140,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "caffeine"
    ],
@@ -1066,6 +1153,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "calcium carbonate"
    ],
@@ -1078,6 +1166,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "calcium chloride"
    ],
@@ -1090,6 +1179,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "calcium pantothenate"
    ],
@@ -1102,6 +1192,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "calendula extract"
    ],
@@ -1114,6 +1205,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "calendula officinalis flower extract"
    ],
@@ -1126,6 +1218,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "camellia japonica seed oil",
     "camellia oil",
@@ -1140,6 +1233,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "camellia japonica leaf extract"
    ],
@@ -1152,6 +1246,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "camellia sinensis leaf extract"
    ],
@@ -1164,6 +1259,7 @@
    "category": "Wax",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "candelilla wax",
     "euphorbia cerifera wax"
@@ -1177,6 +1273,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "caprylhydroxamic acid"
    ],
@@ -1189,6 +1286,7 @@
    "category": "Ester",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "caprylic capric triglyceride",
     "caprylic/capric triglyceride"
@@ -1202,6 +1300,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "caprylyl glycol"
    ],
@@ -1214,6 +1313,7 @@
    "category": "Thickener",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "carbomer"
    ],
@@ -1226,6 +1326,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cardamom extract"
    ],
@@ -1238,6 +1339,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "carica papaya fruit extract"
    ],
@@ -1250,6 +1352,7 @@
    "category": "Wax",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "carnauba wax",
     "copernicia cerifera wax"
@@ -1263,6 +1366,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "carnosine"
    ],
@@ -1275,6 +1379,7 @@
    "category": "Thickener",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "carrageenan",
     "chondrus crispus"
@@ -1288,6 +1393,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "carrot extract"
    ],
@@ -1300,6 +1406,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "castor oil",
     "ricinus communis seed oil"
@@ -1313,6 +1420,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cedarwood extract"
    ],
@@ -1325,6 +1433,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "celery extract"
    ],
@@ -1337,6 +1446,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cellulose gum"
    ],
@@ -1349,6 +1459,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "centaurea cyanus flower water"
    ],
@@ -1361,6 +1472,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "centella asiatica extract"
    ],
@@ -1373,6 +1485,7 @@
    "category": "Emulsifier",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "ceteareth-20",
     "cetearyl alcohol ceteareth-20"
@@ -1386,6 +1499,7 @@
    "category": "Emulsifier",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "ceteareth-25"
    ],
@@ -1398,6 +1512,7 @@
    "category": "Fatty alcohol",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "cetearyl alcohol"
    ],
@@ -1410,6 +1525,7 @@
    "category": "Ester",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "cetearyl ethylhexanoate"
    ],
@@ -1422,6 +1538,7 @@
    "category": "Emulsifier",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "cetearyl glucoside"
    ],
@@ -1434,6 +1551,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "cetyl acetate"
    ],
@@ -1446,6 +1564,7 @@
    "category": "Fatty alcohol",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "1-hexadecanol",
     "cetyl alcohol",
@@ -1460,6 +1579,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cha de bugre extract"
    ],
@@ -1472,6 +1592,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "chamomile extract"
    ],
@@ -1484,6 +1605,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "chamomilla recutita flower extract"
    ],
@@ -1496,6 +1618,7 @@
    "category": "Misc",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "activated charcoal",
     "charcoal"
@@ -1509,6 +1632,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "chickweed extract"
    ],
@@ -1521,6 +1645,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "chlorella extract"
    ],
@@ -1533,6 +1658,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "chlorphenesin"
    ],
@@ -1545,6 +1671,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cica"
    ],
@@ -1557,6 +1684,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cilantro extract"
    ],
@@ -1569,6 +1697,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cinnamon extract"
    ],
@@ -1581,6 +1710,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "citric acid"
    ],
@@ -1593,6 +1723,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "citrus limon peel extract"
    ],
@@ -1605,6 +1736,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cleavers extract"
    ],
@@ -1617,6 +1749,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "clove extract"
    ],
@@ -1629,6 +1762,7 @@
    "category": "Surfactant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "cocamidopropyl betaine"
    ],
@@ -1641,6 +1775,7 @@
    "category": "Ester",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "coco caprylate",
     "coco-caprylate"
@@ -1654,6 +1789,7 @@
    "category": "Surfactant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "coco glucoside",
     "coco-glucoside"
@@ -1667,6 +1803,7 @@
    "category": "Butter",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "cocoa butter",
     "theobroma cacao",
@@ -1681,6 +1818,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cocoa extract"
    ],
@@ -1693,6 +1831,7 @@
    "category": "Oil",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "coconut alkanes"
    ],
@@ -1705,6 +1844,7 @@
    "category": "Butter",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "coconut butter"
    ],
@@ -1717,6 +1857,7 @@
    "category": "Oil",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "coconut oil",
     "cocos nucifera oil"
@@ -1730,6 +1871,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "coenzyme q10"
    ],
@@ -1742,6 +1884,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "coffea arabica seed extract"
    ],
@@ -1754,6 +1897,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "coffee extract"
    ],
@@ -1766,6 +1910,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "collagen"
    ],
@@ -1778,6 +1923,7 @@
    "category": "Soothing",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "colloidal oatmeal"
    ],
@@ -1790,6 +1936,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "comfrey extract"
    ],
@@ -1802,6 +1949,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "copper pca"
    ],
@@ -1814,6 +1962,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "copper tripeptide-1"
    ],
@@ -1826,6 +1975,7 @@
    "category": "Oil",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "corn oil",
     "zea mays oil"
@@ -1839,6 +1989,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "corn starch"
    ],
@@ -1851,6 +2002,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cornflower extract"
    ],
@@ -1863,6 +2015,7 @@
    "category": "Oil",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "cotton seed oil",
     "cottonseed oil",
@@ -1877,6 +2030,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cranberry extract"
    ],
@@ -1889,6 +2043,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cucumber extract"
    ],
@@ -1901,6 +2056,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cucumis sativus fruit extract"
    ],
@@ -1913,6 +2069,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cucurbita pepo seed extract"
    ],
@@ -1925,6 +2082,7 @@
    "category": "Butter",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "cupuacu butter",
     "theobroma grandiflorum seed butter"
@@ -1938,6 +2096,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "curcuma longa root extract"
    ],
@@ -1950,6 +2109,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cyanocobalamin"
    ],
@@ -1962,6 +2122,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "cyclodextrin"
    ],
@@ -1974,6 +2135,7 @@
    "category": "Silicone",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "cyclohexasiloxane"
    ],
@@ -1986,6 +2148,7 @@
    "category": "Silicone",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "cyclomethicone"
    ],
@@ -1998,6 +2161,7 @@
    "category": "Silicone",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "cyclopentasiloxane"
    ],
@@ -2010,6 +2174,7 @@
    "category": "Colorant",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "d&c red 17",
     "red 17"
@@ -2023,6 +2188,7 @@
    "category": "Colorant",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "d&c red 21",
     "red 21"
@@ -2036,6 +2202,7 @@
    "category": "Colorant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "d&c red 27",
     "red 27"
@@ -2049,6 +2216,7 @@
    "category": "Colorant",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "d&c red 30",
     "red 30"
@@ -2062,6 +2230,7 @@
    "category": "Colorant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "d&c red 33",
     "red 33"
@@ -2075,6 +2244,7 @@
    "category": "Colorant",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "d&c red 36",
     "red 36"
@@ -2088,6 +2258,7 @@
    "category": "Colorant",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "ci 15850",
     "d&c red 6",
@@ -2102,6 +2273,7 @@
    "category": "Colorant",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "d&c red 7",
     "red 7"
@@ -2115,6 +2287,7 @@
    "category": "Colorant",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "d&c red 9",
     "red 9"
@@ -2128,6 +2301,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "daisy extract"
    ],
@@ -2140,6 +2314,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "dandelion extract"
    ],
@@ -2152,6 +2327,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "date extract"
    ],
@@ -2164,6 +2340,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "daucus carota sativa root extract"
    ],
@@ -2176,6 +2353,7 @@
    "category": "Surfactant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "decyl glucoside"
    ],
@@ -2188,6 +2366,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "decyl oleate"
    ],
@@ -2200,6 +2379,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "dehydroacetic acid"
    ],
@@ -2212,6 +2392,7 @@
    "category": "Ester",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "diisopropyl adipate"
    ],
@@ -2224,6 +2405,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "dill extract"
    ],
@@ -2236,6 +2418,7 @@
    "category": "Silicone",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "dimethicone"
    ],
@@ -2248,6 +2431,7 @@
    "category": "Silicone",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "dimethicone crosspolymer"
    ],
@@ -2260,6 +2444,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "dipropylene glycol"
    ],
@@ -2272,6 +2457,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "disodium cocoamphodiacetate"
    ],
@@ -2284,6 +2470,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "disodium edta"
    ],
@@ -2296,6 +2483,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "echinacea extract"
    ],
@@ -2308,6 +2496,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "ectoin"
    ],
@@ -2320,6 +2509,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "edelweiss extract"
    ],
@@ -2332,6 +2522,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "elastin"
    ],
@@ -2344,6 +2535,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "elderflower extract"
    ],
@@ -2356,6 +2548,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "equisetum arvense extract"
    ],
@@ -2368,6 +2561,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "ergothioneine"
    ],
@@ -2380,6 +2574,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "ethanol"
    ],
@@ -2392,6 +2587,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "ethylhexylglycerin"
    ],
@@ -2404,6 +2600,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "eucalyptus extract"
    ],
@@ -2416,6 +2613,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "evening primrose oil",
     "oenothera biennis oil"
@@ -2429,6 +2627,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "fennel extract"
    ],
@@ -2441,6 +2640,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "no-reports",
    "aliases": [
     "fermented rice water"
    ],
@@ -2453,6 +2653,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "ferulate"
    ],
@@ -2465,6 +2666,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "ferulic acid"
    ],
@@ -2477,6 +2679,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "fig extract"
    ],
@@ -2489,6 +2692,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "folic acid"
    ],
@@ -2501,6 +2705,7 @@
    "category": "Fragrance",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "fragrance",
     "parfum"
@@ -2514,6 +2719,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "frankincense extract"
    ],
@@ -2526,6 +2732,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "fructose"
    ],
@@ -2538,6 +2745,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "no-reports",
    "aliases": [
     "galactomyces ferment filtrate"
    ],
@@ -2550,6 +2758,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "garlic extract"
    ],
@@ -2562,6 +2771,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "gellan gum"
    ],
@@ -2574,6 +2784,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "ginger root extract"
    ],
@@ -2586,6 +2797,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "ginkgo biloba leaf extract"
    ],
@@ -2598,6 +2810,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "ginseng extract"
    ],
@@ -2610,6 +2823,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "gluconolactone"
    ],
@@ -2622,6 +2836,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "glucose"
    ],
@@ -2634,6 +2849,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "glutathione"
    ],
@@ -2646,6 +2862,7 @@
    "category": "Humectant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "glycereth-26"
    ],
@@ -2658,6 +2875,7 @@
    "category": "Humectant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "glycerin",
     "glycerine",
@@ -2672,6 +2890,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "glyceryl caprylate"
    ],
@@ -2684,6 +2903,7 @@
    "category": "Ester",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "glyceryl oleate"
    ],
@@ -2696,6 +2916,7 @@
    "category": "Ester",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "glyceryl stearate"
    ],
@@ -2708,6 +2929,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "glyceryl stearate se"
    ],
@@ -2720,6 +2942,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "glyceryl undecylenate"
    ],
@@ -2732,6 +2955,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "glycine soja seed extract"
    ],
@@ -2744,6 +2968,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "glycolic acid"
    ],
@@ -2756,6 +2981,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "glycyrrhiza glabra root extract"
    ],
@@ -2768,6 +2994,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "goji berry extract"
    ],
@@ -2780,6 +3007,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "gotu kola extract"
    ],
@@ -2792,6 +3020,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "grape extract"
    ],
@@ -2804,6 +3033,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "grapefruit extract"
    ],
@@ -2816,6 +3046,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "grape seed oil",
     "grapeseed oil",
@@ -2830,6 +3061,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "green tea extract"
    ],
@@ -2842,6 +3074,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "guar hydroxypropyltrimonium chloride"
    ],
@@ -2854,6 +3087,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "guarana extract"
    ],
@@ -2866,6 +3100,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hamamelis virginiana water"
    ],
@@ -2878,6 +3113,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hawthorn extract"
    ],
@@ -2890,6 +3126,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hdi/trimethylol hexyllactone crosspolymer"
    ],
@@ -2902,6 +3139,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "heartleaf extract"
    ],
@@ -2914,6 +3152,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "helichrysum extract"
    ],
@@ -2926,6 +3165,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "cannabis sativa seed oil",
     "hemp seed oil"
@@ -2939,6 +3179,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hexapeptide-9"
    ],
@@ -2951,6 +3192,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hexylene glycol"
    ],
@@ -2963,6 +3205,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hibiscus extract"
    ],
@@ -2975,6 +3218,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hippophae rhamnoides extract"
    ],
@@ -2987,6 +3231,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "holy basil extract"
    ],
@@ -2999,6 +3244,7 @@
    "category": "Sunscreen",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "homosalate"
    ],
@@ -3011,6 +3257,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "honey extract"
    ],
@@ -3023,6 +3270,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hops extract"
    ],
@@ -3035,6 +3283,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "horsetail extract"
    ],
@@ -3047,6 +3296,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "houttuynia cordata extract"
    ],
@@ -3059,6 +3309,7 @@
    "category": "Humectant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "hyaluronic acid",
     "sodium hyaluronate"
@@ -3072,6 +3323,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hydrated silica"
    ],
@@ -3084,6 +3336,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "hydrogenated castor oil"
    ],
@@ -3096,6 +3349,7 @@
    "category": "Emulsifier",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "hydrogenated lecithin"
    ],
@@ -3108,6 +3362,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hydrolyzed collagen"
    ],
@@ -3120,6 +3375,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hydrolyzed hyaluronic acid"
    ],
@@ -3132,6 +3388,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hydrolyzed silk"
    ],
@@ -3144,6 +3401,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hydrolyzed wheat protein"
    ],
@@ -3156,6 +3414,7 @@
    "category": "Thickener",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "hydroxyethylcellulose"
    ],
@@ -3168,6 +3427,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hydroxypropyl cyclodextrin"
    ],
@@ -3180,6 +3440,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "hydroxypropyl guar"
    ],
@@ -3192,6 +3453,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "idebenone"
    ],
@@ -3204,6 +3466,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "inositol"
    ],
@@ -3216,6 +3479,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "inulin"
    ],
@@ -3228,6 +3492,7 @@
    "category": "Colorant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "ci 77491",
     "ci 77492",
@@ -3243,6 +3508,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "isocetyl stearate"
    ],
@@ -3255,6 +3521,7 @@
    "category": "Ester",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "isohexadecane"
    ],
@@ -3267,6 +3534,7 @@
    "category": "Ester",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "isononyl isononanoate"
    ],
@@ -3279,6 +3547,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "isopentyldiol"
    ],
@@ -3291,6 +3560,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "isopropyl alcohol"
    ],
@@ -3303,6 +3573,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "isopropyl isostearate"
    ],
@@ -3315,6 +3586,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "isopropyl linoleate"
    ],
@@ -3327,6 +3599,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "isopropyl myristate"
    ],
@@ -3339,6 +3612,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "isopropyl palmitate"
    ],
@@ -3351,6 +3625,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "isostearyl isostearate"
    ],
@@ -3363,6 +3638,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "isostearyl neopentanoate"
    ],
@@ -3375,6 +3651,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "jasmine extract"
    ],
@@ -3387,6 +3664,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "jojoba oil",
     "simmondsia chinensis seed oil"
@@ -3400,6 +3678,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "kale extract"
    ],
@@ -3412,6 +3691,7 @@
    "category": "Clay",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "kaolin"
    ],
@@ -3424,6 +3704,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "keratin"
    ],
@@ -3436,6 +3717,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "kojic acid"
    ],
@@ -3448,6 +3730,7 @@
    "category": "Butter",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "garcinia indica seed butter",
     "kokum butter"
@@ -3461,6 +3744,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "lactic acid"
    ],
@@ -3473,6 +3757,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "lactic acid bacteria"
    ],
@@ -3485,6 +3770,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "no-reports",
    "aliases": [
     "lactobacillus ferment"
    ],
@@ -3497,6 +3783,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "lactobionic acid"
    ],
@@ -3509,6 +3796,7 @@
    "category": "Marine",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "laminaria digitata extract"
    ],
@@ -3521,6 +3809,7 @@
    "category": "Occlusive",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "lanolin"
    ],
@@ -3533,6 +3822,7 @@
    "category": "Occlusive",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "lanolin alcohol"
    ],
@@ -3545,6 +3835,7 @@
    "category": "Emulsifier",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "laureth-23"
    ],
@@ -3557,6 +3848,7 @@
    "category": "Emulsifier",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "laureth 4",
     "laureth-4"
@@ -3570,6 +3862,7 @@
    "category": "Fatty acid",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "lauric acid"
    ],
@@ -3582,6 +3875,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "lauryl glucoside"
    ],
@@ -3594,6 +3888,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "lavandula angustifolia flower extract"
    ],
@@ -3606,6 +3901,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "lavender extract"
    ],
@@ -3618,6 +3914,7 @@
    "category": "Essential oil",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "lavandula angustifolia oil",
     "lavender oil"
@@ -3631,6 +3928,7 @@
    "category": "Emulsifier",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "lecithin"
    ],
@@ -3643,6 +3941,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "lemon balm extract"
    ],
@@ -3655,6 +3954,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "lemon peel extract"
    ],
@@ -3667,6 +3967,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "leontopodium alpinum extract"
    ],
@@ -3679,6 +3980,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "lettuce extract"
    ],
@@ -3691,6 +3993,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "levulinic acid"
    ],
@@ -3703,6 +4006,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "licorice root extract"
    ],
@@ -3715,6 +4019,7 @@
    "category": "Fragrance",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "limonene"
    ],
@@ -3727,6 +4032,7 @@
    "category": "Fragrance",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "linalool"
    ],
@@ -3739,6 +4045,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "linden extract"
    ],
@@ -3751,6 +4058,7 @@
    "category": "Fatty acid",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "linoleic acid"
    ],
@@ -3763,6 +4071,7 @@
    "category": "Oil",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "flaxseed oil",
     "linseed oil",
@@ -3777,6 +4086,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "lotus extract"
    ],
@@ -3789,6 +4099,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "macadamia integrifolia seed oil",
     "macadamia oil"
@@ -3802,6 +4113,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "madecassoside"
    ],
@@ -3814,6 +4126,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "magnesium ascorbyl phosphate"
    ],
@@ -3826,6 +4139,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "magnesium chloride"
    ],
@@ -3838,6 +4152,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "no-reports",
    "aliases": [
     "magnesium stearate"
    ],
@@ -3850,6 +4165,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "magnesium sulfate"
    ],
@@ -3862,6 +4178,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "malic acid"
    ],
@@ -3874,6 +4191,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "mallow extract"
    ],
@@ -3886,6 +4204,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "maltodextrin"
    ],
@@ -3898,6 +4217,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "mandarin orange extract"
    ],
@@ -3910,6 +4230,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "mandelic acid"
    ],
@@ -3922,6 +4243,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "manganese pca"
    ],
@@ -3934,6 +4256,7 @@
    "category": "Butter",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "mangifera indica seed butter",
     "mango butter"
@@ -3947,6 +4270,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "mango extract"
    ],
@@ -3959,6 +4283,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "manuka honey"
    ],
@@ -3971,6 +4296,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "marigold extract"
    ],
@@ -3983,6 +4309,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "maritime pine extract"
    ],
@@ -3995,6 +4322,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "marshmallow root extract"
    ],
@@ -4007,6 +4335,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "marula oil",
     "sclerocarya birrea seed oil"
@@ -4020,6 +4349,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "matcha extract"
    ],
@@ -4032,6 +4362,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "mate leaf extract"
    ],
@@ -4044,6 +4375,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "matrixyl"
    ],
@@ -4056,6 +4388,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "limnanthes alba seed oil",
     "meadowfoam seed oil"
@@ -4069,6 +4402,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "melissa officinalis leaf extract"
    ],
@@ -4081,6 +4415,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "methylparaben"
    ],
@@ -4093,6 +4428,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "methylpropanediol"
    ],
@@ -4105,6 +4441,7 @@
    "category": "Colorant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "ci 77019",
     "mica"
@@ -4118,6 +4455,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "mineral oil",
     "paraffinum liquidum"
@@ -4131,6 +4469,7 @@
    "category": "Oil",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "mink oil"
    ],
@@ -4143,6 +4482,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "moringa extract"
    ],
@@ -4155,6 +4495,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "mugwort extract"
    ],
@@ -4167,6 +4508,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "mushroom extract"
    ],
@@ -4179,6 +4521,7 @@
    "category": "Fatty acid",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "myristic acid"
    ],
@@ -4191,6 +4534,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "myristyl lactate"
    ],
@@ -4203,6 +4547,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "myristyl myristate"
    ],
@@ -4215,6 +4560,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "myrrh extract"
    ],
@@ -4227,6 +4573,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "n-acetyl glucosamine"
    ],
@@ -4239,6 +4586,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "neem extract"
    ],
@@ -4251,6 +4599,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "nelumbo nucifera flower extract"
    ],
@@ -4263,6 +4612,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "neroli extract"
    ],
@@ -4275,6 +4625,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "nettle extract"
    ],
@@ -4287,6 +4638,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "niacinamide",
     "nicotinamide",
@@ -4301,6 +4653,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "nylon-12"
    ],
@@ -4313,6 +4666,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "oak bark extract"
    ],
@@ -4325,6 +4679,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "oat extract"
    ],
@@ -4337,6 +4692,7 @@
    "category": "Sunscreen",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "ethylhexyl methoxycinnamate",
     "octinoxate"
@@ -4350,6 +4706,7 @@
    "category": "Sunscreen",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "octocrylene"
    ],
@@ -4362,6 +4719,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "ethylhexyl palmitate",
     "octyl palmitate"
@@ -4375,6 +4733,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "ethylhexyl stearate",
     "octyl stearate"
@@ -4388,6 +4747,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "olea europaea leaf extract"
    ],
@@ -4400,6 +4760,7 @@
    "category": "Fatty acid",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "oleic acid"
    ],
@@ -4412,6 +4773,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "oligopeptide-1"
    ],
@@ -4424,6 +4786,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "olive leaf extract"
    ],
@@ -4436,6 +4799,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "olea europaea fruit oil",
     "olive oil"
@@ -4449,6 +4813,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "opuntia ficus-indica extract"
    ],
@@ -4461,6 +4826,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "orange blossom water"
    ],
@@ -4473,6 +4839,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "oregano extract"
    ],
@@ -4485,6 +4852,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "oryza sativa bran extract"
    ],
@@ -4497,6 +4865,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "p-anisic acid"
    ],
@@ -4509,6 +4878,7 @@
    "category": "Fatty acid",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "palmitic acid"
    ],
@@ -4521,6 +4891,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "palmitoyl hexapeptide-12"
    ],
@@ -4533,6 +4904,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "palmitoyl pentapeptide-4"
    ],
@@ -4545,6 +4917,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "palmitoyl tripeptide-1"
    ],
@@ -4557,6 +4930,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "palmitoyl tripeptide-5"
    ],
@@ -4569,6 +4943,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "panax ginseng root extract"
    ],
@@ -4581,6 +4956,7 @@
    "category": "Soothing",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "panthenol",
     "provitamin b5"
@@ -4594,6 +4970,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "papaya extract"
    ],
@@ -4606,6 +4983,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "parsley extract"
    ],
@@ -4618,6 +4996,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "pca"
    ],
@@ -4630,6 +5009,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "peach extract"
    ],
@@ -4642,6 +5022,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "arachis hypogaea oil",
     "peanut oil"
@@ -4655,6 +5036,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "pear extract"
    ],
@@ -4667,6 +5049,7 @@
    "category": "Emulsifier",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "peg-100 stearate"
    ],
@@ -4679,6 +5062,7 @@
    "category": "Emulsifier",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "peg-150 distearate"
    ],
@@ -4691,6 +5075,7 @@
    "category": "Emulsifier",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "peg 16 lanolin",
     "peg-16 lanolin"
@@ -4704,6 +5089,7 @@
    "category": "Emulsifier",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "peg-40 stearate"
    ],
@@ -4716,6 +5102,7 @@
    "category": "Emulsifier",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "peg 8 stearate",
     "peg-8 stearate"
@@ -4729,6 +5116,7 @@
    "category": "Humectant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "pentylene glycol"
    ],
@@ -4741,6 +5129,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "peppermint leaf extract"
    ],
@@ -4753,6 +5142,7 @@
    "category": "Essential oil",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "mentha piperita oil",
     "peppermint oil"
@@ -4766,6 +5156,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "perlite"
    ],
@@ -4778,6 +5169,7 @@
    "category": "Occlusive",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "petrolatum",
     "petroleum jelly"
@@ -4791,6 +5183,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "phenoxyethanol"
    ],
@@ -4803,6 +5196,7 @@
    "category": "Silicone",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "phenyl trimethicone"
    ],
@@ -4815,6 +5209,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "phytic acid"
    ],
@@ -4827,6 +5222,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "phytic acid complex"
    ],
@@ -4839,6 +5235,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "pine bark extract"
    ],
@@ -4851,6 +5248,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "pineapple extract"
    ],
@@ -4863,6 +5261,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "pinus pinaster bark extract"
    ],
@@ -4875,6 +5274,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "plantain extract"
    ],
@@ -4887,6 +5287,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "polyacrylate crosspolymer-6"
    ],
@@ -4899,6 +5300,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "polyethylene"
    ],
@@ -4911,6 +5313,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "polyglutamic acid"
    ],
@@ -4923,6 +5326,7 @@
    "category": "Emulsifier",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "polyglyceryl-3 diisostearate"
    ],
@@ -4935,6 +5339,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "polyhydroxy acid"
    ],
@@ -4947,6 +5352,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "polymethylsilsesquioxane"
    ],
@@ -4959,6 +5365,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "polyquaternium-10"
    ],
@@ -4971,6 +5378,7 @@
    "category": "Emulsifier",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "polysorbate 20"
    ],
@@ -4983,6 +5391,7 @@
    "category": "Emulsifier",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "polysorbate 80"
    ],
@@ -4995,6 +5404,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "pomegranate extract"
    ],
@@ -5007,6 +5417,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "pomegranate seed oil",
     "punica granatum seed oil"
@@ -5020,6 +5431,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "potassium chloride"
    ],
@@ -5032,6 +5444,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "potassium sorbate"
    ],
@@ -5044,6 +5457,7 @@
    "category": "Ester",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "ppg-2 myristyl ether propionate"
    ],
@@ -5056,6 +5470,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "propanediol"
    ],
@@ -5068,6 +5483,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "propolis extract"
    ],
@@ -5080,6 +5496,7 @@
    "category": "Humectant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "propylene glycol"
    ],
@@ -5092,6 +5509,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "propylparaben"
    ],
@@ -5104,6 +5522,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "pullulan"
    ],
@@ -5116,6 +5535,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "pumpkin extract"
    ],
@@ -5128,6 +5548,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "punica granatum extract"
    ],
@@ -5140,6 +5561,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "pyridoxine"
    ],
@@ -5152,6 +5574,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "pyrus malus fruit extract"
    ],
@@ -5164,6 +5587,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "raspberry extract"
    ],
@@ -5176,6 +5600,7 @@
    "category": "Marine",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "red algae"
    ],
@@ -5188,6 +5613,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "red clover extract"
    ],
@@ -5200,6 +5626,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "reishi mushroom extract"
    ],
@@ -5212,6 +5639,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "resveratrol"
    ],
@@ -5224,6 +5652,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "retinol"
    ],
@@ -5236,6 +5665,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "retinyl palmitate"
    ],
@@ -5248,6 +5678,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "riboflavin"
    ],
@@ -5260,6 +5691,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "rice extract"
    ],
@@ -5272,6 +5704,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "rooibos extract"
    ],
@@ -5284,6 +5717,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "rosa damascena flower extract"
    ],
@@ -5296,6 +5730,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "rose extract"
    ],
@@ -5308,6 +5743,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "rose water"
    ],
@@ -5320,6 +5756,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "rosa canina fruit oil",
     "rosehip oil",
@@ -5334,6 +5771,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "rosemary extract"
    ],
@@ -5346,6 +5784,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "rosmarinus officinalis leaf extract"
    ],
@@ -5358,6 +5797,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "royal jelly extract"
    ],
@@ -5370,6 +5810,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "no-reports",
    "aliases": [
     "saccharomyces ferment"
    ],
@@ -5382,6 +5823,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "carthamus tinctorius seed oil",
     "safflower oil"
@@ -5395,6 +5837,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sage extract"
    ],
@@ -5407,6 +5850,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "bha",
     "salicylic acid"
@@ -5420,6 +5864,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "salix alba bark extract"
    ],
@@ -5432,6 +5877,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "salvia officinalis leaf extract"
    ],
@@ -5444,6 +5890,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sambucus nigra flower extract"
    ],
@@ -5456,6 +5903,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sandalwood extract"
    ],
@@ -5468,6 +5916,7 @@
    "category": "Thickener",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "sclerotium gum"
    ],
@@ -5480,6 +5929,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sea buckthorn extract"
    ],
@@ -5492,6 +5942,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sea kelp extract"
    ],
@@ -5504,6 +5955,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sea salt extract"
    ],
@@ -5516,6 +5968,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "seawater"
    ],
@@ -5528,6 +5981,7 @@
    "category": "Oil",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "sesame oil",
     "sesamum indicum seed oil"
@@ -5541,6 +5995,7 @@
    "category": "Oil",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "shark liver oil"
    ],
@@ -5553,6 +6008,7 @@
    "category": "Butter",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "butyrospermum parkii butter",
     "shea butter"
@@ -5566,6 +6022,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "shiitake extract"
    ],
@@ -5578,6 +6035,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "shikakai extract"
    ],
@@ -5590,6 +6048,7 @@
    "category": "Mineral",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "silica"
    ],
@@ -5602,6 +6061,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "silk protein"
    ],
@@ -5614,6 +6074,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "snail secretion filtrate"
    ],
@@ -5626,6 +6087,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "snow mushroom extract"
    ],
@@ -5638,6 +6100,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium acetylated hyaluronate"
    ],
@@ -5650,6 +6113,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium anisate"
    ],
@@ -5662,6 +6126,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium ascorbyl phosphate"
    ],
@@ -5674,6 +6139,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium benzoate"
    ],
@@ -5686,6 +6152,7 @@
    "category": "Misc",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "sea salt",
     "sodium chloride"
@@ -5699,6 +6166,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium citrate"
    ],
@@ -5711,6 +6179,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium cocoyl glycinate"
    ],
@@ -5723,6 +6192,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium cocoyl isethionate"
    ],
@@ -5735,6 +6205,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium gluconate"
    ],
@@ -5747,6 +6218,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium hyaluronate crosspolymer"
    ],
@@ -5759,6 +6231,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium hydroxide"
    ],
@@ -5771,6 +6244,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium lactate"
    ],
@@ -5783,6 +6257,7 @@
    "category": "Surfactant",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "sles",
     "sodium laureth sulfate"
@@ -5796,6 +6271,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium lauroyl lactylate"
    ],
@@ -5808,6 +6284,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium lauroyl sarcosinate"
    ],
@@ -5820,6 +6297,7 @@
    "category": "Surfactant",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "sls",
     "sodium lauryl sulfate"
@@ -5833,6 +6311,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium levulinate"
    ],
@@ -5845,6 +6324,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium metabisulfite"
    ],
@@ -5857,6 +6337,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium methyl cocoyl taurate"
    ],
@@ -5869,6 +6350,7 @@
    "category": "Humectant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "sodium pca"
    ],
@@ -5881,6 +6363,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium phytate"
    ],
@@ -5893,6 +6376,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium polyglutamate"
    ],
@@ -5905,6 +6389,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium silicate"
    ],
@@ -5917,6 +6402,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium starch octenylsuccinate"
    ],
@@ -5929,6 +6415,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sodium sulfite"
    ],
@@ -5941,6 +6428,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "solanum lycopersicum fruit extract"
    ],
@@ -5953,6 +6441,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sorbic acid"
    ],
@@ -5965,6 +6454,7 @@
    "category": "Emulsifier",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "sorbitan oleate"
    ],
@@ -5977,6 +6467,7 @@
    "category": "Emulsifier",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "sorbitan sesquioleate"
    ],
@@ -5989,6 +6480,7 @@
    "category": "Emulsifier",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "sorbitan stearate"
    ],
@@ -6001,6 +6493,7 @@
    "category": "Humectant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "sorbitol"
    ],
@@ -6013,6 +6506,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "soy extract"
    ],
@@ -6025,6 +6519,7 @@
    "category": "Oil",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "glycine soja oil",
     "soybean oil"
@@ -6038,6 +6533,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "spearmint leaf extract"
    ],
@@ -6050,6 +6546,7 @@
    "category": "Essential oil",
    "pore_clogging": true,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "mentha viridis leaf oil",
     "spearmint oil"
@@ -6063,6 +6560,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "spinach extract"
    ],
@@ -6075,6 +6573,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "spirulina extract"
    ],
@@ -6087,6 +6586,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "squalane"
    ],
@@ -6099,6 +6599,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "squalene"
    ],
@@ -6111,6 +6612,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "st johns wort extract"
    ],
@@ -6123,6 +6625,7 @@
    "category": "Emulsifier",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "steareth-10"
    ],
@@ -6135,6 +6638,7 @@
    "category": "Emulsifier",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "steareth-2"
    ],
@@ -6147,6 +6651,7 @@
    "category": "Emulsifier",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "steareth-20"
    ],
@@ -6159,6 +6664,7 @@
    "category": "Fatty acid",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "stearic acid"
    ],
@@ -6171,6 +6677,7 @@
    "category": "Fatty alcohol",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "stearyl alcohol"
    ],
@@ -6183,6 +6690,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "strawberry extract"
    ],
@@ -6195,6 +6703,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "sucrose"
    ],
@@ -6207,6 +6716,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "helianthus annuus seed oil",
     "sunflower oil"
@@ -6220,6 +6730,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "almond oil",
     "prunus amygdalus dulcis oil",
@@ -6234,6 +6745,7 @@
    "category": "Mineral",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "talc"
    ],
@@ -6246,6 +6758,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "calophyllum inophyllum seed oil",
     "tamanu oil"
@@ -6259,6 +6772,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "tapioca starch"
    ],
@@ -6271,6 +6785,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "taraxacum officinale extract"
    ],
@@ -6283,6 +6798,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "tartaric acid"
    ],
@@ -6295,6 +6811,7 @@
    "category": "Essential oil",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "melaleuca alternifolia leaf oil",
     "tea tree oil"
@@ -6308,6 +6825,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "tetrahexyldecyl ascorbate"
    ],
@@ -6320,6 +6838,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "tetrasodium edta"
    ],
@@ -6332,6 +6851,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "tetrasodium glutamate diacetate"
    ],
@@ -6344,6 +6864,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "thiamine"
    ],
@@ -6356,6 +6877,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "thyme extract"
    ],
@@ -6368,6 +6890,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "tiger grass extract"
    ],
@@ -6380,6 +6903,7 @@
    "category": "Sunscreen",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "ci 77891",
     "titanium dioxide"
@@ -6393,6 +6917,7 @@
    "category": "Active",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "tocopherol",
     "vitamin e"
@@ -6406,6 +6931,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "no-reports",
    "aliases": [
     "tocopheryl acetate"
    ],
@@ -6418,6 +6944,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "tomato extract"
    ],
@@ -6430,6 +6957,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "tranexamic acid"
    ],
@@ -6442,6 +6970,7 @@
    "category": "Humectant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "trehalose"
    ],
@@ -6454,6 +6983,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "tremella fuciformis extract"
    ],
@@ -6466,6 +6996,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "triethanolamine"
    ],
@@ -6478,6 +7009,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "tripeptide-1"
    ],
@@ -6490,6 +7022,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "trisodium ethylenediamine disuccinate"
    ],
@@ -6502,6 +7035,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "turmeric extract"
    ],
@@ -6514,6 +7048,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "ubiquinone"
    ],
@@ -6526,6 +7061,7 @@
    "category": "Humectant",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "urea"
    ],
@@ -6538,6 +7074,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "urtica dioica extract"
    ],
@@ -6550,6 +7087,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "vaccinium myrtillus fruit extract"
    ],
@@ -6562,6 +7100,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "vanilla extract"
    ],
@@ -6574,6 +7113,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "vitis vinifera fruit extract"
    ],
@@ -6586,6 +7126,7 @@
    "category": "Solvent",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "aqua",
     "eau",
@@ -6600,6 +7141,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "watermelon extract"
    ],
@@ -6612,6 +7154,7 @@
    "category": "Oil",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "wheat bran lipids"
    ],
@@ -6624,6 +7167,7 @@
    "category": "Oil",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "wheat germ glyceride"
    ],
@@ -6636,6 +7180,7 @@
    "category": "Oil",
    "pore_clogging": true,
    "fungal_acne_trigger": true,
+   "rating_basis": "compiled",
    "aliases": [
     "triticum vulgare germ oil",
     "wheat germ oil"
@@ -6649,6 +7194,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "wheat protein"
    ],
@@ -6661,6 +7207,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "white tea extract"
    ],
@@ -6673,6 +7220,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "willow bark extract"
    ],
@@ -6685,6 +7233,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "witch hazel"
    ],
@@ -6697,6 +7246,7 @@
    "category": "Thickener",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "xanthan gum"
    ],
@@ -6709,6 +7259,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "yarrow extract"
    ],
@@ -6721,6 +7272,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "yeast extract"
    ],
@@ -6733,6 +7285,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "yerba mate extract"
    ],
@@ -6745,6 +7298,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "zinc gluconate"
    ],
@@ -6757,6 +7311,7 @@
    "category": "Sunscreen",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "compiled",
    "aliases": [
     "zinc oxide"
    ],
@@ -6769,6 +7324,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "zinc pca"
    ],
@@ -6781,6 +7337,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": true,
+   "rating_basis": "no-reports",
    "aliases": [
     "zinc stearate"
    ],
@@ -6793,6 +7350,7 @@
    "category": "Functional",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "zinc sulfate"
    ],
@@ -6805,6 +7363,7 @@
    "category": "Botanical extract",
    "pore_clogging": false,
    "fungal_acne_trigger": false,
+   "rating_basis": "no-reports",
    "aliases": [
     "zingiber officinale root extract"
    ],

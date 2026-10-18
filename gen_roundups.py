@@ -370,6 +370,7 @@ TPL = """<!DOCTYPE html>
 </main>
 
 <footer><div class="wrap">
+  More guides: <a href="/non-comedogenic/non-comedogenic-moisturizer.html">Moisturizers</a> · <a href="/non-comedogenic/non-comedogenic-sunscreen.html">Sunscreens</a> · <a href="/non-comedogenic/non-comedogenic-cleanser.html">Cleansers</a> · <a href="/non-comedogenic/non-comedogenic-foundation.html">Foundations</a> · <a href="/non-comedogenic/non-comedogenic-concealer.html">Concealers</a> · <a href="/non-comedogenic/non-comedogenic-primer.html">Primers</a> · <a href="/non-comedogenic/non-comedogenic-oils.html">Face oils</a> · <a href="/non-comedogenic/non-comedogenic-hair-products.html">Hair products</a><br>
   AcneSafeCheck · <a href="/comedogenic-ingredients-list.html">Ingredient database</a> · <a href="/">Comedogenic checker</a> · <a href="/about.html">About</a><br>
   Affiliate links help keep AcneSafeCheck free. Informational only, not medical advice.
 </div></footer>

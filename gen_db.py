@@ -311,18 +311,23 @@ def aliases_for(name):
     return [x for x in a if x]
 
 entries = {}
-def add(name, r, cat, al):
+# Rating basis (honest provenance, shown on every page and in the dataset):
+#  "compiled" = rating compiled from the published comedogenicity literature
+#               (Fulton 1984 rabbit-ear assay) and widely used esthetician reference lists
+#  "no-reports" = rated 0 because the ingredient does not appear on any comedogenic
+#                 reference list we track — absence of reports, not a positive test
+def add(name, r, cat, al, basis="compiled"):
     key = name
     if key in entries: return
-    entries[key] = {"n": name, "r": r, "c": cat,
+    entries[key] = {"n": name, "r": r, "c": cat, "b": basis,
                     "a": sorted({norm_alias(a) for a in al if norm_alias(a)})}
 
 for name, r, cat, al in CORE:
     add(name, r, cat, al)
 for name in EXTRACTS:
-    add(name, 0, "Botanical extract", aliases_for(name))
+    add(name, 0, "Botanical extract", aliases_for(name), basis="no-reports")
 for name in FUNCTIONAL:
-    add(name, 0, "Functional", aliases_for(name))
+    add(name, 0, "Functional", aliases_for(name), basis="no-reports")
 
 # Build-time integrity check: no alias may resolve to two different entries.
 # (Would have caught the tocopheryl-acetate and hexadecyl-alcohol contradictions.)

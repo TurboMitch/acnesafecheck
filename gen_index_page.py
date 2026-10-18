@@ -42,7 +42,7 @@ PAGE = f"""<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>All Comedogenic Ingredients (A–Z Index of {links_total}) | AcneSafeCheck</title>
-<meta name="description" content="Browse every ingredient in the AcneSafeCheck database — {links_total} skincare and makeup ingredients with their comedogenic (pore-clogging) rating from 0 to 5, indexed A to Z.">
+<meta name="description" content="Browse all {links_total} ingredients in the AcneSafeCheck database with their comedogenic (pore-clogging) rating from 0 to 5, indexed A to Z.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#e0654f">
 <meta name="ahrefs-site-verification" content="{VER}">

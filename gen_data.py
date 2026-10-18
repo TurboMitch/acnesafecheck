@@ -24,6 +24,7 @@ def friendly(e):
         "category": e["c"],
         "pore_clogging": e["r"] >= 3,
         "fungal_acne_trigger": bool(e.get("fa")),
+        "rating_basis": e.get("b", "compiled"),
         "aliases": e["a"],
         "slug": e["s"],
         "url": f"{BASE}/ingredient/{e['s']}.html",
@@ -36,10 +37,10 @@ os.makedirs("data", exist_ok=True)
 with open("data/acnesafecheck-ingredients.csv", "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
     w.writerow(["name", "comedogenic_rating_0_5", "category", "pore_clogging",
-                "fungal_acne_trigger", "aliases", "url"])
+                "fungal_acne_trigger", "rating_basis", "aliases", "url"])
     for e in DB_SORTED:
         w.writerow([e["n"], e["r"], e["c"], "yes" if e["r"] >= 3 else "no",
-                    "yes" if e.get("fa") else "no", "; ".join(e["a"]),
+                    "yes" if e.get("fa") else "no", e.get("b", "compiled"), "; ".join(e["a"]),
                     f"{BASE}/ingredient/{e['s']}.html"])
 
 # ---- JSON distribution ----
@@ -69,13 +70,16 @@ lines = [
     "",
     f"Last updated: {CONTENT_UPDATED}",
     "",
-    "Format: Name | rating/5 | category | fungal-acne trigger yes/no | detail page",
+    "rating_basis: compiled = from Fulton 1984 + esthetician reference lists; no-reports = rated 0 because",
+    "it appears on no comedogenic list we track (absence of reports, not a positive test).",
+    "",
+    "Format: Name | rating/5 | category | fungal-acne trigger yes/no | basis | detail page",
     "",
 ]
 for e in DB_SORTED:
     lines.append(
         f"{e['n']} | {e['r']}/5 | {e['c']} | FA-trigger: {'yes' if e.get('fa') else 'no'} | "
-        f"{BASE}/ingredient/{e['s']}.html")
+        f"{e.get('b','compiled')} | {BASE}/ingredient/{e['s']}.html")
 open("llms-full.txt", "w", encoding="utf-8").write("\n".join(lines) + "\n")
 
 # ---- data.html ----
@@ -137,8 +141,8 @@ PAGE = f"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Open Dataset — {N} Comedogenic Ingredient Ratings (CSV/JSON) | AcneSafeCheck</title>
-<meta name="description" content="Download the full AcneSafeCheck database: {N} cosmetic ingredients with comedogenicity ratings (0–5), categories, INCI aliases and fungal-acne flags. Free under CC BY 4.0 with attribution.">
+<title>Open Dataset: {N} Comedogenic Ingredient Ratings (CSV/JSON)</title>
+<meta name="description" content="Download the AcneSafeCheck database: {N} cosmetic ingredients with comedogenicity ratings 0–5, INCI aliases and fungal-acne flags. Free, CC BY 4.0.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#e0654f">
 <meta name="ahrefs-site-verification" content="{VER}">
